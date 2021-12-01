@@ -34,7 +34,7 @@
 						</h2>
 						<h3 class="font-weight-normal"><?php the_sub_field('subheading_slider'); ?></h3>
 					</div>
-					<div class="row">
+					<div class="row justify-content-md-center">
 						<?php if( have_rows('main_repeater') ): ?>
 							<?php while( have_rows('main_repeater') ): the_row(); 
 								$image = get_sub_field('image');
