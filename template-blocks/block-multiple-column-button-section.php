@@ -54,7 +54,7 @@
 											</div>
 											<?php 
 											$link = get_sub_field('cta');
-											if($link_title){
+											if($link['title']){
 												$link_title = $link['title'];
 											}
 											if(get_sub_field('cta')): ?>
@@ -105,7 +105,7 @@
 						</div>
 						<?php 
 						$link = get_sub_field('cta');
-						if($link_title){
+						if($link['title']){
 							$link_title = $link['title'];
 						}
 						if(get_sub_field('cta')): ?>
@@ -146,7 +146,7 @@
 						</div>
 						<?php 
 						$link = get_sub_field('cta');
-						if($link_title){
+						if($link['title']){
 							$link_title = $link['title'];
 						}
 						if(get_sub_field('cta')): ?>
@@ -184,7 +184,7 @@
 						</div>
 						<?php 
 						$link = get_sub_field('cta');
-						if($link_title){
+						if($link['title']){
 							$link_title = $link['title'];
 						}
 						if(get_sub_field('cta')): ?>
