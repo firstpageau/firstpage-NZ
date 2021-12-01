@@ -1,0 +1,233 @@
+.block_slider_repeater {
+  ul.tick {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      background: url("img/tick.svg") no-repeat;
+      padding-left: 36px; /* the width of your image + some space */
+      margin: 10px 0;
+      line-height: 26px;
+      text-align: left;
+
+      a {
+        color: #00225d;
+      }
+    }
+  }
+  section.section-services {
+    h2,
+    h3,
+    h4,
+    p {
+      text-align: center;
+    }
+
+    .capitalize {
+      text-transform: capitalize;
+    }
+
+    .row .col-12 {
+      margin-bottom: 30px;
+      @media (min-width: 992px) {
+        margin-bottom: 0;
+      }
+    }
+    @media (min-width: 768px) {
+      .row {
+        margin-right: -10px;
+        margin-left: -10px;
+      }
+      .row .col-sm-6,
+      .row .col-md-3 {
+        padding-right: 10px;
+        padding-left: 10px;
+      }
+    }
+    a.card,
+    a.card:hover {
+      color: #00225d;
+      text-decoration: none;
+    }
+    .card {
+      border: none;
+      border-radius: 0;
+      box-shadow: 1px 4px 15px 0 rgba(0, 0, 0, 0.3);
+      height: 100%;
+
+      img {
+        margin: 50px auto 15px auto;
+      }
+      .card-body {
+        padding: 15px 15px 30px 15px;
+        @media (min-width: $responsive-lg) {
+          padding: 15px 15px 30px 15px;
+        }
+
+        .card-text,
+        ul.tick {
+          padding: 0 15px;
+        }
+      }
+      .card-title {
+        margin-bottom: 20px;
+      }
+      h3 {
+        font-size: 35px;
+        line-height: 40px;
+      }
+      h4 {
+        font-size: 25px;
+        line-height: 30px;
+        // line-height: 40px;
+      }
+      .card-text {
+        text-align: left;
+        font-size: 16px;
+        line-height: 26px;
+      }
+      .card-footer {
+        padding: 0 15px 30px 15px;
+        background-color: transparent;
+        border-top: none;
+        text-align: center;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 2.4px;
+        color: #ff5254;
+        text-transform: uppercase;
+
+        a {
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 22px;
+          letter-spacing: 2.4px;
+        }
+      }
+    }
+
+    // Responsives
+    @media (min-width: $responsive-md) {
+      .card-text {
+        &.min-height {
+          min-height: 156px;
+        }
+      }
+    }
+  }
+  .section-services-carousel {
+    .container {
+      max-width: 1200px;
+    }
+    .slick-prev {
+      width: 56px !important;
+      height: 56px !important;
+      left: 0px;
+    }
+    .slick-next {
+      width: 56px !important;
+      height: 56px !important;
+      right: 0px;
+    }
+    @media (min-width: $responsive-xl) {
+      .slick-prev {
+        left: -25px;
+      }
+      .slick-next {
+        right: -25px;
+      }
+    }
+    .slick-next,
+    .slick-prev {
+      font-size: 0;
+      line-height: 0;
+      position: absolute;
+      top: 50%;
+      display: block;
+      width: 20px;
+      height: 20px;
+      padding: 0;
+      -webkit-transform: translate(0, -50%);
+      -ms-transform: translate(0, -50%);
+      transform: translate(0, -50%);
+      cursor: pointer;
+      color: transparent;
+      border: none;
+      outline: 0;
+      background: 0 0;
+    }
+    .slick-next,
+    .slick-prev {
+      margin-top: -15px;
+      z-index: 999;
+      @media (min-width: $responsive-md) {
+        margin-top: 0px;
+      }
+    }
+    .slick-next:before,
+    .slick-prev:before {
+      color: #343a40;
+      opacity: 1;
+      margin-top: -11px;
+      display: inline-block;
+    }
+    .slick-next:before {
+      content: "\003E";
+      font-size: 30px;
+    }
+    .slick-prev:before {
+      content: "\003C";
+      font-size: 30px;
+    }
+    .col {
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+    a:hover {
+      text-decoration: none;
+    }
+    img {
+      margin: 50px auto 0px auto;
+    }
+    .card {
+      margin: 30px 0px;
+      height: 100%;
+      border: none;
+      box-shadow: 2px 4px 10px 0 rgba(0, 0, 0, 0.3);
+    }
+    .card-body {
+      padding: 16px;
+      flex: 1 1 auto;
+    }
+    .card-title-carousel {
+      text-align: center;
+      color: $color-text;
+      margin-bottom: 20px;
+    }
+    .card-title {
+      text-align: center;
+      color: $color-text;
+      margin-bottom: 20px;
+    }
+    .card-text-carousel {
+      color: $color-text;
+    }
+
+    .card-footer {
+      border: none;
+      background-color: transparent;
+      text-align: center;
+      font-weight: 700;
+      color: $color-red;
+      letter-spacing: 2.4px;
+      line-height: 22px;
+      font-size: 18px;
+      padding: 0 15px 30px 15px;
+    }
+    .section-services-carousel .card-text {
+      height: 109px;
+    }
+  }
+}

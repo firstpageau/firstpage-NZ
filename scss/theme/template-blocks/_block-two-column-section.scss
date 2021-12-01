@@ -1,0 +1,38 @@
+/* home comparision section */
+.comparison-row {
+  margin-top: -95px;
+}
+
+.comparison-content-paragraph-holder {
+  display: flex;
+}
+
+.section-comparison a {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 2.4px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.comparison-right-col .comparison-right-col-content {
+  padding-left: 60px;
+}
+
+.green-tick {
+  color: #11bd91;
+  margin-top: -2px;
+  margin-right: 4px;
+}
+
+.red-cross {
+  color: #ff5254;
+  margin-right: 4px;
+  margin-top: -2px;
+}
+@media (max-width: $responsive-md) {
+  .comparison-right-col .comparison-right-col-content {
+    padding-left: 0px;
+  }
+}

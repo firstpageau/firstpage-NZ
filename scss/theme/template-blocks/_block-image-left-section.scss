@@ -1,0 +1,175 @@
+.block-image-left-section {
+  @media (min-width: 768px) {
+    .section-paragraph-home {
+      background-position-x: calc(50% - 480px);
+      background-position-y: bottom;
+      background-repeat: no-repeat;
+      > .row {
+        min-height: 624px;
+      }
+    }
+  }
+
+  // -- Generic Paragraph
+  section.section-paragraph {
+    ol,
+    ul {
+      margin-bottom: 20px;
+      padding-left: 25px;
+      li::marker {
+        font-size: 10px;
+      }
+      li {
+        margin-bottom: 10px;
+      }
+    }
+
+    .text-container {
+      padding: 0 15px;
+      @media (min-width: $responsive-sm) {
+        max-width: 720px;
+      }
+      @media (min-width: $responsive-lg) {
+        max-width: 570px;
+      }
+      h2 {
+        text-align: center;
+        @media (min-width: $responsive-md) {
+          text-align: left;
+        }
+      }
+      .fp-btn {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 30px;
+      }
+    }
+
+    .image-container-left {
+      text-align: center;
+      @media (min-width: 1980px) {
+        text-align: right;
+        + .text-container {
+          padding-left: 100px;
+          max-width: 670px;
+        }
+      }
+    }
+
+    .image-container-right {
+      text-align: center;
+      @media (min-width: 1980px) {
+        text-align: left;
+        padding-left: 100px;
+      }
+    }
+
+    @media (min-width: $responsive-md) {
+      .text-container {
+        // padding-left: 50px;
+        text-align: left;
+        .fp-btn {
+          width: auto;
+        }
+      }
+    }
+
+    @media (min-width: $responsive-lg) {
+      .text-container {
+        .fp-btn {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
+
+.tippy-popper {
+  z-index: 20 !important;
+}
+.tippy-tooltip.dark-theme {
+  background: linear-gradient(180deg, $color-blue2 0%, #396bb1 100%);
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.35);
+}
+.tippy-popper[x-placement^="bottom"] .tippy-arrow {
+  border-bottom-color: $color-blue2;
+}
+.tippy-popper[x-placement^="top"] .tippy-arrow {
+  border-top-color: $color-blue2;
+}
+
+.proposal-popup h1,
+.proposal-popup h2 {
+  color: #fff;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+@media (min-width: 576px) {
+  .proposal-popup {
+    width: 440px;
+  }
+
+  .proposal-popup {
+    padding: 15px 10px;
+    max-width: 440px;
+    width: 100%;
+  }
+}
+
+.proposal-popup {
+  padding: 15px 10px;
+  max-width: 570px;
+  width: 100%;
+
+  h1,
+  h2 {
+    color: $color-white;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+
+  h3 {
+    color: $color-white;
+    font-size: 15px;
+    line-height: 23px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .row {
+    justify-content: center;
+  }
+
+  .proposal-icon {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  ul.parsley-errors-list {
+    color: $color-grey;
+    text-align: left;
+  }
+
+  input.form-control {
+    box-shadow: 0 12px 18px 0 rgba(0, 0, 0, 0.15);
+  }
+
+  // Responsives
+  @media (min-width: $responsive-sm) {
+    width: 570px;
+
+    .col-sm-12,
+    .col-sm-6 {
+      padding: 0 5px;
+    }
+  }
+
+  @media (min-width: $responsive-md) {
+    padding: 30px 25px;
+  }
+}

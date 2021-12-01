@@ -1,0 +1,140 @@
+.faqBlock {
+    header.primary {
+        font-size: 2.0rem;
+        color: #000;
+        font-weight: 700;
+    }
+    header.secondary {
+        color: #8F8F8F;
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    .testimonialContent {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        &>div {
+            flex: 0 0 50%;
+            padding: 0 7px;
+            margin-top: 20px;
+            @media(max-width: 680px) {
+                flex: 0 0 100%;
+                padding: 0;
+            }
+        }
+        .blockwrapper {
+            background: #E6E6E6;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        div.question {
+            padding: 15px 80px 15px 20px;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: #202020;
+            position: relative;
+            cursor: pointer;
+            &:after {
+                content: '\f107';
+                font-family: 'Font Awesome 5 Pro';
+                height: 100%;
+                position: absolute;
+                right: 0;
+                top: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: #ddd;
+                width: 60px;
+                font-size: 1.6rem;
+                font-weight: 300;
+            }
+            &.active {
+                &:after {
+                    content: '\f106';
+                }
+            }
+        }
+        div.answer {
+            font-size: 15px;
+            display: none;
+            padding: 0 20px 15px 20px;
+            border-right: solid 60px #ddd;
+        }
+    }
+    section.section-paragraph.section-faqs {
+        .row {
+          max-width: 1000px;
+          margin: 0 auto;
+        }
+        .card {
+          border: none;
+          border-radius: 0;
+          padding-bottom: 20px;
+          .card-header {
+            padding: 0;
+            margin-bottom: 0;
+            background-color: transparent;
+            border-bottom: none;
+            cursor: pointer;
+            padding-bottom: 10px;
+            h5 {
+              margin-bottom: 0;
+              color: #666666;
+              font-size: 16px;
+              line-height: 26px;
+              letter-spacing: 2.73px;
+              text-transform: uppercase;
+              padding-left: 30px;
+              position: relative;
+              &:before {
+                content: "-";
+                font-family: sans-serif;
+                color: #427fe0;
+                position: absolute;
+                left: 0;
+              }
+            }
+      
+            h3 {
+              margin-bottom: 0;
+              color: #666666;
+              font-size: 16px;
+              line-height: 26px;
+              letter-spacing: 2.73px;
+              text-transform: uppercase;
+              padding-left: 30px;
+              position: relative;
+              &:before {
+                content: "-";
+                font-family: sans-serif;
+                color: #427fe0;
+                position: absolute;
+                left: 0;
+              }
+            }
+            &.collapsed {
+              h5:before {
+                content: "+";
+              }
+      
+              h3:before {
+                content: "+";
+              }
+            }
+          }
+          .card-body {
+            padding: 0;
+            padding-left: 30px;
+          }
+        }
+        .accordion-sign {
+          color: #427fe0;
+          width: 24px;
+          display: inline-block;
+          font-family: sans-serif;
+        }
+      }
+      
+
+}
