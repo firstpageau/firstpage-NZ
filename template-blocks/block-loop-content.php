@@ -68,6 +68,10 @@
     <?php if ( get_row_layout() == 'web_conversion_health_check_block' ) : ?>
         <?php include locate_template( 'template-blocks/block-web-conversion-health-check.php' ); ?>
     <?php endif; ?>
+
+    <?php if ( get_row_layout() == 'reviews_block' ) : ?>
+        <?php include locate_template( 'template-blocks/block-reviews.php' ); ?>
+    <?php endif; ?>
     
     
 <?php  $i++; endwhile; ?>
