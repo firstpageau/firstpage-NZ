@@ -27,88 +27,10 @@
 				</div>
 
 				<hr class="header-separator" />
-
 				<!-- Menu -->
 				<div class="menu">
 					<ul class="navbar-nav mr-auto">
-						<li class="nav-item nav-item-main d-none d-lg-block">
-							<a class="scroll-nav-logo" href="<?php echo home_url() ?>">
-								<img id="scroll-nav-logo" src="/wp-content/themes/firstpage/img/fp-logo.png" srcset="/wp-content/themes/firstpage/img/img/fp-logo@2x.png 2x" alt="First Page"/></a>
-						</li>
-						<li class="nav-item nav-item-main">
-							<a class="nav-link" href="<?php echo home_url() ?>/seo/">SEO</a>
-						</li>
-						<li class="nav-item nav-item-main dropdown">
-							<p class="nav-link dropdown-toggle mb-0 d-lg-none"  data-toggle="dropdown">GOOGLE
-								ADS</p>
-							<a class="nav-link dropdown-toggle d-none d-lg-block" href="<?php echo home_url() ?>/google-ads/">GOOGLE
-								ADS</a>
-							<div class="dropdown-menu">
-								<div class="dropdown-cont">
-									<a class="dropdown-item" href="<?php echo home_url() ?>/google-ads/">Google Ads</a>
-									<a class="dropdown-item" href="<?php echo home_url() ?>/google-display-network/">Google Display</a>
-									<a class="dropdown-item" href="<?php echo home_url() ?>/google-shopping/">Google Shopping</a>
-								</div>
-							</div>
-						</li>
-						<li class="nav-item nav-item-main dropdown">
-							<p class="nav-link dropdown-toggle mb-0 d-lg-none" 
-							   data-toggle="dropdown">SOCIAL</p>
-							<a class="nav-link dropdown-toggle d-none d-lg-block" href="<?php echo home_url() ?>/facebook-advertising/">SOCIAL</a>
-							<div class="dropdown-menu">
-								<div class="dropdown-cont">
-									<a class="dropdown-item" href="<?php echo home_url() ?>/facebook-advertising/">Facebook Ads</a>
-									<a class="dropdown-item" href="<?php echo home_url() ?>/instagram-advertising/">Instagram Ads</a>
-									<a class="dropdown-item" href="<?php echo home_url() ?>/linkedin-advertising/">LinkedIn Ads</a>
-									<a class="dropdown-item" href="<?php echo home_url() ?>/youtube-advertising/">YouTube Ads</a>
-									<a class="dropdown-item" href="<?php echo home_url() ?>/tiktok-advertising/">TikTok Ads</a>
-								</div>
-							</div>
-						</li>
-						<li class="nav-item nav-item-main dropdown">
-							<p class="nav-link dropdown-toggle mb-0 d-lg-none"  data-toggle="dropdown">OTHER
-								SERVICES</p>
-							<a class="nav-link dropdown-toggle d-none d-lg-block"  href="<?php echo home_url() ?>/programmatic-advertising/" >OTHER
-								SERVICES</a>
-							<div class="dropdown-menu">
-								<div class="dropdown-cont">
-									<a class="dropdown-item" href="<?php echo home_url() ?>/programmatic-advertising/">Programmatic Advertising</a>
-									<a class="dropdown-item" href="<?php echo home_url() ?>/reputation-management/">Reputation Repair</a>
-									<a class="dropdown-item" href="<?php echo home_url() ?>/content-removal-australia/">Unwanted Content Removal</a>
-									<a class="dropdown-item" href="<?php echo home_url() ?>/landing-page-agency/">Landing Page Development</a>
-
-								</div>
-							</div>
-						</li>
-			
-						<li class="nav-item nav-item-main seo-dropdown dropdown">
-							<p class="nav-link dropdown-toggle mb-0 d-lg-none"  data-toggle="dropdown">FREE
-								TOOLS</p>
-							<a class="nav-link dropdown-toggle d-none d-lg-block" href="<?php echo home_url() ?>/seo-audit/">FREE TOOLS</a>
-							<div class="dropdown-menu" aria-labelledby="ddAudits">
-								<div class="dropdown-cont">
-									<a class="dropdown-item" href="<?php echo home_url() ?>/seo-audit/">Free SEO Audit</a>
-									<a class="dropdown-item" href="<?php echo home_url() ?>/google-ads-audit/">Free Google Ads Audit</a>
-									<a class="dropdown-item" href="<?php echo home_url() ?>/competitor-audit/">Free Competitor Audit</a>
-									<a class="dropdown-item" href="<?php echo home_url() ?>/seo-roi-calculator/">SEO ROI Calculator</a>
-								</div>
-							</div>
-						</li>
-						<li class="nav-item nav-item-main dropdown">
-							<p class="nav-link dropdown-toggle mb-0 d-lg-none"   data-toggle="dropdown">About
-								Us</p>
-							<a class="nav-link dropdown-toggle d-none d-lg-block" href="<?php echo home_url() ?>/who-we-are/">About Us</a>
-							<div class="dropdown-menu">
-								<div class="dropdown-cont">
-									<a class="dropdown-item" href="<?php echo home_url() ?>/who-we-are/">Who We Are</a>
-									<a class="dropdown-item" href="<?php echo home_url() ?>/careers/">Careers</a>
-									<a class="dropdown-item" href="<?php echo home_url() ?>/learning-centre/">Learning Centre</a>
-								</div>
-							</div>
-						</li>
-						<li class="nav-item nav-item-main">
-							<a class="nav-link" href="<?php echo home_url() ?>/contact/">Contact</a>
-						</li>
+						<?php wp_nav_menu( array( 'container' => 'ul', 'menu_class'=> 'navbar-nav mr-auto', 'theme_location' =>   'primary_navigation' ) ); ?>
 						<li class="nav-item mobile-go-back" id="goBackMain">
 							<a class="nav-link" role="button">Go Back</a>
 						</li>
