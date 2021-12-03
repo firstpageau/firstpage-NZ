@@ -51,7 +51,7 @@
       }
       h2 {
         text-align: center;
-        @media (min-width: $responsive-md) {
+        @media (min-width: $responsive-lg) {
           text-align: left;
         }
       }
@@ -81,7 +81,7 @@
       }
     }
 
-    @media (min-width: $responsive-md) {
+    @media (min-width: $responsive-lg) {
       .text-container {
         // padding-left: 50px;
         text-align: left;
