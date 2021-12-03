@@ -58,8 +58,7 @@ $two_section_block_right_or_left = get_sub_field('two_section_block_right_or_lef
             <?php endif; ?>
 
             <?php if($two_section_cta): ?>
-                <button type="button" data-title="seopage-get-freeproposal-Triple"
-                class="btn fp-btn fp-btn-orange show-popup-form buttonFormClick">
+                <button type="button" class="btn fp-btn fp-btn-orange showpopup" data-tippy-interactive="true" data-tippy-theme="dark" data-tippy-placement="bottom" data-tippy-html="#pop-up-form" data-tippy-trigger="click">
                 GET A FREE QUOTE
                 </button>
             <?php endif; ?>
