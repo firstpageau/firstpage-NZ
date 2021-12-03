@@ -26,17 +26,22 @@
 
 		<div class="block-image-left-section">
 			<section class="section-paragraph section-paragraph-home">
-					<div class="row no-gutters align-items-center flex-column-reverse flex-md-row">
+					<div class="row no-gutters align-items-center flex-column-reverse flex-lg-row">
 						<div class="col-12 col-md-6 image-container-left">
 							<?php 
 							$image = get_sub_field('left_long_image');
 							if( !empty( $image ) ): ?>
-							<img src="<?php echo $image['url']; ?>"  srcset="<?php echo $image['url']; ?>, <?php echo $image['url']; ?>" class="img-fluid d-xxl-inline-block" alt="<?php echo $image['alt']; ?>" />
+							<img src="<?php echo $image['url']; ?>"  srcset="<?php echo $image['url']; ?>, <?php echo $image['url']; ?>" class="img-fluid d-xxl-inline-block d-none d-lg-inline-block" alt="<?php echo $image['alt']; ?>" />
 							<?php endif; ?>
 						</div>
 						<div class="col-12 col-md-6 text-container">
+                            <h2><?php the_sub_field('long_image_heading'); ?></h2>
+                            	<?php 
+							$image = get_sub_field('left_long_image');
+							if( !empty( $image ) ): ?>
+							<img src="<?php echo $image['url']; ?>"  srcset="<?php echo $image['url']; ?>, <?php echo $image['url']; ?>" class="img-fluid d-xxl-inline-block d-block d-lg-none" alt="<?php echo $image['alt']; ?>" />
+							<?php endif; ?>
 							<?php the_sub_field('long_image_content'); ?>
-							<!-- <button type="button" data-title="homepage-get-freeproposal-when" class="btn fp-btn fp-btn-orange show-popup-form buttonFormClick">Get a free proposal</button> -->
 							<button type="button" class="btn fp-btn fp-btn-orange showpopup" data-tippy-interactive="true" data-tippy-theme="dark" data-tippy-placement="bottom" data-tippy-html="#pop-up-form" data-tippy-trigger="click">Get a free proposal</button>
 						</div>
 					</div>
