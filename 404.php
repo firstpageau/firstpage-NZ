@@ -8,18 +8,24 @@
  */
 get_header(); ?>
 
-    <section id="content" class="site__content" role="main">
-        <div class="container">
-            <article id="post-0" class="post error404 pt-5 pb-5 no-results not-found text-center">
-                <div class="errorIcon pt-5 pb-5"> <i class="fal fa-exclamation-triangle"></i> </div>
-                <h2>404 Error</h2>
-                <p>Unfortunately the page you are looking for does not seem to be here, we do apologise.</p>
-                <a href="<?php echo site_url(); ?>" class="custom-button mt-4">Go to Home page</a>
-            </article><!-- #post-0 -->
+<!--BEGIN custom HTML code below -->
+<section class="banner not-found-section">
+        <div class="container text-center ">
+            <h2>Hello,</h2>
+            <p>it's not me you're <br class="d-block d-sm-none">looking for</p>
+            <div class="not-found-main row mt-5">
+                <div class="col-12 col-md-8"> <img src="https://wordpress-684516-2302341.cloudwaysapps.com/wp-content/uploads/2021/12/404_Lionel-Richie_Final.svg" alt=""></div>
+                <div class="col-12 col-md-4"><a href="/" class="btn fp-btn fp-btn-orange">Go to Homepage</a></div>
+
+
+            </div>
         </div>
-    </section><!-- #content -->
+    </section>
+<!--END custom HTML code below -->
     <style>
-        .errorIcon i { color: #c00; font-size: 10rem; }
+        footer {
+            margin-top: 0;
+        }
     </style>
 
 <?php get_footer(); ?>
