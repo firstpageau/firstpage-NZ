@@ -1,0 +1,125 @@
+section.section-worldwide-locations {
+  // padding: 40px 0;
+
+  h2,
+  h3 {
+    color: $color-blue;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 1.28em;
+    margin-bottom: 24px;
+  }
+  .container {
+    border-bottom: 1px solid #d8d8d8;
+    .row {
+      border-top: 1px solid #d8d8d8;
+    }
+  }
+
+  .location-box {
+    padding: 15px 0;
+    height: 100%;
+    @media (min-width: $responsive-md) {
+      padding: 30px 0;
+    }
+  }
+
+  h5 {
+    color: $color-blue;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    color: $color-text;
+    margin-bottom: 5px;
+
+    strong {
+      color: $color-blue;
+    }
+
+    a {
+      color: $color-text;
+
+      &.blue {
+        color: $color-blue;
+        text-decoration: underline;
+        font-weight: bold;
+      }
+    }
+  }
+
+  // Responsives
+  @media (min-width: $responsive-md) {
+    // padding: 100px 0;
+
+    h2,
+    h3 {
+      font-size: 42px;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+// -- Office Hours
+section.section-office-hours {
+  padding: 40px 0 20px;
+
+  h3 {
+    color: $color-blue;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1.28em;
+  }
+
+  p {
+    color: $color-text;
+
+    strong {
+      color: $color-blue;
+    }
+
+    a {
+      color: $color-text;
+
+      &.blue {
+        color: $color-blue;
+        text-decoration: underline;
+        font-weight: bold;
+      }
+    }
+  }
+
+  table.table {
+    tr:first-child {
+      td,
+      th {
+        border-top: none;
+      }
+    }
+    th {
+      color: $color-blue;
+      padding-left: 0;
+    }
+    td {
+      text-align: right;
+
+      &:last-child {
+        padding-right: 0;
+      }
+    }
+  }
+
+  // Responsives
+  @media (min-width: $responsive-md) {
+    padding: 100px 0 40px;
+
+    h3 {
+      font-size: 42px;
+    }
+  }
+}
