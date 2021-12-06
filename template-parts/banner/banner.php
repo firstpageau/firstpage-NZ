@@ -129,3 +129,30 @@
 </section>
 <?php endif; ?>
 
+<?php if($dropdown == 'Full background image with text center'): ?>
+<div class="full_background_image_with_text_center">
+    <?php if ( have_rows( 'banner_slider' ) ) : ?>
+    <?php while ( have_rows( 'banner_slider' ) ) : the_row();
+    $background_image = get_sub_field('banner_background'); ?>
+    <?php if ( have_rows( 'banner_content' ) ) : while ( have_rows( 'banner_content' ) ) : the_row();
+			$desktop = get_sub_field('banner_right_desktop_image');
+			$tablet = get_sub_field('banner_right_tablet_image');
+			$mobile = get_sub_field('banner_right_mobile_image');
+	?>
+    <section class="banner contact-us" style="background-image:url('<?php echo $background_image['url']; ?>');">
+        <div class="container">
+            <div class="quote-form">
+                <div class="text-center form-thankyou">
+                    <?php if(get_sub_field('secondary_text')): ?>
+                        <?php the_sub_field('secondary_text'); ?>
+                    <?php endif; ?>
+                </div>
+            </div>
+        </div>
+    </section>
+    <?php endwhile; endif; ?>
+    <?php endwhile; ?>
+    <?php endif; ?>
+</div>
+<?php endif; ?>
+
