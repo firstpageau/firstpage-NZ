@@ -59,11 +59,6 @@ add_action( 'wp_enqueue_scripts', 'my_scripts' );
 
 // This theme uses wp_nav_menu() in two locations.  
 register_nav_menus( array(  
-'primary_navigation' => __( 'First Page Primary Navigation', 'firstpage' )
+'primary_navigation' => __( 'First Page Primary Navigation', 'firstpage' ),
+'mobile_google_ads' => __( 'Mobile Google Ads Navigation', 'firstpage' )
 ) ); 
-
-function add_nav_class($output) {
-    $output= preg_replace('/<a/', '<a class="nav-link"', $output, 100);
-    return $output;
-}
-add_filter('wp_nav_menu', 'add_nav_class');
