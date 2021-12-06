@@ -28,9 +28,9 @@ $(document).ready(function ($) {
     autoplay: false,
     autoplaySpeed: 2000,
     prevArrow:
-      '<img class="a-left control-c prev slick-prev" src="wp-content/themes/firstpage/img/carousel-left-button.png">',
+      '<img class="a-left control-c prev slick-prev" src="/wp-content/themes/firstpage/img/carousel-left-button.png">',
     nextArrow:
-      '<img class="a-right control-c next slick-next" src="wp-content/themes/firstpage/img/carousel-right-button.png">',
+      '<img class="a-right control-c next slick-next" src="/wp-content/themes/firstpage/img/carousel-right-button.png">',
   });
 
   $(".services-carousel-md").slick({
@@ -40,9 +40,9 @@ $(document).ready(function ($) {
     autoplay: false,
     autoplaySpeed: 2000,
     prevArrow:
-      '<img class="a-left control-c prev slick-prev" src="wp-content/themes/firstpage/img/carousel-left-button.png">',
+      '<img class="a-left control-c prev slick-prev" src="/wp-content/themes/firstpage/img/carousel-left-button.png">',
     nextArrow:
-      '<img class="a-right control-c next slick-next" src="wp-content/themes/firstpage/img/carousel-right-button.png">',
+      '<img class="a-right control-c next slick-next" src="/wp-content/themes/firstpage/img/carousel-right-button.png">',
   });
 
   $(".services-carousel-sm").slick({
@@ -52,9 +52,9 @@ $(document).ready(function ($) {
     autoplay: false,
     autoplaySpeed: 2000,
     prevArrow:
-      '<img class="a-left control-c prev slick-prev" src="wp-content/themes/firstpage/img/carousel-left-button.png">',
+      '<img class="a-left control-c prev slick-prev" src="/wp-content/themes/firstpage/img/carousel-left-button.png">',
     nextArrow:
-      '<img class="a-right control-c next slick-next" src="wp-content/themes/firstpage/img/carousel-right-button.png">',
+      '<img class="a-right control-c next slick-next" src="/wp-content/themes/firstpage/img/carousel-right-button.png">',
   });
 
   if ($(".brandSlider").length > 0) {
