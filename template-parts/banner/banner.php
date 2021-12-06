@@ -13,9 +13,13 @@
 	?>
     <div class="container banner-hero">
         <div class="banner-hero-cont">
-            <h1 class="form-hide"><?php the_sub_field('primary_heading'); ?></h1>
+            <?php if(get_sub_field('primary_heading')): ?>
+                <h1 class="form-hide"><?php the_sub_field('primary_heading'); ?></h1>
+            <?php endif; ?>
             <div class="banner-description">
-                <p class="form-hide"><?php the_sub_field('secondary_text'); ?></p>
+                <?php if(get_sub_field('secondary_text')): ?>
+                    <p class="form-hide"><?php the_sub_field('secondary_text'); ?></p>
+                <?php endif; ?>
                 <div class="form-hide hero-mobile"> 
                     <img src="<?php echo $mobile['url']; ?>"
                         srcset="<?php echo $mobile['url']; ?>, <?php echo $mobile['url']; ?>"
@@ -39,9 +43,11 @@
                 srcset="<?php echo $desktop['url']; ?>, <?php echo $desktop['url']; ?>"
                 alt="<?php echo $desktop['alt']; ?>" />
         </div>
-        <div class="name-tag">
-            <h3><b><?php the_sub_field('name_tag'); ?></b> - First Pager</h3>
-        </div>
+        <?php if(get_sub_field('name_tag')): ?>
+            <div class="name-tag">
+                <h3><b><?php the_sub_field('name_tag'); ?></b> - First Pager</h3>
+            </div>
+        <?php endif; ?>
     </div>
     <?php endwhile; endif; ?>
     <?php endwhile; ?>
