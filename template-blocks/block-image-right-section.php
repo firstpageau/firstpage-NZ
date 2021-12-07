@@ -42,7 +42,9 @@
 							if( !empty( $image ) ): ?>
 							<img src="<?php echo $image['url']; ?>"  srcset="<?php echo $image['url']; ?>, <?php echo $image['url']; ?>" class="img-fluid d-xxl-inline-block d-block d-lg-none" alt="<?php echo $image['alt']; ?>" />
 							<?php endif; ?>
-						<?php the_sub_field('long_image_content'); ?>
+                            <div class="text-center-content">
+						        <?php the_sub_field('long_image_content'); ?>
+                            </div>
 						<button type="button" class="btn fp-btn fp-btn-orange showpopup" data-tippy-interactive="true" data-tippy-theme="dark" data-tippy-placement="bottom" data-tippy-html="#pop-up-form" data-tippy-trigger="click">Get a free proposal</button>
 					</div>
 				</div>

@@ -14,12 +14,9 @@
     <div class="container banner-hero">
         <div class="banner-hero-cont">
             <?php if(get_sub_field('primary_heading')): ?>
-                <h1 class="form-hide"><?php the_sub_field('primary_heading'); ?></h1>
+                <h1 class="form-hide text-xs-center"><?php the_sub_field('primary_heading'); ?></h1>
             <?php endif; ?>
             <div class="banner-description">
-                <?php if(get_sub_field('secondary_text')): ?>
-                    <p class="form-hide"><?php the_sub_field('secondary_text'); ?></p>
-                <?php endif; ?>
                 <div class="form-hide hero-mobile"> 
                     <img src="<?php echo $mobile['url']; ?>"
                         srcset="<?php echo $mobile['url']; ?>, <?php echo $mobile['url']; ?>"
