@@ -1,16 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>tick</title>
-    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="services" transform="translate(-30.000000, -649.000000)">
-            <g id="Group" transform="translate(0.000000, 215.000000)">
-                <g id="Group-5" transform="translate(1.000000, 0.000000)">
-                    <g id="Group-12" transform="translate(29.000000, 434.000000)">
-                        <circle id="Oval" fill="#427FE0" cx="13" cy="13" r="13"></circle>
-                        <polyline id="Path-5" stroke="#FFFFFF" stroke-width="3" points="6.68457031 13.9609375 12 18.8652344 19.1914062 6.02246094"></polyline>
-                    </g>
-                </g>
-            </g>
-        </g>
-    </g>
+<svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M10.1329 3.97768L6.15821 7.95536L4.40346 6.20818L2.6489 4.46118L1.32445 5.77526L0 7.08935L0.5186 7.63612C0.803764 7.93679 2.20514 9.28877 3.63304 10.6406L6.22907 13.0984L11.5515 7.84055L16.8737 2.5827L15.5921 1.29135C14.8873 0.581069 14.265 0 14.2091 0C14.1532 0 12.3189 1.79 10.1329 3.97768Z" fill="#427FE0"/>
 </svg>
