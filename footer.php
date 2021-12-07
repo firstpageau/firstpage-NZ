@@ -121,29 +121,6 @@
 											</div>
 										</a>
 
-										<h3 class="mt-5 mb-3 ft-24">Love us as we love you!</h3>
-
-										<div class="social">
-											<a href="https://www.facebook.com/FirstPageHK/">
-											<img src="/wp-content/themes/firstpage/img/social-facebook.png" class="img-fluid" alt=""/>
-											</a>
-											<a href="#">
-											<img src="/wp-content/themes/firstpage/img/social-googleplus.png" class="img-fluid" alt=""/>
-											</a>
-											<a href="https://www.linkedin.com/company/firstpage-digital/mycompany/">
-											<img src="/wp-content/themes/firstpage/img/social-linkedin.png" class="img-fluid" alt=""/>
-											</a>
-											<a href="https://www.instagram.com/firstpage.hk/">
-											<img src="/wp-content/themes/firstpage/img/social-instagram.png" class="img-fluid" alt=""/>
-											</a>
-											<a href="#">
-											<img src="/wp-content/themes/firstpage/img/social-youtube.png" class="img-fluid" alt=""/>
-											</a>
-											
-											
-											
-										</div>
-
 									</div>
 								</div>
 
@@ -152,7 +129,7 @@
 								</div>
 
 								<div>
-									<a href="https://au.linkedin.com/company/firstpage-digital" target="_blank"><img src="{{ site.theme.link }}/assets/img/img_connect_with_linkedin.svg" class="img-fluid" alt=""/></a>
+									<a href="https://au.linkedin.com/company/firstpage-digital" target="_blank"><img src="/wp-content/themes/firstpage/img/img_connect_with_linkedin.svg" class="img-fluid" alt=""/></a>
 								</div>
 
 							</div>
@@ -279,7 +256,7 @@
 			<section class="copyright">
 				<div class="container">
 					<div class="row align-items-center no-gutters">
-						<div class="text col-12 col-md-4">
+						<div class="text col-12 col-md-3">
 							
 								Copyright &copy;
 								<?php echo date("Y"); ?>
@@ -287,11 +264,14 @@
 							<br>
 							<a href="/terms-of-business/">Terms of Business</a>
 						</div>
-						<div class="logos col-12 col-md-8">
-							<img src="/wp-content/themes/firstpage/img/logo_content_king_certified_partner.svg" class="img-fluid" alt=""/>
-							<img src="/wp-content/themes/firstpage/img/logo-googlepartner.png" class="img-fluid" alt=""/>
-							<img src="/wp-content/themes/firstpage/img/logo-hubspot.png" class="img-fluid" alt=""/>
-							<img src="/wp-content/themes/firstpage/img/facebookmarketing.png" class="img-fluid" alt=""/>
+						<div class="logos col-12 col-md-9" style="display:flex">
+						<?php if( have_rows('brands', 'option') ): ?>
+							<?php while( have_rows('brands', 'option') ): the_row(); 
+							$brand_logo = get_sub_field( 'brand_logo' );
+							?>
+							<img src="<?php echo $brand_logo['url']; ?>"  srcset="<?php echo $brand_logo['url']; ?>, <?php echo $brand_logo['url']; ?>" class="img-fluid" alt="<?php echo $brand_logo['alt']; ?>" />
+							<?php endwhile; ?>
+						<?php endif; ?>	
 						</div>
 					</div>
 				</div>
