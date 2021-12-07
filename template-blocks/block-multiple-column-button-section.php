@@ -27,7 +27,11 @@
 		<div class="block_slider_repeater">
 			
 		<?php if ( 'Stacked' == get_sub_field('slider_type') ): ?>
-			<section class="section-services">
+			<?php 
+			$carousel_stacked = get_sub_field('heading_slider');
+			$carousel_stacked_id = preg_replace('/[^A-Za-z0-9\-]/', '', $carousel_stacked); 
+			?>
+			<section class="section-services <?php echo $carousel_stacked_id; ?>">
 				<div class="container">
 					<div class="section-title">
 						<h2><?php the_sub_field('heading_slider'); ?>
@@ -44,7 +48,7 @@
 											<img src="<?php echo $image['url']; ?>"  width="100" height="100" alt="<?php echo $image['alt']; ?>" />
 											<div class="card-body">
 												<h3 class="card-title capitalize"><?php the_sub_field('heading'); ?></h3>
-												<p class="card-text min-height"><?php the_sub_field('content'); ?></p>
+												<p class="card-text min-height text-sm-center"><?php the_sub_field('content'); ?></p>
 												<div class="card-bullets">
 												<?php if(get_sub_field('below_content')): ?>
 													<h4>Start with…</h4>
@@ -260,6 +264,10 @@
 
     $(document).ready(function () {
       $(".<?php echo $carousel_id_md; ?> .card-bullets").equalHeights();
+    });
+
+	$(document).ready(function () {
+      $(".<?php echo $carousel_stacked_id; ?> .card-title").equalHeights();
     });
   
 });
