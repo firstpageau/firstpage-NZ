@@ -1,9 +1,16 @@
-<svg width="18" height="15" viewBox="0 0 18 15" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect width="17.4319" height="14.3988" fill="url(#pattern0)"/>
-<defs>
-<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image0_58_13940" transform="scale(0.0108696 0.0131579)"/>
-</pattern>
-<image id="image0_58_13940" width="92" height="76" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABMCAYAAADgOdDDAAAE00lEQVR4Xu2cWYsUVxTHR2NM4hJjFgkiEhDzELePIEz3zNiRSF7mxSef/BB5iMdRjCIICoIbZiGrIWrc474m7lsSCIFg3e5mHMcsXyBQnjNdd+w51ba93HOreur84P8y3V333F9X3Xtr6enqUhRFGcMqCF/OrTU9/O+KACOywZzE/J+H0kr+uuKQ/i2lV0h295ogpKh0QSLZp6xslS4Iye4Gc5rLVukCfACDU+rJVukOiWSf4XKfFZXeBiQ7B8FZLvV5UektEMk+x2U2GpXeBL2bh6a2I1ulNwHJ7obgPJfXalR6HSqyzQUurd2o9Br0w/A0Cdk2Kr0Kko1CLnJJrqPSu0ZlX+JypIKT8R1eQ2ZIQPY9XG6+yevIBCs2PZ6OY/ZlLkUsENzNuuwrMSlSQdm5DeU3eB2ZgGTjof1zTIpQaMzOrOwC/POqZ9m3+6D0Oq8jE0Syf+FSpIKT8a1My8Zx9CqXIhYwN5d/YmbyOjJBfuO/M3zKxj37RqZlo4BrXIpUsK3rH8J/r/E6nJOD8ruFbeFL/O9JQh33LPuaF9l9A+Ul2NjfOCEdo+c1+OtJEMm+zqVIhWTT0cTrcE4OSotxgnhc1fBJurvN3+eTSPYNLkUsOD8kIvtpAeYM3Z7i7/cBTVY+ZdMyk1ZAvA7n5AdKi2rKtoHgPF0Y4p+ThGTTcixWi1DoBCodskcLMpfoNJp/XoJoz77FaxALmCte+tYLxYW49w7HCnhG6JCTHt/obM6z7MuplG0juTatyA5u8zalQketl6GyVdlVhTq/rhDJvsPbkgr24aIX2X0DZkE7skfj8AI8Xe70KZtuLnuTjR17FCugxeBecr8XhmbxdpqBZNOXx7ctFlxx0eMTvA7noJz3XMq2we3+/j4Mv83bawQ6QnzKxv6f62jZo4Hgjx4ozubt1oNkY033YtsSCrZ11ssJXCR7iBfgOtjOnwUoz+Ht16Ii29zn2xCLz7PlXNXvV6SDbf2Vh8G5vIZqChsevuVZ9mlvsgn/K4DgwTJ4+A6vgyDZKODX2GeEgl/sqUQuvvk+e8Mv2BTWFedV10CrGc+yk73S6f/Kmyn3rCvNp7Yj2b/x94gFzE+JyrYkcItqsGegtJSWjvw1qWBbJ9Jy42QE389y+Az263iqZFu8P4fnISj7WNruw45B+oF1r4HgaKplW1z92CjJ4Jh9pCNkWxr9VW4ag7IP90M4mfcp9fD/qNAJwXoPdaRsS+V/hgTHecdSGTA/drRsC42FNAHFOpii4J59cFzItlBn6HDlHU1D8Ag8sHpn+CKvueOpSA8O8A4nGaxn/7iUbaHO4fDyA+94IsE6xrVsC0A4CSeofTEBHoPD2/dUB69t3NK/L3wBD+dvuAgvwS87U7ItFenmy5gQyYD5LpOyLdj5iSj985gYgWA732ZatoWk4wS2lwtyGRq+6IjibWeWMAwn4B64m4tyEgi+Vtk1iKTviAlrJxB8pbLrUJEebI+JayE0IavsBkFZW7nApgLmC5XdJDgcbImJbCC06qGJmG9PaYBuKG7mQusFZX+mstskD2YjF1srKPtTle2IPATrueAxwXW8ynYM7sFrY6JH9uziHpUtBEr/mA0ju2kpyd+nOAT36I8qw4jZpbI9kYPSMpWtKIrSME8ANdufWbYRZ00AAAAASUVORK5CYII="/>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>tick</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="services" transform="translate(-30.000000, -649.000000)">
+            <g id="Group" transform="translate(0.000000, 215.000000)">
+                <g id="Group-5" transform="translate(1.000000, 0.000000)">
+                    <g id="Group-12" transform="translate(29.000000, 434.000000)">
+                        <circle id="Oval" fill="#427FE0" cx="13" cy="13" r="13"></circle>
+                        <polyline id="Path-5" stroke="#FFFFFF" stroke-width="3" points="6.68457031 13.9609375 12 18.8652344 19.1914062 6.02246094"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
 </svg>
