@@ -45,7 +45,7 @@ $two_section_block_right_or_left = get_sub_field('two_section_block_right_or_lef
 
 
         </div>
-        <div class="col-12 col-lg-6 p-0 text-container text-container-seo-new">
+        <div class="col-12 col-lg-6 p-0 text-container text-container-seo-new d-flex flex-column d-md-block d-lg-block">
             <h2 class="d-none d-md-none d-lg-block">
                 <?php echo $two_section_heading; ?>
             </h2>
