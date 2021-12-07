@@ -245,7 +245,7 @@ ul.slick-dots {
       padding-right: 36px;
     }
   }
-} 
+}
 
 // Location section
 .section-location {
@@ -435,7 +435,6 @@ ul.slick-dots {
     }
   }
 }
-
 
 // Who we are page
 .page-who-we-are {
@@ -765,7 +764,7 @@ ul.slick-dots {
 // clients comments section
 .section-clients-comments {
   max-width: 1200px;
-  margin: auto; 
+  margin: auto;
 
   .clientComment:before {
     content: "";
@@ -826,4 +825,8 @@ ul.slick-dots {
       min-height: 75px;
     }
   }
+}
+
+.comparison-row a {
+  color: #ff5254;
 }
