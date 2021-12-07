@@ -264,7 +264,7 @@
 							<br>
 							<a href="/terms-of-business/">Terms of Business</a>
 						</div>
-						<div class="logos col-12 col-md-9" style="display:flex">
+						<div class="logos col-12 col-md-9 d-xl-flex">
 						<?php if( have_rows('brands', 'option') ): ?>
 							<?php while( have_rows('brands', 'option') ): the_row(); 
 							$brand_logo = get_sub_field( 'brand_logo' );

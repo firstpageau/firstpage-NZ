@@ -76,6 +76,9 @@
       }
       .card-title {
         margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
       h3 {
         font-size: 35px;
@@ -209,11 +212,17 @@
       text-align: center;
       color: $color-text;
       margin-bottom: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
     .card-title {
       text-align: center;
       color: $color-text;
       margin-bottom: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
     .card-text-carousel {
       color: $color-text;
@@ -233,5 +242,11 @@
     .section-services-carousel .card-text {
       height: 109px;
     }
+  }
+}
+
+@media (max-width: 576px) {
+  .text-sm-center {
+    text-align: center !important;
   }
 }
