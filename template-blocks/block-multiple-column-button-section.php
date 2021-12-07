@@ -27,7 +27,11 @@
 		<div class="block_slider_repeater">
 			
 		<?php if ( 'Stacked' == get_sub_field('slider_type') ): ?>
-			<section class="section-services">
+			<?php 
+			$carousel_stacked = get_sub_field('heading_slider');
+			$carousel_stacked_id = preg_replace('/[^A-Za-z0-9\-]/', '', $carousel_stacked); 
+			?>
+			<section class="section-services <?php echo $carousel_stacked_id; ?>">
 				<div class="container">
 					<div class="section-title">
 						<h2><?php the_sub_field('heading_slider'); ?>
@@ -44,7 +48,7 @@
 											<img src="<?php echo $image['url']; ?>"  width="100" height="100" alt="<?php echo $image['alt']; ?>" />
 											<div class="card-body">
 												<h3 class="card-title capitalize"><?php the_sub_field('heading'); ?></h3>
-												<p class="card-text min-height"><?php the_sub_field('content'); ?></p>
+												<p class="card-text min-height text-sm-center"><?php the_sub_field('content'); ?></p>
 												<div class="card-bullets">
 												<?php if(get_sub_field('below_content')): ?>
 													<h4>Start with…</h4>
@@ -71,142 +75,127 @@
 			</section>
 
 			<?php else: ?>
-<section class="section-services-carousel">
-	<div class="container">
-		<div class="section-title">
-			<h2><?php the_sub_field('heading_slider'); ?>
-			</h2>
-			<p class="slider-subheading"><?php the_sub_field('subheading_slider'); ?></p>
-		</div>
+			<section class="section-services-carousel">
+				<div class="container">
+					<div class="section-title">
+						<h2><?php the_sub_field('heading_slider'); ?>
+						</h2>
+						<p class="slider-subheading"><?php the_sub_field('subheading_slider'); ?></p>
+					</div>
 
-		<?php 
-			$carousel_counter = get_sub_field('heading_slider');
-			$carousel_id = preg_replace('/[^A-Za-z0-9\-]/', '', $carousel_counter); 
-			?>
+					<?php 
+						$carousel_counter = get_sub_field('heading_slider');
+						$carousel_id = preg_replace('/[^A-Za-z0-9\-]/', '', $carousel_counter); 
+						?>
 
-		<div class="services-carousel-lg d-none d-lg-block <?php echo $carousel_id; ?>">
-			
-			<?php if( have_rows('main_repeater') ): ?>
-				<?php while( have_rows('main_repeater') ): the_row(); 
-				$image = get_sub_field('image');
-				?>
-				<div class="col card-link-building">
-					<div class="card">
-						<img src="<?php echo $image['url']; ?>" width="100" height="100" alt="<?php echo $image['alt']; ?>">
-						<div class="card-body">
-							<h4 class="card-title-carousel flex-item"><?php the_sub_field('heading'); ?></h4>
-							<p class="card-text-carousel text-center text-lg-left"><?php the_sub_field('content'); ?></p>
-							<div class="card-bullets">
-							<?php if(get_sub_field('below_content')): ?>
-								<h4>Start with…</h4>
-								<?php echo get_sub_field('below_content'); ?>
-							<?php endif; ?>
+					<div class="services-carousel-lg d-none d-lg-block <?php echo $carousel_id; ?>">
+						<?php if( have_rows('main_repeater') ): ?>
+							<?php while( have_rows('main_repeater') ): the_row(); 
+							$image = get_sub_field('image');
+							?>
+							<div class="col card-link-building">
+								<div class="card">
+									<img src="<?php echo $image['url']; ?>" width="100" height="100" alt="<?php echo $image['alt']; ?>">
+									<div class="card-body">
+										<h4 class="card-title-carousel flex-item"><?php the_sub_field('heading'); ?></h4>
+										<p class="card-text-carousel text-center text-lg-left"><?php the_sub_field('content'); ?></p>
+										<div class="card-bullets">
+										<?php if(get_sub_field('below_content')): ?>
+											<h4>Start with…</h4>
+											<?php echo get_sub_field('below_content'); ?>
+										<?php endif; ?>
+										</div>
+									</div>
+									<?php 
+									$link = get_sub_field('cta');
+									if($link['title']){
+										$link_title = $link['title'];
+									}
+									if(get_sub_field('cta')): ?>
+									<div class="card-footer">
+										<a href="<?php the_sub_field('cta'); ?>"><?php echo esc_html( $link_title ); ?></a>
+									</div>
+									<?php endif; ?> 
+									</div>
 							</div>
-						</div>
-						<?php 
-						$link = get_sub_field('cta');
-						if($link['title']){
-							$link_title = $link['title'];
-						}
-						if(get_sub_field('cta')): ?>
-						<div class="card-footer">
-							<a href="<?php the_sub_field('cta'); ?>"><?php echo esc_html( $link_title ); ?></a>
-						</div>
-						<?php endif; ?> 
-						</div>
-				</div>
-				<?php endwhile; ?>
-			<?php endif; ?>
+							<?php endwhile; ?>
+						<?php endif; ?>
+					</div>
 
-		</div>
-
-		<?php 
-			$carousel_counter = get_sub_field('heading_slider');
-			$carousel_id_md = preg_replace('/[^A-Za-z0-9\-]/', '', $carousel_counter); ?>
-
-		<div class="services-carousel-md d-none d-md-block d-lg-none <?php echo $carousel_id_md; ?>">
-			
-
-			<?php if( have_rows('main_repeater') ): ?>
-				<?php while( have_rows('main_repeater') ): the_row(); 
-				$image = get_sub_field('image');
-				?>
-				<div class="col card-link-building">
-					<div class="card">
-						<img src="<?php echo $image['url']; ?>" width="100" height="100" alt="<?php echo $image['alt']; ?>">
-						<div class="card-body">
-							<h4 class="card-title-carousel"><?php the_sub_field('heading'); ?></h4>
-							<p class="card-text-carousel text-center text-lg-left"><?php the_sub_field('content'); ?></p>
-							<div class="card-bullets">
-							<?php if(get_sub_field('below_content')): ?>
-								<h4>Start with…</h4>
-								<?php echo get_sub_field('below_content'); ?>
-							<?php endif; ?> 
+					<?php 
+						$carousel_counter = get_sub_field('heading_slider');
+						$carousel_id_md = preg_replace('/[^A-Za-z0-9\-]/', '', $carousel_counter); ?>
+					<div class="services-carousel-md d-none d-md-block d-lg-none <?php echo $carousel_id_md; ?>">
+						<?php if( have_rows('main_repeater') ): ?>
+							<?php while( have_rows('main_repeater') ): the_row(); 
+							$image = get_sub_field('image');
+							?>
+							<div class="col card-link-building">
+								<div class="card">
+									<img src="<?php echo $image['url']; ?>" width="100" height="100" alt="<?php echo $image['alt']; ?>">
+									<div class="card-body">
+										<h4 class="card-title-carousel"><?php the_sub_field('heading'); ?></h4>
+										<p class="card-text-carousel text-center text-lg-left"><?php the_sub_field('content'); ?></p>
+										<div class="card-bullets">
+										<?php if(get_sub_field('below_content')): ?>
+											<h4>Start with…</h4>
+											<?php echo get_sub_field('below_content'); ?>
+										<?php endif; ?> 
+										</div>
+									</div>
+									<?php 
+									$link = get_sub_field('cta');
+									if($link['title']){
+										$link_title = $link['title'];
+									}
+									if(get_sub_field('cta')): ?>
+									<div class="card-footer">
+										<a href="<?php the_sub_field('cta'); ?>"><?php echo esc_html( $link_title ); ?></a>
+									</div>
+									<?php endif; ?> 
+									</div>
 							</div>
-						</div>
-						<?php 
-						$link = get_sub_field('cta');
-						if($link['title']){
-							$link_title = $link['title'];
-						}
-						if(get_sub_field('cta')): ?>
-						<div class="card-footer">
-							<a href="<?php the_sub_field('cta'); ?>"><?php echo esc_html( $link_title ); ?></a>
-						</div>
-						<?php endif; ?> 
-						</div>
-				</div>
-				<?php endwhile; ?>
-			<?php endif; ?>
+							<?php endwhile; ?>
+						<?php endif; ?>
+					</div>
 
-
-		</div>
-
-		<div class="services-carousel-sm d-block d-md-none <?php echo $carousel_id; ?>">
-			
-
-			<?php if( have_rows('main_repeater') ): ?>
-				<?php while( have_rows('main_repeater') ): the_row(); 
-				$image = get_sub_field('image');
-				?>
-				<div class="col card-link-building">
-					<div class="card">
-						<img src="<?php echo $image['url']; ?>" width="100" height="100" alt="<?php echo $image['alt']; ?>">
-						<div class="card-body">
-							<h4 class="card-title"><?php the_sub_field('heading'); ?></h4>
-							<p class="card-text text-center text-lg-left"><?php the_sub_field('content'); ?></p>
-							<div class="card-bullets">
-							<?php if(get_sub_field('below_content')): ?>
-								<h4>Start with…</h4>
-								<?php echo get_sub_field('below_content'); ?>
-							<?php endif; ?> 
-							</div>
-						</div>
-						<?php 
-						$link = get_sub_field('cta');
-						if($link['title']){
-							$link_title = $link['title'];
-						}
-						if(get_sub_field('cta')): ?>
-						<div class="card-footer">
-							<a href="<?php the_sub_field('cta'); ?>"><?php echo esc_html( $link_title ); ?></a>
-						</div>
-						<?php endif; ?> 
-						</div>
-				</div>
-				<?php endwhile; ?>
-			<?php endif; ?>
-
-
-		</div>
-
-	</div>
-
-
-</section>
+					<div class="services-carousel-sm d-block d-md-none <?php echo $carousel_id; ?>">
 					
-					
-			<?php endif; ?> 
+						<?php if( have_rows('main_repeater') ): ?>
+							<?php while( have_rows('main_repeater') ): the_row(); 
+							$image = get_sub_field('image');
+							?>
+							<div class="col card-link-building">
+								<div class="card">
+									<img src="<?php echo $image['url']; ?>" width="100" height="100" alt="<?php echo $image['alt']; ?>">
+									<div class="card-body">
+										<h4 class="card-title"><?php the_sub_field('heading'); ?></h4>
+										<p class="card-text text-center text-lg-left"><?php the_sub_field('content'); ?></p>
+										<div class="card-bullets">
+										<?php if(get_sub_field('below_content')): ?>
+											<h4>Start with…</h4>
+											<?php echo get_sub_field('below_content'); ?>
+										<?php endif; ?> 
+										</div>
+									</div>
+									<?php 
+									$link = get_sub_field('cta');
+									if($link['title']){
+										$link_title = $link['title'];
+									}
+									if(get_sub_field('cta')): ?>
+									<div class="card-footer">
+										<a href="<?php the_sub_field('cta'); ?>"><?php echo esc_html( $link_title ); ?></a>
+									</div>
+									<?php endif; ?> 
+									</div>
+							</div>
+							<?php endwhile; ?>
+						<?php endif; ?>
+					</div>
+				</div>
+			</section>
+		<?php endif; ?> 
 
 		</div>
 		
@@ -260,6 +249,10 @@
 
     $(document).ready(function () {
       $(".<?php echo $carousel_id_md; ?> .card-bullets").equalHeights();
+    });
+
+	$(document).ready(function () {
+      $(".<?php echo $carousel_stacked_id; ?> .card-title").equalHeights();
     });
   
 });
