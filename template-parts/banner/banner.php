@@ -17,6 +17,11 @@
                 <h1 class="form-hide text-xs-center"><?php the_sub_field('primary_heading'); ?></h1>
             <?php endif; ?>
             <div class="banner-description">
+                <?php if(get_sub_field('banner_description')): ?>
+                <p class="form-hide">
+                    <?php the_sub_field('banner_description'); ?>
+                </p>
+                <?php endif; ?>
                 <div class="form-hide hero-mobile"> 
                     <img src="<?php echo $mobile['url']; ?>"
                         srcset="<?php echo $mobile['url']; ?>, <?php echo $mobile['url']; ?>"

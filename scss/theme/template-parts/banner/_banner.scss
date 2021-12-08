@@ -88,10 +88,9 @@
   }
 
   section.banner .banner-description p {
-    max-width: 170px;
-    margin-bottom: 0;
+    margin-bottom: 20px;
     padding: 0 15px;
-    min-height: 168px;
+    text-align: center;
   }
 
   .hero-mobile {
@@ -1002,7 +1001,7 @@ section.banner {
 }
 
 @media (min-width: 768px) and(max-width: 991px) {
-  .home .quote-form.quote-form-big {
+  .quote-form.quote-form-big {
     width: 600px;
   }
 }
@@ -1164,7 +1163,7 @@ section.banner {
 
 //Location - Banner
 .right-cut-off-banner {
-  background: #427FDF;
+  background: #427fdf;
   .banner-img-mb img {
     width: 114%;
     margin-left: -14px;
