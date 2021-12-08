@@ -95,10 +95,7 @@
   }
 
   .hero-mobile {
-    margin-bottom: -120px;
-    position: absolute;
-    bottom: 0;
-    right: -68px;
+    text-align: center;
   }
 }
 
@@ -992,7 +989,7 @@ section.banner {
   margin-bottom: 38px;
 }
 @media (max-width: 991px) {
-  .home .quote-form.quote-form-big select.form-control {
+  .quote-form.quote-form-big select.form-control {
     font-size: 16px;
     line-height: 25px;
   }
@@ -1012,7 +1009,7 @@ section.banner {
 
 @media (max-width: 767px) {
   .home .hero-mobile {
-    margin-bottom: -118px;
+    margin-bottom: -40px;
   }
 }
 
@@ -1167,6 +1164,7 @@ section.banner {
 
 //Location - Banner
 .right-cut-off-banner {
+  background: #427FDF;
   .banner-img-mb img {
     width: 114%;
     margin-left: -14px;
@@ -1299,5 +1297,17 @@ section.banner {
         font-weight: 700;
       }
     }
+  }
+}
+
+@media (max-width: 767px) {
+  .text-xs-center {
+    text-align: center;
+  }
+}
+
+@media (max-width: 991px) {
+  .text-center-content {
+    text-align: center;
   }
 }
