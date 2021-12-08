@@ -88,17 +88,13 @@
   }
 
   section.banner .banner-description p {
-    max-width: 170px;
-    margin-bottom: 0;
+    margin-bottom: 20px;
     padding: 0 15px;
-    min-height: 168px;
+    text-align: center;
   }
 
   .hero-mobile {
-    margin-bottom: -120px;
-    position: absolute;
-    bottom: 0;
-    right: -68px;
+    text-align: center;
   }
 }
 
@@ -992,7 +988,7 @@ section.banner {
   margin-bottom: 38px;
 }
 @media (max-width: 991px) {
-  .home .quote-form.quote-form-big select.form-control {
+  .quote-form.quote-form-big select.form-control {
     font-size: 16px;
     line-height: 25px;
   }
@@ -1005,14 +1001,14 @@ section.banner {
 }
 
 @media (min-width: 768px) and(max-width: 991px) {
-  .home .quote-form.quote-form-big {
+  .quote-form.quote-form-big {
     width: 600px;
   }
 }
 
 @media (max-width: 767px) {
   .home .hero-mobile {
-    margin-bottom: -118px;
+    margin-bottom: -40px;
   }
 }
 
@@ -1167,7 +1163,7 @@ section.banner {
 
 //Location - Banner
 .right-cut-off-banner {
-  background: #427FDF;
+  background: #427fdf;
   .banner-img-mb img {
     width: 125%;
     margin-left: -35px;
@@ -1300,5 +1296,17 @@ section.banner {
         font-weight: 700;
       }
     }
+  }
+}
+
+@media (max-width: 767px) {
+  .text-xs-center {
+    text-align: center;
+  }
+}
+
+@media (max-width: 991px) {
+  .text-center-content {
+    text-align: center;
   }
 }

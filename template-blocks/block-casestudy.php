@@ -35,7 +35,9 @@
                                 <span class="small-grey">Our Recent Work</span>
                                 <strong><?php the_sub_field( 'case_study_heading' ); ?></strong>
                             </h2>
-							<img src="<?php echo $case_study_mobile_image['url']; ?>"  srcset="<?php echo $case_study_mobile_image['url']; ?>, <?php echo $case_study_mobile_image['url']; ?>" class="img-fluid d-sm-block d-md-none" alt="<?php echo $case_study_mobile_image['alt']; ?>" />
+                            <div class="text-center">
+							    <img src="<?php echo $case_study_mobile_image['url']; ?>"  srcset="<?php echo $case_study_mobile_image['url']; ?>, <?php echo $case_study_mobile_image['url']; ?>" class="img-fluid d-md-none" alt="<?php echo $case_study_mobile_image['alt']; ?>" />
+                            </div>
                             <p><?php the_sub_field( 'case_study_content' ); ?></p>
                         </div>
                         <div class="stats">
