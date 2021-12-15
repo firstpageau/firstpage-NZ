@@ -55,9 +55,9 @@ Richmond Melbourne VIC 3121"><?php the_field('address', 'option'); ?></a></p>
 
     <!-- Map -->
     <div id="office-map"></div>
-    <script>var map_location = JSON.parse('{<?php echo $map_location; ?>}')</script>
-    <script src="/wp-content/themes/firstpage/js/map.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?v=3&key=<?php echo $map_api_key; ?>&callback=initMap"></script>
+    <script>var map_location = JSON.parse('{{ map_location }}')</script>
+    <script src="/wp-content/themes/firstpage/js/defaults/map.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyDrvVkXhmGglK_A80mh_1grmeBAcMJCG0o&callback=initMap"></script>
 
     <section class="section-worldwide-locations section-white">
         <div class="container">
