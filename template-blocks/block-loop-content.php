@@ -65,7 +65,7 @@
         <?php include locate_template( 'template-blocks/block-generated-revenue.php' ); ?>
     <?php endif; ?>
 
-    <?php if ( get_row_layout() == 'web_conversion_health_check_block' ) : ?>
+    <?php if ( get_row_layout() == 'free_revenue_growth_session_block' ) : ?>
         <?php include locate_template( 'template-blocks/block-web-conversion-health-check.php' ); ?>
     <?php endif; ?>
 

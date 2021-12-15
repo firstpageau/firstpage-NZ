@@ -30,7 +30,7 @@ if ( $background['image'] )
                 <p class="mb-3 p-tag-h2-style"><strong>Claim your 100% free REVENUE</br class="d-none d-lg-block">GROWTH strategy session with an</br class="d-none d-lg-block">experienced digital strategist valued at</br class="d-none d-lg-block">$2000.</strong></p>
                 <p class="mb-4" style="font-size: 25px; font-weight:normal; line-height: 23px;">We outline bulletproof tactics that dramatically increase website traffic and revenue, even during tough economic times. </p>
                 <p class="font-italic mb-4" style="font-size: 18px; font-weight:normal;">Hurry! Limited spots available.</p>
-                <a href="/free-growth-strategy" class="btn fp-btn fp-btn-white fp-btn-shadow fp-session free-session-btn">Get my free health check</a>
+                <a href="/free-growth-strategy" class="btn fp-btn fp-btn-white fp-btn-shadow fp-session free-session-btn">Get my free revenue growth session</a>
             </div>
         </div>
 
