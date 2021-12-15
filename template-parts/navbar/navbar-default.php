@@ -30,6 +30,11 @@
 				<!-- Menu -->
 				<div class="menu d-none d-lg-block">
 					<ul class="navbar-nav mr-auto">
+						<li class="nav-item nav-item-main d-none d-lg-block">
+							<a class="scroll-nav-logo" href="{{ home_url }}">
+								<img id="scroll-nav-logo" src="/wp-content/themes/firstpage/img/fp-logo.png" srcset="/wp-content/themes/firstpage/img/fp-logo@2x.png 2x" alt="First Page"/>
+							</a>
+						</li>
 						<?php wp_nav_menu( array( 'theme_location' =>   'primary_navigation' ) ); ?>
 						<li class="nav-item">
 							<a class="nav-link nav-border" href="<?php echo home_url() ?>/free-proposal/">Free Proposal</a>

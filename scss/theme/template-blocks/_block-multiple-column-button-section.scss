@@ -9,7 +9,7 @@
       padding-left: 36px; /* the width of your image + some space */
       margin: 10px 0;
       line-height: 26px;
-      text-align: left;
+      background-position: left;
 
       a {
         color: #00225d;
@@ -36,6 +36,7 @@
       margin-bottom: 30px;
       @media (min-width: 992px) {
         margin-bottom: 0;
+        margin-top: 25px;
       }
     }
     @media (min-width: 768px) {
@@ -238,9 +239,23 @@
       line-height: 22px;
       font-size: 18px;
       padding: 0 15px 30px 15px;
+      text-transform: uppercase;
     }
     .section-services-carousel .card-text {
       height: 109px;
+    }
+    // responsive
+    @media (max-width: 767px) {
+      .card {
+        width: 60%;
+        margin: 30px auto;
+      }
+      .card-title {
+        height: 42px;
+      }
+      .section-services-carousel .card-text {
+        height: 109px;
+      }
     }
   }
 }

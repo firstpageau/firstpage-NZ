@@ -33,7 +33,7 @@
 			?>
 			<section class="section-services <?php echo $carousel_stacked_id; ?>">
 				<div class="container">
-					<div class="section-title">
+					<div class="section-title mb-0">
 						<h2><?php the_sub_field('heading_slider'); ?>
 						</h2>
 						<p class="slider-subheading"><?php the_sub_field('subheading_slider'); ?></p>

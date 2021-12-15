@@ -1,5 +1,5 @@
 <?php $form_page = ((empty($form_page)) ? ('General') : ($form_page)); ?>
-<?php $form_button = ((empty($form_button)) ? ('Free SEO Quote') : ($form_button)); ?>
+<?php $form_button = ((empty($form_button)) ? ('Get A Free Quote') : ($form_button)); ?>
 <?php $form_hs = ((empty($form_hs)) ? ('hs_quote_form') : ($form_hs)); ?>
 <?php $form_thankyou = ((empty($form_thankyou)) ? ('thank-you') : ($form_thankyou)); ?>
 <?php $form_website_placeholder = ((empty($form_website_placeholder)) ? ('Enter your website') : ($form_website_placeholder)); ?>
