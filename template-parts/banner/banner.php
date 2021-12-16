@@ -158,3 +158,30 @@
 </div>
 <?php endif; ?>
 
+<?php if($dropdown == 'Full background image with text left'): ?>
+    <div class="full_background_image_with_text_left">
+        <?php if ( have_rows( 'banner_slider' ) ) : ?>
+    <?php while ( have_rows( 'banner_slider' ) ) : the_row();
+    $background_image = get_sub_field('banner_background'); ?>
+    <?php if ( have_rows( 'banner_content' ) ) : while ( have_rows( 'banner_content' ) ) : the_row();
+			$desktop = get_sub_field('banner_right_desktop_image');
+			$tablet = get_sub_field('banner_right_tablet_image');
+			$mobile = get_sub_field('banner_right_mobile_image');
+	?>
+    <section class="banner whoWeAreSection" style="background-image:url('<?php echo $background_image['url']; ?>');">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-7 text-center text-md-left text-lg-left who-we-are-h1">
+					<h1><?php the_sub_field('primary_heading'); ?></h1>
+					<p class="subHeading"><?php the_sub_field('banner_description'); ?>
+					</p>
+					<button type="button" class="btn fp-btn fp-btn-orange show-popup-form-3">KEEN TO HEAR MORE?</button>
+				</div>
+			</div>
+		</div>
+	</section>
+    <?php endwhile; endif; ?>
+    <?php endwhile; ?>
+    <?php endif; ?>
+    </div>
+<?php endif; ?>
