@@ -97,11 +97,6 @@
       width: 10%;
       margin: 0px 8px;
     }
-    // .vacanciesText:after {
-    //   content: "";
-    //   height: 2px;
-    //   background: #d8d8d8;
-    // }
 
     .valueHeading {
       font-size: 1.25rem;
@@ -212,7 +207,6 @@
   }
   // font size setting
   .whoWeAreSection {
-    // font size - sm
     &.banner {
       h1 {
         font-size: 35px;
@@ -231,6 +225,18 @@
     &.section-quote h3 {
       font-size: 20.05px;
       line-height: 35.08px;
+      font-weight: 400;
+      font-family: "Times New Roman", Times, serif;
+    }
+    section.section-quote h3:before {
+      content: "";
+      background: url(/img/icon-quote-red.png) no-repeat;
+      background-size: contain;
+      position: absolute;
+      top: -13.5px;
+      left: -31px;
+      width: 21px;
+      height: 16px;
     }
     &.section-quote p {
       font-size: 20px;

@@ -178,5 +178,102 @@ get_header(); ?>
 	</div>
 </section>
 
+<section class="section-quote section-grey section-single-quote whoWeAreSection section-three-quote">
+	<div class="container">
+		<h2 class="text-center mb-lg-5 comment-section-heading">This is our Kanye West section.
+			<br class="d-none d-md-block">The one where we tell you how good we are.</h2>
+		<div
+			class="row">
+			<div class="col-12 col-md-4  px-lg-4 px-xl-5 mb-5">
+				<h3 class="text-center text-md-left whirlpoolComment">“ They continually exceeded expectations! First Page is responsive, and they are always available to answer questions. Professionalism is a hallmark of their work. ”</h3>
+				<p class="text-center text-md-left name whirlpoolName">
+					<span class="font-weight-bold">Zoe</span>
+					-
+					<span class="font-italic">Product Manager</span>
+				</p>
+				<img class="img-fluid d-block d-md-none mx-auto" src="/wp-content/themes/firstpage/img/logo_whirlpool_sm.png" srcset="/wp-content/themes/firstpage/img/logo_whirlpool_sm.png, /wp-content/themes/firstpage/img/logo_whirlpool_sm@2x.png 2x">
+				<img class="img-fluid d-none d-md-block clientLogoWhirlpool" src="/wp-content/themes/firstpage/img/logo_whirlpool_lg.png" srcset="/wp-content/themes/firstpage/img/logo_whirlpool_lg.png, /wp-content/themes/firstpage/img/logo_whirlpool_lg@2x.png 2x">
+			</div>
+			<div class="col-12 col-md-4 px-lg-4 px-xl-5 mb-5">
+				<h3 class="text-center text-md-left mothercareComment">“ Team First Page has extensive experience which enables them to understand our business needs and goals. They are highly responsive and accommodating. ”</h3>
+				<p class="text-center text-md-left name mothercareName">
+					<span class="font-weight-bold">Erica</span>
+					–
+					<span class="font-italic">Head of Marketing</span>
+				</p>
+				<img class="img-fluid d-block d-md-none mx-auto" src="/wp-content/themes/firstpage/img/logo_mothercare_sm.png" srcset="/wp-content/themes/firstpage/img/logo_mothercare_sm.png, /wp-content/themes/firstpage/img/logo_mothercare_sm@2x.png 2x">
+				<img class="img-fluid d-none d-md-block clientLogMotherCare" src="/wp-content/themes/firstpage/img/logo_mothercare_lg.png" srcset="/wp-content/themes/firstpage/img/logo_mothercare_lg.png, /wp-content/themes/firstpage/img/logo_mothercare_lg@2x.png 2x">
+			</div>
+			<div class="col-12 col-md-4 px-lg-4 px-xl-5 mb-5">
+				<h3 class="text-center text-md-left cathayComment">“ Right from the moment we signed them on, they've been simply fantastic. A brilliant team led by really warm and friendly people. They are always ready to help, however basic the questions be. ”</h3>
+				<p class="text-center text-md-left name cathayName">
+					<span class="font-weight-bold">Sahil</span>
+					–
+					<span class="font-italic">Assistant Digital Marketing Manager</span>
+				</p>
+				<img class="img-fluid d-block d-md-none mx-auto" src="/wp-content/themes/firstpage/img/logo_cathaypacific_sm.png" srcset="/wp-content/themes/firstpage/img/logo_cathaypacific_sm.png, /wp-content/themes/firstpage/img/logo_cathaypacific_sm@2x.png 2x">
+				<img class="img-fluid d-none d-md-block clientLogoCathay" src="/wp-content/themes/firstpage/img/logo_cathaypacific_lg.png" srcset="/wp-content/themes/firstpage/img/logo_cathaypacific_lg.png, /wp-content/themes/firstpage/img/slogo_cathaypacific_lg@2x.png 2x">
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section-paragraph section-value container whoWeAreSection">
+	<div
+		class="row no-gutters align-items-center justify-content-center flex-md-row flex-md-row-reverse">
+		<div class="col-12 col-lg-6 text-container text-center text-md-left">
+			<h2 class="text-center mb-5">Our values</h2>
+		</div>
+		<div
+			class="row no-gutters">
+			<div class="col-12 col-md-6 px-4 mb-lg-5">
+				<div class="valueItem d-md-flex align-items-start">
+					<img class="img-fluid d-block mx-auto mx-md-3 mb-2 mt-md-2" src="/wp-content/themes/firstpage/img/who_we_are_icn_awards.svg" alt="">
+					<div class="valueDes text-center text-md-left">
+						<p class="valueHeading font-weight-bold mb-2">Whoever moves the fastest, wins</p>
+						<p>Do things today, not tomorrow.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 px-4 mb-lg-5">
+				<div class="valueItem d-md-flex align-items-start">
+					<img class="img-fluid d-block mx-auto mx-md-3 mb-2  mt-md-2" src="/wp-content/themes/firstpage/img/who_we_are_fanatical_icon.svg" alt="">
+					<div class="valueDes text-center text-md-left">
+						<p class="valueHeading font-weight-bold mb-2">Fanatical about the details</p>
+						<p>Consistently nailing the 1%’ers helps us change the game.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 px-4 mb-lg-5">
+				<div class="valueItem d-md-flex align-items-start">
+					<img class="img-fluid d-block mx-auto mx-md-3 mb-2  mt-md-2" src="/wp-content/themes/firstpage/img/who_we_are_together_icon.svg" alt="">
+					<div class="valueDes text-center text-md-left">
+						<p class="valueHeading font-weight-bold mb-2">In the trenches together</p>
+						<p>We’re all working towards the one mission. We’re all here to get the job done.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 px-4 mb-lg-5">
+				<div class="valueItem d-md-flex align-items-start">
+					<img class="img-fluid d-block mx-auto mx-md-3  mb-2  mt-md-2" src="/wp-content/themes/firstpage/img/who_we_are_forum_icon.svg" alt="">
+					<div class="valueDes text-center text-md-left">
+						<p class="valueHeading font-weight-bold mb-2">It’s an open forum</p>
+						<p>Always speak your mind, just don’t be a d#%k when you do.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 px-4 mb-lg-5">
+				<div class="valueItem d-md-flex align-items-start">
+					<img class="img-fluid d-block mx-auto mx-md-3 mb-2  mt-md-2" src="/wp-content/themes/firstpage/img/who_we_are_soecialist_icon.svg" alt="">
+					<div class="valueDes text-center text-md-left">
+						<p class="valueHeading font-weight-bold mb-2">Specialists, not generalists</p>
+						<p>We don’t pretend to know everything, but what we do know we do exceptionally well.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
 
 <?php get_footer(); ?>
