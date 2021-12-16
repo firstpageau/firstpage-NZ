@@ -813,3 +813,9 @@
     }
   }
 }
+
+#mega-menu-wrap-primary_navigation
+  #mega-menu-primary_navigation
+  > li.mega-menu-item {
+  display: inline-block !important;
+}

@@ -1,0 +1,322 @@
+.page-template-who-we-are {
+  .who_we_are_image_container {
+    text-align: center !important;
+  }
+  .awardItem {
+    img {
+      width: 15px;
+      height: 15px;
+      margin-top: 3px;
+      margin-right: 13px;
+      @media (min-width: $responsive-md) {
+        margin-top: 8px;
+      }
+    }
+  }
+  section.section-paragraph .image-container-left {
+    text-align: center;
+  }
+  .awardDes p {
+    font-size: 18px;
+  }
+
+  section.section-quote p {
+    margin-top: 20px;
+  }
+  .missionDes {
+    text-align: center;
+    font-size: 19px;
+    line-height: 1.4;
+    width: 80%;
+    margin: auto;
+  }
+  .vacanciesText {
+    font-size: 11px;
+  }
+
+  .vacanciesArrow {
+    width: 19px;
+    height: 19px;
+  }
+
+  .mission-section {
+    background: linear-gradient(225deg, #427fdf 0%, #396bb1 100%);
+    padding: 50px 0px 30px 0px;
+  }
+  .vacanciesContainer {
+    margin-top: 130px;
+  }
+  .section-quote h3 {
+    color: #00225d;
+  }
+
+  .valueItem img {
+    height: 30px;
+    width: 30px;
+  }
+  .section-quote h3:after {
+    background: none;
+  }
+  .section-bottom-comment {
+    text-align: center !important;
+  }
+
+  // responsive
+  @media (min-width: $responsive-md) {
+    .who_we_are_image_container {
+      text-align: right !important;
+    }
+    .section-quote {
+      text-align: unset;
+    }
+    .vacanciesContainer {
+      margin-top: 30px;
+    }
+    .vacanciesText {
+      font-size: 16px;
+    }
+
+    .vacanciesText {
+      position: relative;
+    }
+    .vacanciesText:before,
+    .vacanciesText:after {
+      content: "";
+      display: inline-block;
+
+      height: 2px;
+      background: #d8d8d8;
+      position: relative;
+      vertical-align: middle;
+      width: 10%;
+      margin: 0px 8px;
+    }
+    // .vacanciesText:after {
+    //   content: "";
+    //   height: 2px;
+    //   background: #d8d8d8;
+    // }
+
+    .valueHeading {
+      font-size: 1.25rem;
+    }
+
+    .section-value {
+      padding-bottom: 60px;
+      padding-top: 20px;
+    }
+
+    &.section-bottom-comment {
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
+
+    .clientLogoWhirlpool {
+      padding-top: 20px;
+    }
+
+    .clientLogMotherCare {
+      padding-top: 28px;
+    }
+
+    .clientLogoCathay {
+      padding-top: 3px;
+    }
+  }
+
+  @media (min-width: $responsive-lg) {
+    .section-value {
+      padding-bottom: 80px;
+      padding-top: 80px;
+    }
+    .comment-section-heading {
+      padding-bottom: 75px;
+    }
+    .section-awards {
+      .text-container {
+        max-width: 750px;
+      }
+    }
+
+    section.section-quote h3 {
+      font-size: 20px;
+    }
+
+    section.section-quote h3:before {
+      top: -79.5px;
+    }
+    .whirlpoolName {
+      padding-top: 36px;
+    }
+
+    .cathayName {
+      padding-top: 35px;
+    }
+
+    .clientLogoWhirlpool {
+      padding-top: 40px !important;
+    }
+
+    .clientLogMotherCare {
+      padding-top: 47px !important;
+    }
+
+    .clientLogoCathay {
+      padding-top: 18px !important;
+    }
+    .section-three-quote {
+      padding: 114px 0 30px;
+    }
+  }
+
+  @media (min-width: $responsive-xl) {
+    .whirlpoolName {
+      padding-top: 0px;
+    }
+
+    .cathayName {
+      padding-top: 0px;
+    }
+
+    .clientLogoWhirlpool {
+      padding-top: 28px !important;
+    }
+    .clientLogMotherCare {
+      padding-top: 33px !important;
+    }
+
+    .clientLogoCathay {
+      padding-top: 0px !important;
+    }
+  }
+
+  @media (min-width: 1980px) {
+    .firstSectionImgContainer {
+      padding-left: 180px;
+    }
+  }
+  @media (max-width: 768px) {
+    .section-value {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    .vacanciesContainer {
+      margin-top: 50px;
+    }
+  }
+  // font size setting
+  .whoWeAreSection {
+    // font size - sm
+    &.banner {
+      h1 {
+        font-size: 35px;
+      }
+
+      .subHeading {
+        font-size: 24px;
+      }
+    }
+    h2 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 16px;
+    }
+    &.section-quote h3 {
+      font-size: 20.05px;
+      line-height: 35.08px;
+    }
+    &.section-quote p {
+      font-size: 20px;
+      line-height: 35.08px;
+    }
+    .valueHeading {
+      font-size: 20px !important;
+    }
+
+    .mission-section h2 {
+      font-size: 28px;
+      line-height: 31.5px;
+    }
+
+    .missionDes {
+      font-size: 17px;
+      line-height: 20.5px;
+      font-weight: 700;
+    }
+    &.section-bottom-comment h3 {
+      font-size: 24.05px !important;
+      line-height: 35.08px !important;
+    }
+
+    // font md
+    @media (min-width: $responsive-md) {
+      &.banner {
+        h1 {
+          font-size: 52.12px !important;
+        }
+
+        .subHeading {
+          font-size: 34.88px;
+          line-height: 35.93px;
+        }
+      }
+      h2 {
+        font-size: 40.09px;
+      }
+      p {
+        font-size: 20.05px;
+        line-height: 29.07px;
+      }
+      .nickDes {
+        font-size: 25.06px;
+      }
+      &.section-quote h3 {
+        font-size: 16.37px;
+        line-height: 24.91px;
+      }
+      &.section-quote p {
+        font-size: 17.79px;
+        line-height: 24.91px;
+      }
+      .valueHeading {
+        font-size: 27.95px !important;
+      }
+      .valueDes p {
+        font-size: 22.36px;
+        line-height: 29.07px;
+      }
+
+      &.mission-section h2 {
+        font-size: 40.09px;
+        line-height: 31.5px;
+      }
+
+      .missionDes {
+        font-size: 21px;
+        line-height: 28.5px;
+        font-weight: 700;
+      }
+      &.section-bottom-comment h3 {
+        font-size: 26.33px !important;
+        line-height: 35.01px !important;
+      }
+    }
+
+    // font lg
+    @media (min-width: $responsive-lg) {
+      &.section-quote h3 {
+        font-size: 23.05px;
+        line-height: 35.08px;
+      }
+      &.section-single-quote h3:after {
+        background: none;
+      }
+
+      &.section-bottom-comment h3 {
+        font-size: 30px !important;
+        line-height: 39.99px !important;
+      }
+    }
+  }
+}

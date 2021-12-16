@@ -1216,9 +1216,9 @@ section.banner {
   }
 }
 
-.page-contact,
-.page-template-thank-you {
-  section.banner {
+// Full background image with text center - Banner
+.full_background_image_with_text_center {
+  section.banner.contact-us {
     padding-bottom: 40px;
     background-position: top center;
     background-size: cover;
@@ -1260,9 +1260,7 @@ section.banner {
       }
     }
   }
-}
 
-.page-template-thank-you {
   section.banner .form-thankyou {
     display: block;
     text-align: center;
@@ -1308,5 +1306,55 @@ section.banner {
 @media (max-width: 991px) {
   .text-center-content {
     text-align: center;
+  }
+}
+
+.full_background_image_with_text_left {
+  .subHeading {
+    font-size: 24px;
+    line-height: 31px;
+    margin-bottom: 55px;
+    @media (min-width: $responsive-md) {
+      font-size: 34.88px;
+      line-height: 35.93px;
+    }
+  }
+  section.banner {
+    h1 {
+      font-size: 35px;
+    }
+    min-height: 450px;
+    background-size: cover;
+
+    @media (min-width: $responsive-sm) {
+      background-size: cover;
+    }
+
+    @media (min-width: $responsive-lg) {
+      min-height: auto;
+      background-size: cover;
+
+      .who-we-are-h1 {
+        min-height: 353px;
+        margin-top: 21.5px;
+      }
+    }
+
+    h1 {
+      @media (min-width: $responsive-md) {
+        font-size: 52px;
+        line-height: 55px;
+      }
+    }
+  }
+  section.section-paragraph .text-container .fp-btn {
+    width: auto;
+  }
+  // responsive
+  @media (max-width: 767px) {
+    section.banner h1 {
+      padding: 0 0px;
+      padding-bottom: 20px;
+    }
   }
 }
