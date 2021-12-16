@@ -37,8 +37,8 @@ get_header(); ?>
 				<br class="d-block d-md-none"/>awards than Brad Pitt</h2>
 			<div class="row no-gutters align-items-center flex-column-reverse flex-md-row flex-md-row-reverse justify-content-center">
 				<div class="col-12 col-lg-3 image-container-right">
-					<img src="/wp-content/themes/firstpage/img/who_we_are_awards_lg.png" srcset="/wp-content/themes/firstpage/img/who_we_are_awards_lg.png, {{ site.theme.link }}/assets/img/who_we_are_awards_lg@2x.png 2x" class="img-fluid d-none d-lg-block mx-auto" alt="First Page"/>
-					<img src="/wp-content/themes/firstpage/img/who_we_are_awards_sm.png" srcset="{{ site.theme.link }}/assets/img/who_we_are_awards_sm.png, {{ site.theme.link }}/assets/img/who_we_are_awards_sm@2x.png 2x" class="img-fluid d-md-none" alt="First Page"/>
+					<img src="/wp-content/themes/firstpage/img/who_we_are_awards_lg.png" srcset="/wp-content/themes/firstpage/img/who_we_are_awards_lg.png, /wp-content/themes/firstpage/img/who_we_are_awards_lg@2x.png 2x" class="img-fluid d-none d-lg-block mx-auto" alt="First Page"/>
+					<img src="/wp-content/themes/firstpage/img/who_we_are_awards_sm.png" srcset="/wp-content/themes/firstpage/img/who_we_are_awards_sm.png, /wp-content/themes/firstpage/img/who_we_are_awards_sm@2x.png 2x" class="img-fluid d-md-none" alt="First Page"/>
 				</div>
 				<div
 					class="col-12 col-lg-9 text-container  text-center text-md-left">
@@ -54,7 +54,7 @@ get_header(); ?>
 									<div class="col-12 col-md-6">
 										<div class="awardItem d-flex ">
 											<div class=""></div>
-											<img src="{{ site.theme.link }}/assets/img/who_we_are_star_icon.png" alt="">
+											<img src="/wp-content/themes/firstpage/img/who_we_are_star_icon.png" alt="">
 											<div class="awardDes">
 												<p class="awardsTitle font-weight-bold text-left mb-0">Best SEO Strategy &
 													<br/>Biddable Team of the Year</p>
@@ -64,7 +64,7 @@ get_header(); ?>
 									</div>
 									<div class="col-12 col-md-6 ">
 										<div class="awardItem d-flex">
-											<img src="{{ site.theme.link }}/assets/img/who_we_are_star_icon.png" alt="">
+											<img src="/wp-content/themes/firstpage/img/who_we_are_star_icon.png" alt="">
 											<div class="awardDes">
 												<p class="awardsTitle font-weight-bold text-left mb-0">Growing Businesses Online</p>
 												<p class="text-left mt-2">Google</p>
@@ -73,7 +73,7 @@ get_header(); ?>
 									</div>
 									<div class="col-12 col-md-6">
 										<div class="awardItem d-flex">
-											<img src="{{ site.theme.link }}/assets/img/who_we_are_star_icon.png" alt="">
+											<img src="/wp-content/themes/firstpage/img/who_we_are_star_icon.png" alt="">
 											<div class="awardDes">
 												<p class="awardsTitle font-weight-bold text-left mb-0">Best eCommerce Campaign</p>
 												<p class="text-left mt-2">Asia eCommerce</p>
@@ -82,7 +82,7 @@ get_header(); ?>
 									</div>
 									<div class="col-12 col-md-6">
 										<div class="awardItem d-flex align-items-start ">
-											<img src="{{ site.theme.link }}/assets/img/who_we_are_star_icon.png" alt="">
+											<img src="/wp-content/themes/firstpage/img/who_we_are_star_icon.png" alt="">
 											<div class="awardDes ">
 												<p class="awardsTitle font-weight-bold text-left mb-0">Business Awards</p>
 												<p class="text-left mt-2">SME100 & SME500</p>
@@ -91,7 +91,7 @@ get_header(); ?>
 									</div>
 									<div class="col-12 col-md-6">
 										<div class="awardItem d-flex align-items-start ">
-											<img src="{{ site.theme.link }}/assets/img/who_we_are_star_icon.png" alt="">
+											<img src="/wp-content/themes/firstpage/img/who_we_are_star_icon.png" alt="">
 											<div class="awardDes ">
 												<p class="awardsTitle font-weight-bold text-left mb-0">Paid Advertising/Content<br/>Marketing Integration</p>
 												<p class="text-left mt-2">CMA</p>
@@ -100,7 +100,7 @@ get_header(); ?>
 									</div>
 									<div class="col-12 col-md-6">
 										<div class="awardItem d-flex align-items-start ">
-											<img src="{{ site.theme.link }}/assets/img/who_we_are_star_icon.png" alt="">
+											<img src="/wp-content/themes/firstpage/img/who_we_are_star_icon.png" alt="">
 											<div class="awardDes ">
 												<p class="awardsTitle font-weight-bold text-left mb-0">Top Digital Marketing Agency</p>
 												<p class="text-left mt-2">CIO Advisor APAC</p>
@@ -109,7 +109,7 @@ get_header(); ?>
 									</div>
 									<div class="col-12 col-md-6">
 										<div class="awardItem d-flex align-items-start ">
-											<img src="{{ site.theme.link }}/assets/img/who_we_are_star_icon.png" alt="">
+											<img src="/wp-content/themes/firstpage/img/who_we_are_star_icon.png" alt="">
 											<div class="awardDes ">
 												<p class="awardsTitle font-weight-bold text-left mb-0">Best In Search</p>
 												<p class="text-left mt-2">TopSEOs</p>
@@ -118,7 +118,7 @@ get_header(); ?>
 									</div>
 									<div class="col-12 col-md-6">
 										<div class="awardItem d-flex align-items-start ">
-											<img src="{{ site.theme.link }}/assets/img/who_we_are_star_icon.png" alt="">
+											<img src="/wp-content/themes/firstpage/img/who_we_are_star_icon.png" alt="">
 											<div class="awardDes \">
 												<p class="awardsTitle font-weight-bold text-left mb-0">Top B2B Company</p>
 												<p class="text-left mt-2">Clutch Award</p>
@@ -132,7 +132,48 @@ get_header(); ?>
 					</div>
 				</div>
 			</div>
-			<img src="{{ site.theme.link }}/assets/img/who_we_are_awards_md.png" srcset="{{ site.theme.link }}/assets/img/who_we_are_awards_md.png, {{ site.theme.link }}/assets/img/who_we_are_awards_md@2x.png 2x" class="img-fluid d-none d-md-block d-lg-none mx-auto" alt="First Page"/>
+			<img src="/wp-content/themes/firstpage/img/who_we_are_awards_md.png" srcset="/wp-content/themes/firstpage/img/who_we_are_awards_md.png, /wp-content/themes/firstpage/img/who_we_are_awards_md@2x.png 2x" class="img-fluid d-none d-md-block d-lg-none mx-auto" alt="First Page"/>
+		</div>
+	</div>
+</section>
+
+<section class="section-paragraph whoWeAreSection">
+	<div class="row no-gutters align-items-center flex-column-reverse flex-md-row">
+		<div class="col-12 col-md-6 who_we_are_image_container image-container-left pr-xl-5">
+			<img src="/wp-content/themes/firstpage/img/who_we_are_partners_lg.png" srcset="/wp-content/themes/firstpage/img/assets/img/who_we_are_partners_lg.png, /wp-content/themes/firstpage/img/who_we_are_partners_lg@2x.png 2x" class="img-fluid d-none d-lg-inline-block" alt="First Page"/>
+			<img src="/wp-content/themes/firstpage/img/who_we_are_partners_md.png" srcset="/wp-content/themes/firstpage/img/assets/img/who_we_are_partners_md.png, /wp-content/themes/firstpage/img/who_we_are_partners_md@2x.png 2x" class="img-fluid d-none d-md-inline-block d-lg-none" alt="First Page"/>
+			<img src="/wp-content/themes/firstpage/img/who_we_are_partners_sm.png" srcset="/wp-content/themes/firstpage/img/assets/img/who_we_are_partners_sm.png, /wp-content/themes/firstpage/img/who_we_are_partners_sm@2x.png 2x" class="img-fluid d-md-none" alt="First Page"/>
+			<button type="button" class="btn fp-btn fp-btn-orange fp-btn-shadow show-popup-form-2 mb-3 d-block d-md-none mx-auto">WORK WITH US</button>
+		</div>
+		<div class="col-12 col-md-6 text-container text-center text-md-left">
+			<h2>Our partners</h2>
+			<p>Our network of premier partners gives us exclusive access to first in-market media products, exclusive collaboration plans and inside intel, so we can keep you ahead of your competition.
+			</p>
+			<button type="button" class="btn fp-btn fp-btn-orange fp-btn-shadow show-popup-form-2 mb-3 d-none d-md-block mt-5 buttonFormClick" data-title="whoWeArePage-workWithUs-our">WORK WITH US</button>
+		</div>
+	</div>
+</section>
+
+<section class="section-paragraph whoWeAreSection">
+	<div class="row no-gutters align-items-center flex-column-reverse flex-md-row flex-md-row-reverse justify-content-center">
+		<div class="col-12 col-lg-12 image-container-right">
+			<img
+			src="/wp-content/themes/firstpage/img/who_we_are_map_sm.png" srcset="/wp-content/themes/firstpage/img/who_we_are_map_sm.png, /wp-content/themes/firstpage/img/who_we_are_map_sm@2x.png 2x" class="img-fluid d-md-none" alt="First Page"/>
+			<img src="/wp-content/themes/firstpage/img/who_we_are_group_sm_new_update.png" srcset="/wp-content/themes/firstpage/img/who_we_are_group_sm_new_update.png, /wp-content/themes/firstpage/img/who_we_are_group_sm_new_update.png 2x" class="img-fluid d-md-none mt-5" alt="First Page"/>
+		</div>
+		<div class="col-12 col-lg-12  text-center text-md-left">
+			<h2 class="text-center">Your global performance marketing partner that
+				<br class="d-none d-lg-block"/>answers to its clients, not its shareholders.</h2>
+			<br>
+			<p class="d-block d-md-none px-4">
+				<span class="font-weight-bold">7 companies</span>, operating in
+				<span class="font-weight-bold">8 countries, 1,800 clients, 900+ talent.</span>
+			</p>
+			<img src="/wp-content/themes/firstpage/img/who_we_are_global_md.svg" class="img-fluid d-none d-md-block d-lg-none mx-auto" alt="First Page"/>
+			<img src="/wp-content/themes/firstpage/img/who_we_are_global_lg.png" srcset="/wp-content/themes/firstpage/img/who_we_are_global_lg.png, /wp-content/themes/firstpage/img/who_we_are_global_lg@2x.png 2x" class="img-fluid d-none d-lg-block mx-auto" alt="First Page"/>
+
+			<img src="/wp-content/themes/firstpage/img/who_we_are_group_md_update.png" srcset="/wp-content/themes/firstpage/img/who_we_are_global_md_update.png, /wp-content/themes/firstpage/img/who_we_are_global_md_update.png 2x" class="img-fluid d-none d-md-block d-lg-none mx-auto" alt="First Page"/>
+			<img src="/wp-content/themes/firstpage/img/who_we_are_group_lg_new_update.png" srcset="/wp-content/themes/firstpage/img/who_we_are_group_lg_new_update.png, /wp-content/themes/firstpage/img/who_we_are_group_lg_new_update.png 2x" class="img-fluid d-none d-lg-block mt-5 mx-auto" alt="First Page"/>
 		</div>
 	</div>
 </section>
