@@ -124,11 +124,11 @@
 									</div>
 								</div>
 
-								<div class="py-4">
+								<!-- <div class="py-4">
 									<img src="/wp-content/themes/firstpage/img/img-australian-owned-badge.svg" class="img-fluid" alt=""/>
-								</div>
+								</div> -->
 
-								<div>
+								<div class="py-4">
 									<a href="https://au.linkedin.com/company/firstpage-digital" target="_blank"><img src="/wp-content/themes/firstpage/img/img_connect_with_linkedin.svg" class="img-fluid" alt=""/></a>
 								</div>
 

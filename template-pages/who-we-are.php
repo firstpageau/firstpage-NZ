@@ -275,5 +275,39 @@ get_header(); ?>
 	</div>
 </section>
 
+<section class="section-blue mission-section whoWeAreSection">
+	<div class="container">
+		<div class="row align-items-center align-items-md-start">
+			<div class="col-12 col-md-6 mb-5">
+				<h2 class="mb-2 mb-md-5 text-center">Our mission</h2>
+				<p class="missionDes">To accelerate the growth of our clients businesses.</p>
+			</div>
+			<div class="col-12 col-md-6">
+				<h2 class="mb-2 mb-md-5 text-center">Our vision</h2>
+				<p class="missionDes">To be the most desirable performance marketing company on earth.</p>
+			</div>
+		</div>
+	</div>
+	<div class="vacanciesContainer">
+		<p class="vacanciesText mb-0 text-center">Excited? make this your everyday.
+			<a href="#">
+				<span class="font-weight-bold">Check out our vacancies</span>
+				<span><img class="img-fluid vacanciesArrow ml-1" src="/wp-content/themes/firstpage/img/who_we_are_white_arrow_icon.svg" alt=""></span>
+			</a>
+		</p>
+	</div>
+</section>
+
+<section class="section-quote section-bottom-comment whoWeAreSection">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-lg-8 offset-lg-2">
+				<h3 class="text-center">First Page Digital helps companies adapt to the digital age by bringing innovation to the marketing sphere. They are leaders in turning nothing into something great!</h3>
+				<img class="img-fluid d-block mx-auto mt-md-4" src="/wp-content/themes/firstpage/img/img_logo_entrepreneur_sm.svg">
+			</div>
+		</div>
+	</div>
+</section>
+
 
 <?php get_footer(); ?>
