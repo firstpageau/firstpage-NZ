@@ -15,9 +15,20 @@
   }
   section.section-paragraph .image-container-left {
     text-align: center;
+    @media (min-width: 1980px) {
+      text-align: right;
+      + .text-container {
+        padding-left: 100px !important;
+        max-width: 670px;
+      }
+    }
   }
   section.section-paragraph .image-container-right {
     text-align: center;
+    @media (min-width: 1980px) {
+      text-align: left;
+      padding-left: 100px;
+    }
   }
   section.section-paragraph .text-container {
     padding: 0 15px;
@@ -29,24 +40,7 @@
       color: #ffffff;
     }
   }
-  section.section-paragraph.image-container-left {
-    text-align: center;
-    @media (min-width: 1980px) {
-      text-align: right;
-      + .text-container {
-        padding-left: 100px !important;
-        max-width: 670px;
-      }
-    }
-  }
 
-  section.section-paragraph.image-container-right {
-    text-align: center;
-    @media (min-width: 1980px) {
-      text-align: left;
-      padding-left: 100px;
-    }
-  }
   .awardDes p {
     font-size: 18px;
   }
