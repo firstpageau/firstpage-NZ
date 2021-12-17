@@ -11,8 +11,8 @@ get_header(); ?>
     <div class="row no-gutters align-items-center flex-column-reverse flex-md-row">
         <div class="col-12 col-md-6 image-container-left">
             <img src="/wp-content/themes/firstpage/img/who_we_are_nick_lg.png" class="img-fluid d-none d-lg-block ml-auto" alt="First Page"/>
-            <img src="wp-content/themes/firstpage/img/who_we_are_nick_md.png" class="img-fluid d-none d-md-block d-lg-none" alt="First Page"/>
-            <img src="wp-content/themes/firstpage/img/who_we_are_nick_sm.png" class="img-fluid d-md-none" alt="First Page"/>
+            <img src="/wp-content/themes/firstpage/img/who_we_are_nick_md.png" class="img-fluid d-none d-md-block d-lg-none" alt="First Page"/>
+            <img src="/wp-content/themes/firstpage/img/who_we_are_nick_sm.png" class="img-fluid d-md-none" alt="First Page"/>
         </div>
         <div class="col-12 col-md-6 text-container text-center text-md-left">
             <h2>Your business goals<br class="d-block d-md-none"/>
