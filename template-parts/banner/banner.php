@@ -175,7 +175,7 @@
 					<h1><?php the_sub_field('primary_heading'); ?></h1>
 					<p class="subHeading"><?php the_sub_field('banner_description'); ?>
 					</p>
-					<button type="button" class="btn fp-btn fp-btn-orange show-popup-form-3">KEEN TO HEAR MORE?</button>
+					<button type="button" class="btn fp-btn fp-btn-orange showpopup">KEEN TO HEAR MORE?</button>
 				</div>
 			</div>
 		</div>
