@@ -1,3 +1,12 @@
+<style>
+
+    @media(max-width:768px){
+        .display-none{
+            display:none !important;
+        }
+    }
+</style>
+
 <?php
 
 $background = get_sub_field('background');
@@ -39,7 +48,7 @@ $two_section_block_right_or_left = get_sub_field('two_section_block_right_or_lef
     <section class="section-paragraph">
     <h2 class="d-block d-md-block d-lg-none container-padding text-center"><?php echo $two_section_heading; ?></h2>
     <div class="row no-gutters flex-column-reverse flex-md-row <?php if($two_section_block_right_or_left): echo 'flex-md-row-reverse'; endif; ?>">
-        <div class="col-12 col-lg-6 image-container-right d-flex flex-column justify-content-center align-items-center p-4">
+        <div class="col-12 col-lg-6 image-container-right d-flex flex-column justify-content-center align-items-center p-4 display-none">
             <img src="<?php echo $image_desktop['url']; ?>" class="img-fluid d-none d-lg-inline-block" alt="First Page" style="width:450px;" />
             <img src="<?php echo $image_tablet['url']; ?>" class="img-fluid d-none d-md-inline-block d-lg-none" alt="First Page" style="width:450px;" />
 
