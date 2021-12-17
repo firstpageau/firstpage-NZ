@@ -152,7 +152,7 @@ get_header(); ?>
 			<h2>Our partners</h2>
 			<p>Our network of premier partners gives us exclusive access to first in-market media products, exclusive collaboration plans and inside intel, so we can keep you ahead of your competition.
 			</p>
-			<button type="button" class="btn fp-btn fp-btn-orange fp-btn-shadow showpopup-form-2 mb-3 d-none d-md-block mt-5 buttonFormClick" data-title="whoWeArePage-workWithUs-our">WORK WITH US</button>
+			<button type="button" class="btn fp-btn fp-btn-orange fp-btn-shadow showpopup-form-2 mb-3 d-none d-md-block mt-5">WORK WITH US</button>
 		</div>
 	</div>
 </section>
