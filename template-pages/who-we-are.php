@@ -66,8 +66,10 @@ get_header(); ?>
 										<div class="awardItem d-flex">
 											<img src="/wp-content/themes/firstpage/img/who_we_are_star_icon.png" alt="">
 											<div class="awardDes">
-												<p class="awardsTitle font-weight-bold text-left mb-0">Growing Businesses Online</p>
-												<p class="text-left mt-2">Google</p>
+												<p class="awardsTitle font-weight-bold text-left mb-0">Paid Advertising/Content 
+                                                    <br />Marketing Integration
+                                                </p>
+												<p class="text-left mt-2">CMA</p>
 											</div>
 										</div>
 									</div>
@@ -75,26 +77,8 @@ get_header(); ?>
 										<div class="awardItem d-flex">
 											<img src="/wp-content/themes/firstpage/img/who_we_are_star_icon.png" alt="">
 											<div class="awardDes">
-												<p class="awardsTitle font-weight-bold text-left mb-0">Best eCommerce Campaign</p>
-												<p class="text-left mt-2">Asia eCommerce</p>
-											</div>
-										</div>
-									</div>
-									<div class="col-12 col-md-6">
-										<div class="awardItem d-flex align-items-start ">
-											<img src="/wp-content/themes/firstpage/img/who_we_are_star_icon.png" alt="">
-											<div class="awardDes ">
-												<p class="awardsTitle font-weight-bold text-left mb-0">Business Awards</p>
-												<p class="text-left mt-2">SME100 & SME500</p>
-											</div>
-										</div>
-									</div>
-									<div class="col-12 col-md-6">
-										<div class="awardItem d-flex align-items-start ">
-											<img src="/wp-content/themes/firstpage/img/who_we_are_star_icon.png" alt="">
-											<div class="awardDes ">
-												<p class="awardsTitle font-weight-bold text-left mb-0">Paid Advertising/Content<br/>Marketing Integration</p>
-												<p class="text-left mt-2">CMA</p>
+												<p class="awardsTitle font-weight-bold text-left mb-0">Growing Businesses Online</p>
+												<p class="text-left mt-2">Google</p>
 											</div>
 										</div>
 									</div>
@@ -111,11 +95,30 @@ get_header(); ?>
 										<div class="awardItem d-flex align-items-start ">
 											<img src="/wp-content/themes/firstpage/img/who_we_are_star_icon.png" alt="">
 											<div class="awardDes ">
+												<p class="awardsTitle font-weight-bold text-left mb-0">Best eCommerce Campaign</p>
+												<p class="text-left mt-2">Asia eCommerce</p>
+											</div>
+										</div>
+									</div>
+                                    <div class="col-12 col-md-6">
+										<div class="awardItem d-flex align-items-start ">
+											<img src="/wp-content/themes/firstpage/img/who_we_are_star_icon.png" alt="">
+											<div class="awardDes ">
 												<p class="awardsTitle font-weight-bold text-left mb-0">Best In Search</p>
 												<p class="text-left mt-2">TopSEOs</p>
 											</div>
 										</div>
 									</div>
+									<div class="col-12 col-md-6">
+										<div class="awardItem d-flex align-items-start ">
+											<img src="/wp-content/themes/firstpage/img/who_we_are_star_icon.png" alt="">
+											<div class="awardDes ">
+												<p class="awardsTitle font-weight-bold text-left mb-0">Business Awards</p>
+												<p class="text-left mt-2">SME100 & SME500</p>
+											</div>
+										</div>
+									</div>
+									
 									<div class="col-12 col-md-6">
 										<div class="awardItem d-flex align-items-start ">
 											<img src="/wp-content/themes/firstpage/img/who_we_are_star_icon.png" alt="">
@@ -140,9 +143,9 @@ get_header(); ?>
 <section class="section-paragraph whoWeAreSection">
 	<div class="row no-gutters align-items-center flex-column-reverse flex-md-row">
 		<div class="col-12 col-md-6 who_we_are_image_container image-container-left pr-xl-5">
-			<img src="/wp-content/themes/firstpage/img/who_we_are_partners_lg.png" srcset="/wp-content/themes/firstpage/img/assets/img/who_we_are_partners_lg.png, /wp-content/themes/firstpage/img/who_we_are_partners_lg@2x.png 2x" class="img-fluid d-none d-lg-inline-block" alt="First Page"/>
-			<img src="/wp-content/themes/firstpage/img/who_we_are_partners_md.png" srcset="/wp-content/themes/firstpage/img/assets/img/who_we_are_partners_md.png, /wp-content/themes/firstpage/img/who_we_are_partners_md@2x.png 2x" class="img-fluid d-none d-md-inline-block d-lg-none" alt="First Page"/>
-			<img src="/wp-content/themes/firstpage/img/who_we_are_partners_sm.png" srcset="/wp-content/themes/firstpage/img/assets/img/who_we_are_partners_sm.png, /wp-content/themes/firstpage/img/who_we_are_partners_sm@2x.png 2x" class="img-fluid d-md-none" alt="First Page"/>
+			<img src="/wp-content/themes/firstpage/img/who_we_are_partners_lg_new.png" class="img-fluid d-none d-lg-inline-block" alt="First Page"/>
+			<img src="/wp-content/themes/firstpage/img/who_we_are_partners_md_new.png" class="img-fluid d-none d-md-inline-block d-lg-none" alt="First Page"/>
+			<img src="/wp-content/themes/firstpage/img/who_we_are_partners_sm_new.png" class="img-fluid d-md-none" alt="First Page"/>
 			<button type="button" class="btn fp-btn fp-btn-orange fp-btn-shadow show-popup-form-2 mb-3 d-block d-md-none mx-auto">WORK WITH US</button>
 		</div>
 		<div class="col-12 col-md-6 text-container text-center text-md-left">
@@ -172,7 +175,7 @@ get_header(); ?>
 			<img src="/wp-content/themes/firstpage/img/who_we_are_global_md.svg" class="img-fluid d-none d-md-block d-lg-none mx-auto" alt="First Page"/>
 			<img src="/wp-content/themes/firstpage/img/who_we_are_global_lg.png" srcset="/wp-content/themes/firstpage/img/who_we_are_global_lg.png, /wp-content/themes/firstpage/img/who_we_are_global_lg@2x.png 2x" class="img-fluid d-none d-lg-block mx-auto" alt="First Page"/>
 
-			<img src="/wp-content/themes/firstpage/img/who_we_are_group_md_update.png" srcset="/wp-content/themes/firstpage/img/who_we_are_global_md_update.png, /wp-content/themes/firstpage/img/who_we_are_global_md_update.png 2x" class="img-fluid d-none d-md-block d-lg-none mx-auto" alt="First Page"/>
+			<img src="/wp-content/themes/firstpage/img/who_we_are_group_md_new_update.png" srcset="/wp-content/themes/firstpage/img/who_we_are_group_md_new_update.png, /wp-content/themes/firstpage/img/who_we_are_group_md_new_update.png 2x" class="img-fluid d-none d-md-block d-lg-none mx-auto" alt="First Page"/>
 			<img src="/wp-content/themes/firstpage/img/who_we_are_group_lg_new_update.png" srcset="/wp-content/themes/firstpage/img/who_we_are_group_lg_new_update.png, /wp-content/themes/firstpage/img/who_we_are_group_lg_new_update.png 2x" class="img-fluid d-none d-lg-block mt-5 mx-auto" alt="First Page"/>
 		</div>
 	</div>
