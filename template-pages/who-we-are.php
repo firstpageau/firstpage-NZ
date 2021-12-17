@@ -10,9 +10,9 @@ get_header(); ?>
 <section class="section-paragraph pt-md-5 section-grey whoWeAreSection">
     <div class="row no-gutters align-items-center flex-column-reverse flex-md-row">
         <div class="col-12 col-md-6 image-container-left">
-            <img src="/wp-content/themes/firstpage/img/who_we_are_nick_lg.png" srcset="/wp-content/themes/firstpage/img/who_we_are_nick_lg.png, /wp-content/themes/firstpage/img/who_we_are_nick_lg@2x.png 2x" class="img-fluid d-none d-lg-block ml-auto" alt="First Page"/>
-            <img src="wp-content/themes/firstpage/img/who_we_are_nick_md.png" srcset="/wp-content/themes/firstpage/img/who_we_are_nick_md.png, /wp-content/themes/firstpage/img/who_we_are_nick_md@2x.png 2x" class="img-fluid d-none d-md-block d-lg-none" alt="First Page"/>
-            <img src="wp-content/themes/firstpage/img/who_we_are_nick_sm.png" srcset="/wp-content/themes/firstpage/img/who_we_are_nick_sm.png, wp-content/themes/firstpage/img/who_we_are_nick_sm@2x.png 2x" class="img-fluid d-md-none" alt="First Page"/>
+            <img src="/wp-content/themes/firstpage/img/who_we_are_nick_lg.png" class="img-fluid d-none d-lg-block ml-auto" alt="First Page"/>
+            <img src="wp-content/themes/firstpage/img/who_we_are_nick_md.png" class="img-fluid d-none d-md-block d-lg-none" alt="First Page"/>
+            <img src="wp-content/themes/firstpage/img/who_we_are_nick_sm.png" class="img-fluid d-md-none" alt="First Page"/>
         </div>
         <div class="col-12 col-md-6 text-container text-center text-md-left">
             <h2>Your business goals<br class="d-block d-md-none"/>
@@ -37,8 +37,8 @@ get_header(); ?>
 				<br class="d-block d-md-none"/>awards than Brad Pitt</h2>
 			<div class="row no-gutters align-items-center flex-column-reverse flex-md-row flex-md-row-reverse justify-content-center">
 				<div class="col-12 col-lg-3 image-container-right">
-					<img src="/wp-content/themes/firstpage/img/who_we_are_awards_lg.png" srcset="/wp-content/themes/firstpage/img/who_we_are_awards_lg.png, /wp-content/themes/firstpage/img/who_we_are_awards_lg@2x.png 2x" class="img-fluid d-none d-lg-block mx-auto" alt="First Page"/>
-					<img src="/wp-content/themes/firstpage/img/who_we_are_awards_sm.png" srcset="/wp-content/themes/firstpage/img/who_we_are_awards_sm.png, /wp-content/themes/firstpage/img/who_we_are_awards_sm@2x.png 2x" class="img-fluid d-md-none" alt="First Page"/>
+					<img src="/wp-content/themes/firstpage/img/who_we_are_awards_lg.png" class="img-fluid d-none d-lg-block mx-auto" alt="First Page"/>
+					<img src="/wp-content/themes/firstpage/img/who_we_are_awards_sm.png" class="img-fluid d-md-none" alt="First Page"/>
 				</div>
 				<div
 					class="col-12 col-lg-9 text-container  text-center text-md-left">
@@ -135,7 +135,7 @@ get_header(); ?>
 					</div>
 				</div>
 			</div>
-			<img src="/wp-content/themes/firstpage/img/who_we_are_awards_md.png" srcset="/wp-content/themes/firstpage/img/who_we_are_awards_md.png, /wp-content/themes/firstpage/img/who_we_are_awards_md@2x.png 2x" class="img-fluid d-none d-md-block d-lg-none mx-auto" alt="First Page"/>
+			<img src="/wp-content/themes/firstpage/img/who_we_are_awards_md.png" class="img-fluid d-none d-md-block d-lg-none mx-auto" alt="First Page"/>
 		</div>
 	</div>
 </section>
@@ -161,8 +161,8 @@ get_header(); ?>
 	<div class="row no-gutters align-items-center flex-column-reverse flex-md-row flex-md-row-reverse justify-content-center">
 		<div class="col-12 col-lg-12 image-container-right">
 			<img
-			src="/wp-content/themes/firstpage/img/who_we_are_map_sm.png" srcset="/wp-content/themes/firstpage/img/who_we_are_map_sm.png, /wp-content/themes/firstpage/img/who_we_are_map_sm@2x.png 2x" class="img-fluid d-md-none" alt="First Page"/>
-			<img src="/wp-content/themes/firstpage/img/who_we_are_group_sm_new_update.png" srcset="/wp-content/themes/firstpage/img/who_we_are_group_sm_new_update.png, /wp-content/themes/firstpage/img/who_we_are_group_sm_new_update.png 2x" class="img-fluid d-md-none mt-5" alt="First Page"/>
+			src="/wp-content/themes/firstpage/img/who_we_are_map_sm.png" class="img-fluid d-md-none" alt="First Page"/>
+			<img src="/wp-content/themes/firstpage/img/who_we_are_group_sm_new_update.png" class="img-fluid d-md-none mt-5" alt="First Page"/>
 		</div>
 		<div class="col-12 col-lg-12  text-center text-md-left">
 			<h2 class="text-center">Your global performance marketing partner that
@@ -173,10 +173,10 @@ get_header(); ?>
 				<span class="font-weight-bold">8 countries, 1,800 clients, 900+ talent.</span>
 			</p>
 			<img src="/wp-content/themes/firstpage/img/who_we_are_global_md.svg" class="img-fluid d-none d-md-block d-lg-none mx-auto" alt="First Page"/>
-			<img src="/wp-content/themes/firstpage/img/who_we_are_global_lg.png" srcset="/wp-content/themes/firstpage/img/who_we_are_global_lg.png, /wp-content/themes/firstpage/img/who_we_are_global_lg@2x.png 2x" class="img-fluid d-none d-lg-block mx-auto" alt="First Page"/>
+			<img src="/wp-content/themes/firstpage/img/who_we_are_global_lg.png" class="img-fluid d-none d-lg-block mx-auto" alt="First Page"/>
 
-			<img src="/wp-content/themes/firstpage/img/who_we_are_group_md_new_update.png" srcset="/wp-content/themes/firstpage/img/who_we_are_group_md_new_update.png, /wp-content/themes/firstpage/img/who_we_are_group_md_new_update.png 2x" class="img-fluid d-none d-md-block d-lg-none mx-auto" alt="First Page"/>
-			<img src="/wp-content/themes/firstpage/img/who_we_are_group_lg_new_update.png" srcset="/wp-content/themes/firstpage/img/who_we_are_group_lg_new_update.png, /wp-content/themes/firstpage/img/who_we_are_group_lg_new_update.png 2x" class="img-fluid d-none d-lg-block mt-5 mx-auto" alt="First Page"/>
+			<img src="/wp-content/themes/firstpage/img/who_we_are_group_md_new_update.png" class="img-fluid d-none d-md-block d-lg-none mx-auto" alt="First Page"/>
+			<img src="/wp-content/themes/firstpage/img/who_we_are_group_lg_new_update.png" class="img-fluid d-none d-lg-block mt-5 mx-auto" alt="First Page"/>
 		</div>
 	</div>
 </section>
@@ -204,8 +204,8 @@ get_header(); ?>
 					–
 					<span class="font-italic">Head of Marketing</span>
 				</p>
-				<img class="img-fluid d-block d-md-none mx-auto" src="/wp-content/themes/firstpage/img/logo_mothercare_sm.png" srcset="/wp-content/themes/firstpage/img/logo_mothercare_sm.png, /wp-content/themes/firstpage/img/logo_mothercare_sm@2x.png 2x">
-				<img class="img-fluid d-none d-md-block clientLogMotherCare" src="/wp-content/themes/firstpage/img/logo_mothercare_lg.png" srcset="/wp-content/themes/firstpage/img/logo_mothercare_lg.png, /wp-content/themes/firstpage/img/logo_mothercare_lg@2x.png 2x">
+				<img class="img-fluid d-block d-md-none mx-auto" src="/wp-content/themes/firstpage/img/logo_mothercare_sm.png">
+				<img class="img-fluid d-none d-md-block clientLogMotherCare" src="/wp-content/themes/firstpage/img/logo_mothercare_lg.png">
 			</div>
 			<div class="col-12 col-md-4 px-lg-4 px-xl-5 mb-5">
 				<h3 class="text-center text-md-left cathayComment">“ Right from the moment we signed them on, they've been simply fantastic. A brilliant team led by really warm and friendly people. They are always ready to help, however basic the questions be. ”</h3>
@@ -214,8 +214,8 @@ get_header(); ?>
 					–
 					<span class="font-italic">Assistant Digital Marketing Manager</span>
 				</p>
-				<img class="img-fluid d-block d-md-none mx-auto" src="/wp-content/themes/firstpage/img/logo_cathaypacific_sm.png" srcset="/wp-content/themes/firstpage/img/logo_cathaypacific_sm.png, /wp-content/themes/firstpage/img/logo_cathaypacific_sm@2x.png 2x">
-				<img class="img-fluid d-none d-md-block clientLogoCathay" src="/wp-content/themes/firstpage/img/logo_cathaypacific_lg.png" srcset="/wp-content/themes/firstpage/img/logo_cathaypacific_lg.png, /wp-content/themes/firstpage/img/slogo_cathaypacific_lg@2x.png 2x">
+				<img class="img-fluid d-block d-md-none mx-auto" src="/wp-content/themes/firstpage/img/logo_cathaypacific_sm.png">
+				<img class="img-fluid d-none d-md-block clientLogoCathay" src="/wp-content/themes/firstpage/img/logo_cathaypacific_lg.png">
 			</div>
 		</div>
 	</div>
