@@ -36,7 +36,7 @@ $two_section_block_right_or_left = get_sub_field('two_section_block_right_or_lef
 <?php endif; ?>
 
     <div class="block__two_section">
-    <section class="section-paragraph p-4">
+    <section class="section-paragraph">
     <h2 class="d-block d-md-block d-lg-none container-padding text-center"><?php echo $two_section_heading; ?></h2>
     <div class="row no-gutters flex-column-reverse flex-md-row <?php if($two_section_block_right_or_left): echo 'flex-md-row-reverse'; endif; ?>">
         <div class="col-12 col-lg-6 image-container-right d-flex flex-column justify-content-center align-items-center p-4">
