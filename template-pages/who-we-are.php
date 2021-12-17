@@ -152,7 +152,7 @@ get_header(); ?>
 			<h2>Our partners</h2>
 			<p>Our network of premier partners gives us exclusive access to first in-market media products, exclusive collaboration plans and inside intel, so we can keep you ahead of your competition.
 			</p>
-			<button type="button" class="btn fp-btn fp-btn-orange fp-btn-shadow showpopup-form-2 mb-3 d-none d-md-block mt-5">WORK WITH US</button>
+            <button type="button" class="btn fp-btn fp-btn-orange showpopup mb-3 d-none d-md-block mt-5">WORK WITH US</button>
 		</div>
 	</div>
 </section>
@@ -311,39 +311,6 @@ get_header(); ?>
 		</div>
 	</div>
 </section>
-
-<div id="pop-up-form" style="display: none;">
-  <div class="embed-popup-form">
-    <div class="proposal-popup">
-        <!-- Free Proposal Form -->
-        <form class="fp-form" action="/thank-you" method="POST">
-            <h2>Enter your details</h2>
-            <div class="form-mid row">
-                <div class="col-12 mb-2">
-                    <input type="text" class="form-control" name="lead_name" placeholder="First Name*" required="" />
-                </div>
-                <div class="col-12 mb-2">
-                    <input type="tel" class="form-control" name="lead_phone" placeholder="Phone*" required="" />
-                </div>
-                <div class="col-12 mb-2">
-                    <input type="email" class="form-control" name="lead_email" placeholder="Email*" data-parsley-error-message="Please enter a valid email address" data-parsley-trigger="change" required="" />
-                </div>
-                <div class="col-12 mb-2">
-                    <input type="text" class="form-control" name="lead_website" placeholder="Website" data-parsley-website-check />
-                </div>
-
-                <div class="col-12 mt-2">
-                    <input type="hidden" name="lead_formname" value="" />
-                    <input type="hidden" name="lead_language" value="en" />
-                    <input type="hidden" name="lead_formtype" value="" />
-                    <button type="submit" class="form-control btn fp-btn fp-btn-orange fp-btn-shadow" >GET A FREE PROPOSAL</button>
-                </div>
-            </div>
-        </form>
-        <!-- End of Form -->
-    </div>
-</div>
-</div>
 
 <script>
 	tippy(".showpopup", {

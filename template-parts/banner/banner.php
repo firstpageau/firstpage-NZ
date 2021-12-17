@@ -203,7 +203,7 @@
                     <input type="email" class="form-control" name="lead_email" placeholder="Email*" data-parsley-error-message="Please enter a valid email address" data-parsley-trigger="change" required="" />
                 </div>
                 <div class="col-12 mb-2">
-                    <input type="text" class="form-control" name="lead_website" placeholder="Website" data-parsley-website-check />
+                    <textarea class="form-control" name="lead_message" rows="5" placeholder="Message*"></textarea>
                 </div>
 
                 <div class="col-12 mt-2">
