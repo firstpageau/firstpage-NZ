@@ -29,7 +29,7 @@
       color: #ffffff;
     }
   }
-  .image-container-left {
+  section.section-paragraph.image-container-left {
     text-align: center;
     @media (min-width: 1980px) {
       text-align: right;
@@ -40,7 +40,7 @@
     }
   }
 
-  .image-container-right {
+  section.section-paragraph.image-container-right {
     text-align: center;
     @media (min-width: 1980px) {
       text-align: left;
