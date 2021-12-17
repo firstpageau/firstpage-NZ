@@ -749,10 +749,6 @@ ul.slick-dots {
         background: none;
       }
 
-      .name {
-        // font-size: 25.06px !important;
-        // line-height: 35.08px !important;
-      }
       &.section-bottom-comment h3 {
         font-size: 30px !important;
         line-height: 39.99px !important;
@@ -829,4 +825,65 @@ ul.slick-dots {
 
 .comparison-row a {
   color: #ff5254;
+}
+
+section.section-quote {
+  text-align: center;
+  padding: 40px 20px;
+  h3 {
+    position: relative;
+    display: inline;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #000;
+    font-weight: 400;
+    font-family: "Times New Roman", Times, serif;
+    margin-bottom: 30px;
+    &:before {
+      content: "";
+      background: url("img/icon-quote-red.png") no-repeat;
+      background-size: contain;
+      position: absolute;
+      top: -13.5px;
+      left: -31px;
+      width: 21px;
+      height: 16px;
+    }
+
+    &:after {
+      background: url("img/icon-quote-red.png") no-repeat;
+      background-size: contain;
+      position: absolute;
+      bottom: 0;
+      right: -31px;
+      transform: rotate(180deg);
+      content: "";
+      width: 21px;
+      height: 16px;
+    }
+  }
+  p {
+    margin-top: 60px;
+  }
+  @media (min-width: 992px) {
+    padding: 114px 0 80px;
+    h3 {
+      font-size: 30px;
+      line-height: 40px;
+      margin-bottom: 60px;
+      &:before {
+        top: -13.5px;
+        left: -49px;
+        width: 34px;
+        height: 27px;
+      }
+
+      &:after {
+        bottom: 0;
+        right: -49px;
+        width: 34px;
+        height: 27px;
+      }
+    }
+  }
 }

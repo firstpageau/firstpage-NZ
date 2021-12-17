@@ -175,7 +175,7 @@
 					<h1><?php the_sub_field('primary_heading'); ?></h1>
 					<p class="subHeading"><?php the_sub_field('banner_description'); ?>
 					</p>
-					<button type="button" class="btn fp-btn fp-btn-orange show-popup-form-3">KEEN TO HEAR MORE?</button>
+					<button type="button" class="btn fp-btn fp-btn-orange showpopupmessage" data-tippy-interactive="true" data-tippy-theme="dark" data-tippy-placement="bottom" data-tippy-html="#pop-up-message-form" data-tippy-trigger="click">KEEN TO HEAR MORE?</button>
 				</div>
 			</div>
 		</div>
@@ -185,3 +185,52 @@
     <?php endif; ?>
     </div>
 <?php endif; ?>
+
+<div id="pop-up-message-form" style="display: none;">
+  <div class="embed-popup-message-form">
+    <div class="proposal-popup">
+        <!-- Free Proposal Form -->
+        <form class="fp-form" action="/thank-you" method="POST">
+            <h2>Enter your details</h2>
+            <div class="form-mid row">
+                <div class="col-12 mb-2">
+                    <input type="text" class="form-control" name="lead_name" placeholder="First Name*" required="" />
+                </div>
+                <div class="col-12 mb-2">
+                    <input type="tel" class="form-control" name="lead_phone" placeholder="Phone*" required="" />
+                </div>
+                <div class="col-12 mb-2">
+                    <input type="email" class="form-control" name="lead_email" placeholder="Email*" data-parsley-error-message="Please enter a valid email address" data-parsley-trigger="change" required="" />
+                </div>
+                <div class="col-12 mb-2">
+                    <textarea class="form-control" name="lead_message" rows="5" placeholder="Message*"></textarea>
+                </div>
+
+                <div class="col-12 mt-2">
+                    <input type="hidden" name="lead_formname" value="" />
+                    <input type="hidden" name="lead_language" value="en" />
+                    <input type="hidden" name="lead_formtype" value="" />
+                    <button type="submit" class="form-control btn fp-btn fp-btn-orange fp-btn-shadow" >GET A FREE PROPOSAL</button>
+                </div>
+            </div>
+        </form>
+        <!-- End of Form -->
+    </div>
+</div>
+</div>
+
+<script>
+	tippy(".showpopupmessage", {
+    html: ".embed-popup-message-form",
+    arrow: true,
+    trigger: "click",
+    interactive: true,
+    arrow: true,
+    placement: "bottom",
+    flip: false,
+    animation: "shift-toward",
+    inertia: true,
+    distance: 15,
+    arrowTransform: "scaleX(1.5)",
+  });
+</script>

@@ -95,6 +95,7 @@
 
   .hero-mobile {
     text-align: center;
+    margin-bottom: -40px;
   }
 }
 
@@ -1006,11 +1007,11 @@ section.banner {
   }
 }
 
-@media (max-width: 767px) {
-  .home .hero-mobile {
-    margin-bottom: -40px;
-  }
-}
+// @media (max-width: 767px) {
+//   .form-hide .hero-mobile {
+//     margin-bottom: -40px;
+//   }
+// }
 
 @media (min-width: 768px) {
   .home-banner h1 {

@@ -31,7 +31,7 @@
 				<div class="menu d-none d-lg-block">
 					<ul class="navbar-nav mr-auto">
 						<li class="nav-item nav-item-main d-none d-lg-block">
-							<a class="scroll-nav-logo" href="{{ home_url }}">
+							<a class="scroll-nav-logo" href="<?php echo home_url() ?>">
 								<img id="scroll-nav-logo" src="/wp-content/themes/firstpage/img/fp-logo.png" srcset="/wp-content/themes/firstpage/img/fp-logo@2x.png 2x" alt="First Page"/>
 							</a>
 						</li>
@@ -45,7 +45,7 @@
 				<div class="menu d-block d-md-block d-lg-none">
 					<ul class="navbar-nav mr-auto">
 						<li class="nav-item nav-item-main d-none d-lg-block">
-							<a class="scroll-nav-logo" href="{{ home_url }}">
+							<a class="scroll-nav-logo" href="<?php echo home_url() ?>">
 								<img id="scroll-nav-logo" src="/wp-content/themes/firstpage/img/fp-logo.png" srcset="/wp-content/themes/firstpage/img/fp-logo@2x.png 2x" alt="First Page"/></a>
 						</li>
 						<li class="nav-item nav-item-main">
@@ -59,54 +59,6 @@
 								</div>
 							</div>
 						</li>
-						<!-- <li class="nav-item nav-item-main dropdown">
-							<p class="nav-link dropdown-toggle mb-0 d-lg-none" data-toggle="dropdown">SOCIAL</p>
-							<div class="dropdown-menu">
-								<div class="dropdown-cont">
-									<a class="dropdown-item" href="/facebook-advertising/">Facebook Ads</a>
-									<a class="dropdown-item" href="/instagram-advertising/">Instagram Ads</a>
-									<a class="dropdown-item" href="/linkedin-advertising/">LinkedIn Ads</a>
-									<a class="dropdown-item" href="/youtube-advertising/">YouTube Ads</a>
-									<a class="dropdown-item" href="/tiktok-advertising/">TikTok Ads</a>
-								</div>
-							</div>
-						</li> -->
-						<!-- <li class="nav-item nav-item-main dropdown">
-							<p class="nav-link dropdown-toggle mb-0 d-lg-none" data-toggle="dropdown">OTHER SERVICES</p>
-							<div class="dropdown-menu">
-								<div class="dropdown-cont">
-									<a class="dropdown-item" href="/programmatic-advertising/">Programmatic Advertising</a>
-									<a class="dropdown-item" href="/reputation-management/">Reputation Repair</a>
-									<a class="dropdown-item" href="/content-removal-australia/">Unwanted Content Removal</a>
-									<a class="dropdown-item" href="/landing-page-agency/">Landing Page Development</a>
-								</div>
-							</div>
-						</li> -->
-						<!-- <li class="nav-item nav-item-main seo-dropdown dropdown">
-							<p class="nav-link dropdown-toggle mb-0 d-lg-none" data-toggle="dropdown">FREE TOOLS</p>
-							<div class="dropdown-menu" aria-labelledby="ddAudits">
-								<div class="dropdown-cont">
-									<a class="dropdown-item" href="/seo-audit/">Free SEO Audit</a>
-									<a class="dropdown-item" href="/google-ads-audit/">Free Google Ads Audit</a>
-									<a class="dropdown-item" href="/competitor-audit/">Free Competitor Audit</a>
-									<a class="dropdown-item" href="/seo-roi-calculator/">SEO ROI Calculator</a>
-									<a class="dropdown-item" href="/ppc-roi-calculator/">PPC ROI Calculator</a>
-								</div>
-							</div>
-						</li> -->
-						<!-- <li class="nav-item nav-item-main dropdown">
-							<p class="nav-link dropdown-toggle mb-0 d-lg-none" data-toggle="dropdown">About Us</p>
-							<div class="dropdown-menu">
-								<div class="dropdown-cont">
-									<a class="dropdown-item" href="/who-we-are/">Who We Are</a>
-									<a class="dropdown-item" href="/careers/">Careers</a>
-									<a class="dropdown-item" href="/learning-centre/">Learning Centre</a>
-								</div>
-							</div>
-						</li> -->
-						<!-- <li class="nav-item nav-item-main">
-							<a class="nav-link" href="/contact/">Contact</a>
-						</li> -->
 						<li class="nav-item mobile-go-back" id="goBackMain">
 							<a class="nav-link" role="button">Go Back</a>
 						</li>
