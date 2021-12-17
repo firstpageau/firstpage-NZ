@@ -175,7 +175,7 @@
 					<h1><?php the_sub_field('primary_heading'); ?></h1>
 					<p class="subHeading"><?php the_sub_field('banner_description'); ?>
 					</p>
-					<button type="button" class="btn fp-btn fp-btn-orange showpopup">KEEN TO HEAR MORE?</button>
+					<button type="button" class="btn fp-btn fp-btn-orange showpopupmessage" data-tippy-interactive="true" data-tippy-theme="dark" data-tippy-placement="bottom" data-tippy-html="#pop-up-message-form" data-tippy-trigger="click">KEEN TO HEAR MORE?</button>
 				</div>
 			</div>
 		</div>
@@ -186,8 +186,8 @@
     </div>
 <?php endif; ?>
 
-<div id="pop-up-form" style="display: none;">
-  <div class="embed-popup-form">
+<div id="pop-up-message-form" style="display: none;">
+  <div class="embed-popup-message-form">
     <div class="proposal-popup">
         <!-- Free Proposal Form -->
         <form class="fp-form" action="/thank-you" method="POST">
@@ -220,8 +220,8 @@
 </div>
 
 <script>
-	tippy(".showpopup", {
-    html: ".embed-popup-form",
+	tippy(".showpopupmessage", {
+    html: ".embed-popup-message-form",
     arrow: true,
     trigger: "click",
     interactive: true,

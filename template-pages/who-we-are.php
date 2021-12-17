@@ -146,13 +146,13 @@ get_header(); ?>
 			<img src="/wp-content/themes/firstpage/img/who_we_are_partners_lg_new.png" class="img-fluid d-none d-lg-inline-block" alt="First Page"/>
 			<img src="/wp-content/themes/firstpage/img/who_we_are_partners_md_new.png" class="img-fluid d-none d-md-inline-block d-lg-none" alt="First Page"/>
 			<img src="/wp-content/themes/firstpage/img/who_we_are_partners_sm_new.png" class="img-fluid d-md-none" alt="First Page"/>
-			<button type="button" class="btn fp-btn fp-btn-orange fp-btn-shadow show-popup-form-2 mb-3 d-block d-md-none mx-auto">WORK WITH US</button>
+			<button type="button" class="btn fp-btn fp-btn-orange fp-btn-shadow showpopupmessage mb-3 d-block d-md-none mx-auto" data-tippy-interactive="true" data-tippy-theme="dark" data-tippy-placement="bottom" data-tippy-html="#pop-up-message-form" data-tippy-trigger="click">WORK WITH US</button>
 		</div>
 		<div class="col-12 col-md-6 text-container text-center text-md-left">
 			<h2>Our partners</h2>
 			<p>Our network of premier partners gives us exclusive access to first in-market media products, exclusive collaboration plans and inside intel, so we can keep you ahead of your competition.
 			</p>
-            <button type="button" class="btn fp-btn fp-btn-orange showpopup mb-3 d-none d-md-block mt-5">WORK WITH US</button>
+            <button type="button" class="btn fp-btn fp-btn-orange showpopupmessage mb-3 d-none d-md-block mt-5" data-tippy-interactive="true" data-tippy-theme="dark" data-tippy-placement="bottom" data-tippy-html="#pop-up-message-form" data-tippy-trigger="click">WORK WITH US</button>
 		</div>
 	</div>
 </section>
@@ -312,8 +312,8 @@ get_header(); ?>
 	</div>
 </section>
 
-<div id="pop-up-form" style="display: none;">
-  <div class="embed-popup-form">
+<div id="pop-up-message-form" style="display: none;">
+  <div class="embed-popup-message-form">
     <div class="proposal-popup">
         <!-- Free Proposal Form -->
         <form class="fp-form" action="/thank-you" method="POST">
@@ -346,8 +346,8 @@ get_header(); ?>
 </div>
 
 <script>
-	tippy(".showpopup", {
-    html: ".embed-popup-form",
+	tippy(".showpopupmessage", {
+    html: ".embed-popup-message-form",
     arrow: true,
     trigger: "click",
     interactive: true,
