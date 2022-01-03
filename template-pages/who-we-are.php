@@ -175,10 +175,8 @@ get_header(); ?>
 			<img src="/wp-content/themes/firstpage/img/who_we_are_global_md.svg" class="img-fluid d-none d-md-block d-lg-none mx-auto" alt="First Page"/>
 			<img src="/wp-content/themes/firstpage/img/who_we_are_global_lg.png" class="img-fluid d-none d-lg-block mx-auto" alt="First Page"/>
 
-			<div class="container">
-				<img src="/wp-content/themes/firstpage/img/who_we_are_group_md_new_update.png" class="img-fluid d-none d-md-block d-lg-none mx-auto" alt="First Page"/>
-				<img src="/wp-content/themes/firstpage/img/who_we_are_group_lg_new_update.png" class="img-fluid d-none d-lg-block mt-5 mx-auto" alt="First Page"/>
-			</div>
+			<img src="/wp-content/themes/firstpage/img/who_we_are_group_md_new_update.png" class="img-fluid d-none d-md-block d-lg-none mx-auto" alt="First Page"/>
+			<img src="/wp-content/themes/firstpage/img/who_we_are_group_lg_new_update.png" class="d-none d-lg-block mt-5 mx-auto group-image" alt="First Page"/>
 		</div>
 	</div>
 </section>
