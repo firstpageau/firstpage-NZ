@@ -351,3 +351,10 @@
     }
   }
 }
+
+.group-image {
+  max-width: 1205px !important;
+  @media (max-width: 1215px) {
+    max-width: 100%;
+  }
+}
