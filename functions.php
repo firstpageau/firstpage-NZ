@@ -64,5 +64,7 @@ register_nav_menus( array(
 'mobile_social' => __( 'Mobile Social Navigation', 'firstpage' ),
 'mobile_other_services' => __( 'Other Services Navigation', 'firstpage' ),
 'mobile_free_tools' => __( 'Mobile Free Tools Navigation', 'firstpage' ),
-'mobile_about_us' => __( 'Mobile About Us Navigation', 'firstpage' )
+'mobile_about_us' => __( 'Mobile About Us Navigation', 'firstpage' ),
+'footer_services_menu' => __( 'Footer Services Navigation', 'firstpage' ),
+'footer_company_menu' => __( 'Footer Company Navigation', 'firstpage' ),
 ) ); 

@@ -185,22 +185,7 @@
 						<div class="col-4">
 							<h3 class="footer__h3Title">Services</h3>
 							<ul class="footer-nav">
-								<li>
-									<a href="/seo/">SEO</a>
-								</li>
-								<li>
-									<a href="/google-ads/">Google Ads</a>
-								</li>
-								<li>
-									<a href="/facebook-advertising/">Social</a>
-								</li>
-								<li>
-									<a href="/programmatic-advertising/">Other Services</a>
-								</li>
-								<li>
-									<a href="/seo-audit/">Free Tools</a>
-								</li>
-
+								<?php wp_nav_menu( array( 'theme_location' =>   'footer_services_menu' ) ); ?>
 							</ul>
 						</div>
 
@@ -208,26 +193,7 @@
 
 							<h3 class="footer__h3Title">Company</h3>
 							<ul class="footer-nav">
-								<li>
-									<a href="/who-we-are/">Who We Are</a>
-								</li>
-								<li>
-									<a href="/careers/">Careers</a>
-								</li>
-								<li>
-									<a href="/reviews/">Client Reviews</a>
-								</li>
-								<li>
-									<a href="/contact/">Contact</a>
-								</li>
-								<li>
-									<a href="/learning-centre/">Blog</a>
-								</li>
-								<li>
-									<a href="/partners/">Partner with us</a>
-								</li>
-
-
+								<?php wp_nav_menu( array( 'theme_location' =>   'footer_company_menu' ) ); ?>
 							</ul>
 
 						</div>
