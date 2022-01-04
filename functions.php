@@ -60,5 +60,9 @@ add_action( 'wp_enqueue_scripts', 'my_scripts' );
 // This theme uses wp_nav_menu() in two locations.  
 register_nav_menus( array(  
 'primary_navigation' => __( 'First Page Primary Navigation', 'firstpage' ),
-'mobile_google_ads' => __( 'Mobile Google Ads Navigation', 'firstpage' )
+'mobile_google_ads' => __( 'Mobile Google Ads Navigation', 'firstpage' ),
+'mobile_social' => __( 'Mobile Social Navigation', 'firstpage' ),
+'mobile_other_services' => __( 'Other Services Navigation', 'firstpage' ),
+'mobile_free_tools' => __( 'Mobile Free Tools Navigation', 'firstpage' ),
+'mobile_about_us' => __( 'Mobile About Us Navigation', 'firstpage' )
 ) ); 

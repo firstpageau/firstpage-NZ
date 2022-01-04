@@ -59,6 +59,41 @@
 								</div>
 							</div>
 						</li>
+						<li class="nav-item nav-item-main dropdown">
+							<p class="nav-link dropdown-toggle mb-0 d-lg-none" data-toggle="dropdown">SOCIAL</p>
+							<div class="dropdown-menu">
+								<div class="dropdown-cont">
+									<?php wp_nav_menu( array( 'theme_location' =>   'mobile_social' ) ); ?>
+								</div>
+							</div>
+						</li>
+						<li class="nav-item nav-item-main dropdown">
+							<p class="nav-link dropdown-toggle mb-0 d-lg-none" data-toggle="dropdown">OTHER SERVICES</p>
+							<div class="dropdown-menu">
+								<div class="dropdown-cont">
+									<?php wp_nav_menu( array( 'theme_location' =>   'mobile_other_services' ) ); ?>
+								</div>
+							</div>
+						</li>
+						<li class="nav-item nav-item-main dropdown">
+							<p class="nav-link dropdown-toggle mb-0 d-lg-none" data-toggle="dropdown">FREE TOOLS</p>
+							<div class="dropdown-menu">
+								<div class="dropdown-cont">
+									<?php wp_nav_menu( array( 'theme_location' =>   'mobile_free_tools' ) ); ?>
+								</div>
+							</div>
+						</li>
+						<li class="nav-item nav-item-main dropdown">
+							<p class="nav-link dropdown-toggle mb-0 d-lg-none" data-toggle="dropdown">ABOUT US</p>
+							<div class="dropdown-menu">
+								<div class="dropdown-cont">
+									<?php wp_nav_menu( array( 'theme_location' =>   'mobile_about_us' ) ); ?>
+								</div>
+							</div>
+						</li>
+						<li class="nav-item nav-item-main">
+							<a class="nav-link" href="#">CONTACT</a>
+						</li>
 						<li class="nav-item mobile-go-back" id="goBackMain">
 							<a class="nav-link" role="button">Go Back</a>
 						</li>
