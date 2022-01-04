@@ -23,6 +23,11 @@
       }
     }
   }
+  @media (min-width: 576px) {
+    section.section-paragraph .text-container {
+      max-width: 570px;
+    }
+  }
   section.section-paragraph .image-container-right {
     text-align: center;
     @media (min-width: 1980px) {

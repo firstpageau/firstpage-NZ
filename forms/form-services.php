@@ -36,12 +36,10 @@
 				<div class="col-12 col-md-6">
 					<input type="email" class="form-control" name="lead_email" placeholder="Email*" data-parsley-error-message="Please enter a valid email address" data-parsley-trigger="change" required=""/>
 				</div>
-				<?php if ($website_needed) { ?>
-					<div class="col-12 col-md-6">
-						<input type="text" class="form-control" name="lead_website" placeholder="Website" data-parsley-website-check/>
-					</div>
-				<?php } ?>
 				<div class="col-12 col-md-6">
+					<input type="text" class="form-control" name="lead_website" placeholder="Website" data-parsley-website-check/>
+				</div>
+				<div class="col-md-12">
 					<input type="hidden" name="lead_formname" value="<?php echo $form_page; ?>"/>
 					<input type="hidden" name="lead_language" value="en"/>
 					<input
