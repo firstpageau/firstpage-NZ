@@ -6,7 +6,7 @@
 
 <div class="quote-form quote-form-big">
 	<!-- Quote Form -->
-	<form class="fp-form" action="<?php echo $home_url; ?><?php echo $form_thankyou; ?>" method="POST">
+	<form class="fp-form" id="google_ads_audit_form" action="<?php echo $home_url; ?>action/hubspot/googleAdsAuditFormHandler.php" method="POST">
 		<div class="form-step-1 form-step">
 				<div class="input-group">
 						<div class="select-container form-control">
@@ -57,3 +57,48 @@
 	</form>
 	<!-- End of Form -->
 </div>
+
+
+<script>
+    //Google Ads Audit Form Handler
+    $(function () {
+        $('#google_ads_audit_submit_btn').click(function(e){
+            e.preventDefault();
+            //    hide form
+            $('.form-step-2').addClass('d-none');
+            //    show thank you text
+            $('.form-step-3').removeClass('d-none');
+            $('.form-step-3').addClass('d-block');
+
+            //    show counter
+            $('#googleAdsCountdown').css('fontSize', '50px');
+            var sec = 4;
+            var googleAdsCountdown = window.setInterval(function () {
+                if (sec > 0) {
+                    $('#googleAdsCountdown').animate({
+                        opacity: 0.25,
+                        fontSize: '2em'
+                    }, 500, function () {
+                        $('#googleAdsCountdown').css('opacity', 1);
+                        $('#googleAdsCountdown').css('font-size', '50px');
+                        $('#googleAdsCountdown').text(sec--);
+                    });
+                } else {
+                    $('#googleAdsCountdown').css('font-size', '20px').text('Redirecting...');
+                    //    run post action
+                    $( "#google_ads_audit_form" ).submit();
+                    window.dataLayer = window.dataLayer || [];
+                    window.dataLayer.push({
+                        event: "formSubmissionSucess",
+                        eventCategory: "Form Submission",
+                        eventAction: 'G Ads Get My Free Audit',
+                        eventLabel: "Submitted"
+
+                    });
+
+                    clearInterval(googleAdsCountdown);
+                }
+            }, 1000);
+        });
+    });
+</script>
