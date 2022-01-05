@@ -61,7 +61,7 @@ $two_section_block_right_or_left = get_sub_field('two_section_block_right_or_lef
             <img src="<?php echo $image_mobile['url']; ?>"
                 class="img-fluid d-block d-md-none mx-auto pb-4" alt="" style="width:250px;" />
             <?php if($two_section_content): ?>
-                <div class="text-center text-md-left">
+                <div class="text-center text-lg-left">
                     <?php echo $two_section_content; ?>
                 </div>
             <?php endif; ?>

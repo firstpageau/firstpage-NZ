@@ -887,3 +887,10 @@ section.section-quote {
     }
   }
 }
+
+.text-lg-left {
+  text-align: left;
+  @media (max-width: 991px) {
+    text-align: center;
+  }
+}
