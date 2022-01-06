@@ -64,7 +64,7 @@
   <div class="embed-popup-form">
     <div class="proposal-popup">
         <!-- Free Proposal Form -->
-        <form class="fp-form" action="/thank-you" method="POST">
+        <form class="fp-form" action="<?php echo $home_url; ?>/thank-you" method="POST">
             <h2>Enter your details</h2>
             <div class="form-mid row">
                 <div class="col-12 mb-2">
