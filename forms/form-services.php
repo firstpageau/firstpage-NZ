@@ -6,7 +6,7 @@
 
 <div class="quote-form quote-form-big">
 	<!-- Quote Form -->
-	<form class="fp-form" action="/thankyou" method="POST">
+	<form class="fp-form" action="/thank-you" method="POST">
 		<div class="form-step-1 form-step">
 				<div class="input-group">
 						<div class="select-container form-control">
