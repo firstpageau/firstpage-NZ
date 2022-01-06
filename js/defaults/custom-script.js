@@ -334,6 +334,18 @@ $(document).ready(function ($) {
       }
     });
 
+    // Handle Form
+    $(
+      ".home .form-continue, .page-content-removal-australia .form-continue"
+    ).click(function () {
+      $("html, body").animate(
+        {
+          scrollTop: 0,
+        },
+        "slow"
+      );
+    });
+
     // ---------------------------- Proposal Form ------------------------------
     $(document).on("keyup keypress", ".proposal-popup form", function (e) {
       var keyCode = e.keyCode || e.which;
