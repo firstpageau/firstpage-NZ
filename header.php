@@ -22,7 +22,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
 
 	<script>
-        var wpSiteUrl = <?php echo $site['url']; ?>;
+        var wpSiteUrl = <?php echo get_site_url(); ?>;
         var wpHomeUrl = <?php echo $home_url; ?>;
         var wpAssetUrl = <?php echo $site['theme']['link']; ?>;
         var wpSiteName = <?php echo $site_name; ?>;
