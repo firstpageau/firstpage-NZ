@@ -33,7 +33,6 @@
 							if( !empty( $image ) ): ?>
 							<img src="<?php echo $image['url']; ?>"  srcset="<?php echo $image['url']; ?>, <?php echo $image['url']; ?>" class="img-fluid d-xxl-inline-block d-none d-lg-inline-block" alt="<?php echo $image['alt']; ?>" />
 							<?php endif; ?>
-                            <?php echo get_site_url(); ?>
 						</div>
 						<div class="col-12 col-md-6 text-container">
                             <h2><?php the_sub_field('long_image_heading'); ?></h2>
