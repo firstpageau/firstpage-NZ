@@ -834,7 +834,6 @@ $(document).ready(function ($) {
         .parsley()
         .on("form:submit", function () {
           var $this = $(this)[0].$element;
-          var wpSiteUrl = "https://wordpress-684516-2302341.cloudwaysapps.com";
           // Add Spinner
           $this
             .find(".mform-btn-submit")

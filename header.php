@@ -22,6 +22,14 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
 
 	<script>
+        var wpSiteUrl = '{{ site.url }}';
+        var wpHomeUrl = '{{ home_url }}';
+        var wpAssetUrl = '{{ site.theme.link }}';
+        var wpSiteName = '{{ site_name }}';
+        var gaIdLabel = '{{ gtag_id }}/{{ gtag_label }}';
+    </script>
+
+	<script>
 	tippy(".showpopup", {
     html: ".embed-popup-form",
     arrow: true,
