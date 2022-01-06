@@ -21,6 +21,22 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.21.0/moment.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
 
+	<script>
+	tippy(".showpopup", {
+    html: ".embed-popup-form",
+    arrow: true,
+    trigger: "click",
+    interactive: true,
+    arrow: true,
+    placement: "bottom",
+    flip: false,
+    animation: "shift-toward",
+    inertia: true,
+    distance: 15,
+    arrowTransform: "scaleX(1.5)",
+  	});
+	</script>
+
 	<?php if ( get_field( 'favicon', 'option' ) ) : ?> <link rel="shortcut icon" href="<?php the_field( 'favicon', 'option' ); ?>" /> <?php endif; ?>
 	<?php wp_head(); ?>
 
