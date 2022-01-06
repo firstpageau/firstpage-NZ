@@ -21,14 +21,6 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.21.0/moment.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
 
-	<script type="text/javascript">
-        var wpSiteUrl = <?php echo get_site_url(); ?>;
-        var wpHomeUrl = <?php echo $home_url; ?>;
-        var wpAssetUrl = <?php echo $site['theme']['link']; ?>;
-        var wpSiteName = <?php echo $site_name; ?>;
-        var gaIdLabel = <?php echo $gtag_id; ?>/<?php echo $gtag_label; ?>;
-    </script>
-
 	<script>
 	tippy(".showpopup", {
     html: ".embed-popup-form",
