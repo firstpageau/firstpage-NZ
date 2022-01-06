@@ -22,11 +22,11 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
 
 	<script>
-        var wpSiteUrl = '{{ site.url }}';
-        var wpHomeUrl = '{{ home_url }}';
-        var wpAssetUrl = '{{ site.theme.link }}';
-        var wpSiteName = '{{ site_name }}';
-        var gaIdLabel = '{{ gtag_id }}/{{ gtag_label }}';
+        var wpSiteUrl = '<?php echo $site['url']; ?>';
+        var wpHomeUrl = '<?php echo $home_url; ?>';
+        var wpAssetUrl = '<?php echo $site['theme']['link']; ?>';
+        var wpSiteName = '<?php echo $site_name; ?>';
+        var gaIdLabel = '<?php echo $gtag_id; ?>/<?php echo $gtag_label; ?>';
     </script>
 
 	<script>
