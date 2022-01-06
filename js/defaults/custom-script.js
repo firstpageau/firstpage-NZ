@@ -399,7 +399,7 @@ $(document).ready(function ($) {
               // If Redirect URL exists
               if (!!$form.attr("action")) {
                 window.location.href = $form.attr("action");
-
+                window.location.reload();
                 // If Thank You step exists
               } else if ($thankyou.length > 0) {
                 $currentstep.fadeOut("fast", function () {
