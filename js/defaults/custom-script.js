@@ -367,7 +367,7 @@ $(document).ready(function ($) {
             url: "https://wordpress-684516-2302341.cloudwaysapps.com/action/hubspot/submit.php",
             type: "post",
             dataType: "json",
-            data: $form.serialize() + "&lead_sitename=" + wpSiteName,
+            data: $form.serialize() + "&lead_sitename=firstpage",
             success: function (data) {
               $this.html(
                 'Redirecting... <i class="fa fa-spinner fa-spin"></i>'
