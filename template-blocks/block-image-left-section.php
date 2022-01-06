@@ -65,7 +65,7 @@
     <div class="proposal-popup">
         <!-- Free Proposal Form -->
         <form class="fp-form" action="<?php echo $home_url; ?>/thank-you" method="POST">
-        <?php echo do_shortcode('[hubspot type="form" portal="9300456" id="c4012d05-29f7-4785-b247-63e303154c68"]'); ?>
+        <?php echo do_shortcode("[hubspot type="form" portal="9300456" id="c4012d05-29f7-4785-b247-63e303154c68"]"); ?>
             <h2>Enter your details</h2>
             <div class="form-mid row">
                 <div class="col-12 mb-2">
