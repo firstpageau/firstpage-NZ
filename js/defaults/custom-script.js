@@ -399,7 +399,7 @@ $(document).ready(function ($) {
               // If Redirect URL exists
               if (!!$form.attr("action")) {
                 // window.location.reload();
-                window.location.href("/thank-you");
+                window.location.href = $form.attr("action");
                 // window.location.replace("/thank-you");
                 // If Thank You step exists
               } else if ($thankyou.length > 0) {
