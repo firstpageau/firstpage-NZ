@@ -55,7 +55,7 @@ Richmond Melbourne VIC 3121"><?php the_field('address', 'option'); ?></a></p>
 
     <!-- Map -->
     <div id="office-map"></div>
-    <script>var map_location = JSON.parse('{{ map_location }}')</script>
+    <script>var map_location = JSON.parse('{"lat":-37.828710,"lng":144.997180,"name":"First Page","address":"Lv 6, 534 Church Street, Cremorne VIC 3121"}')</script>
     <script src="/wp-content/themes/firstpage/js/defaults/map.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyDrvVkXhmGglK_A80mh_1grmeBAcMJCG0o&callback=initMap"></script>
 
