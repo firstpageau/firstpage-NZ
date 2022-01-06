@@ -84,7 +84,7 @@
                     <input type="hidden" name="lead_formname" value="" />
                     <input type="hidden" name="lead_language" value="en" />
                     <input type="hidden" name="lead_formtype" value="" />
-                    <button type="submit" class="form-control btn fp-btn fp-btn-orange fp-btn-shadow" >GET A FREE PROPOSAL</button>
+                    <button id="popup-submit" type="submit" class="form-control btn fp-btn fp-btn-orange fp-btn-shadow" >GET A FREE PROPOSAL</button>
                 </div>
             </div>
         </form>
