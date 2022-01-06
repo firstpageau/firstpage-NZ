@@ -50,6 +50,39 @@ function remove_cssjs_ver( $src ) {
 add_filter( 'style_loader_src', 'remove_cssjs_ver', 10, 2 );
 add_filter( 'script_loader_src', 'remove_cssjs_ver', 10, 2 );
 
+// Add Context to Timber
+add_filter('timber_context', 'add_to_context');
+function add_to_context($data) {
+    $config = array(
+        'site_name'         => 'firstpage',
+        'site_phone'        => '1300 479 226',
+        'site_email'        => 'info@firstpage.com.au',
+        'site_address'      => 'Lv 6, 534 Church Street,<br />Cremorne VIC 3121',
+        'session_value'     => '$2000',
+        'session_value_alt' => '$2000',
+        'review_id'         => '',
+        'gtm_id'            => '',
+        'gtag_id'           => '',
+        'gtag_label'        => '',
+        'map_api_key'   => 'AIzaSyDrvVkXhmGglK_A80mh_1grmeBAcMJCG0o',
+        'map_location'  => json_encode(
+            array( 
+                'lat'     => -37.828710,
+                'lng'     => 144.997180,
+                'name'    => 'First Page',
+                'address' => 'Lv 6, 534 Church Street, Cremorne VIC 3121'
+            )
+        ),
+        'post_id'           => get_the_ID(),
+        'home_url'          => function_exists('pll_home_url') ? pll_home_url() : get_site_url().'/',
+        'asset_version'     => '1.0.113',
+        'footer_widget'     => Timber::get_widgets('footer_widget')
+    );
+
+    $output = array_merge($config, $data);
+    return $output;
+}
+
 function my_scripts() {
     // Register the script like this for a theme:
     wp_register_script( 'custom-script', get_template_directory_uri() . '/js/defaults/custom-script.js' );

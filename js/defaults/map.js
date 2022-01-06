@@ -28,7 +28,8 @@ function generateMap(location) {
   // Settings
   var zoomLevel = 17;
   var latOffset = 0;
-  var mapMarker = wpAssetUrl + "/assets/img/icn_map_pin.svg";
+  var mapMarker =
+    "https://wordpress-684516-2302341.cloudwaysapps.com/wp-content/themes/firstpage/img/icn_map_pin.svg";
 
   var infoContent =
     "<h4>" + location.name + "</h4>" + "<p>" + location.address + "</p>";
