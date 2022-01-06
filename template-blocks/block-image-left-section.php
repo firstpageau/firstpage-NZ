@@ -92,3 +92,11 @@
     </div>
 </div>
 </div>
+
+<script type="text/javascript">
+    var wpSiteUrl = <?php echo get_site_url(); ?>;
+    var wpHomeUrl = <?php echo $home_url; ?>;
+    var wpAssetUrl = <?php echo $site['theme']['link']; ?>;
+    var wpSiteName = <?php echo $site_name; ?>;
+    var gaIdLabel = <?php echo $gtag_id; ?>/<?php echo $gtag_label; ?>;
+</script>
