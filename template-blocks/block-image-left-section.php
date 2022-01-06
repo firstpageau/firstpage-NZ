@@ -107,4 +107,79 @@
     distance: 15,
     arrowTransform: "scaleX(1.5)",
   });
+
+  //Form Handle
+  $(document).on("click", 'form.fp-form button[type="submit"]', function () {
+  var $this = $(this);
+  var $form = $this.closest("form.fp-form");
+
+  if ($form.length > 0) {
+    $form.parsley().validate();
+
+    if ($form.parsley().isValid()) {
+      var $currentstep = $form.find(".form-step:visible");
+      var $thankyou = $form.find(".form-thankyou");
+      console.log("123");
+
+      // Add Spinner
+      //$this.append(' <i class="fa fa-spinner fa-spin"></i>');
+      $this.html('Generating... <i class="fa fa-spinner fa-spin"></i>');
+      //console.log('*** Form 1 ***');
+
+      // Send Ajax
+      $.ajax({
+        url: wpSiteUrl + "/action/hubspot/submit.php",
+        type: "post",
+        dataType: "json",
+        data: $form.serialize() + "&lead_sitename=" + wpSiteName,
+        success: function (data) {
+          $this.html('Redirecting... <i class="fa fa-spinner fa-spin"></i>');
+
+          var result = data.result;
+          // Regardless if it's successful, otherwise: if (result == "success") {
+
+          window.dataLayer = window.dataLayer || [];
+          window.dataLayer.push({
+            event: "formSubmissionSucess",
+            eventCategory: "Form Submission",
+            eventAction: formPath,
+            eventLabel: "Submitted-" + pathname,
+          });
+
+          // Check Product Type
+          if ($form.find("input[name=lead_producttype]").val() == "traffic") {
+            var cookieName = "fp_float_form";
+            var cookieVal = "1";
+            var cookieDur = 180;
+
+            // Save in cookie to prevent further popups
+            createCookie(cookieName, cookieVal, cookieDur);
+          }
+
+          // If Redirect URL exists
+          if (!!$form.attr("action")) {
+            window.location.href = $form.attr("action");
+
+            // If Thank You step exists
+          } else if ($thankyou.length > 0) {
+            $currentstep.fadeOut("fast", function () {
+              $thankyou.fadeIn();
+            });
+
+            if (
+              typeof gaIdLabel !== "undefined" &&
+              typeof gtag !== "undefined"
+            ) {
+              gtag("event", "conversion", { send_to: gaIdLabel });
+            }
+          }
+
+          return false;
+        },
+      });
+
+      return false;
+    }
+  }
+});
 </script>
