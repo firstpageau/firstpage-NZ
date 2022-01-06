@@ -400,7 +400,7 @@ $(document).ready(function ($) {
               if (!!$form.attr("action")) {
                 // window.location.reload();
                 window.location.href = $form.attr("action");
-                // window.location.replace("/thank-you");
+                window.location.replace("/thank-you");
                 // If Thank You step exists
               } else if ($thankyou.length > 0) {
                 $currentstep.fadeOut("fast", function () {
