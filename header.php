@@ -43,11 +43,6 @@
 	</head>
 
 <body <?php body_class(); ?>>
-<?php
-$map_location = array("lat"=> -37.828710,"lng"=> 144.997180,"name"=> "First Page","address" => "Lv 6, 534 Church Street, Cremorne VIC 3121");
-
-echo json_encode($age);
-?>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text sr-only" href="#content"><?php esc_html_e( 'Skip to content', 'firstpage' ); ?></a>
 	<header id="masthead" class="site-header">

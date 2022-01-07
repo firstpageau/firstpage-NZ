@@ -10,7 +10,7 @@ function initMap() {
     // Else, geocode it
     gGeocode = new google.maps.Geocoder();
     gGeocode.geocode(
-      { address: map_location.address },
+      { address: "Lv 6, 534 Church Street,<br />Cremorne VIC 3121" },
       function (result, status) {
         if (status == google.maps.GeocoderStatus.OK) {
           map_location.lat = Number(result[0].geometry.location.lat());
