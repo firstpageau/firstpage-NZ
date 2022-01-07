@@ -186,6 +186,148 @@
     </div>
 <?php endif; ?>
 
+<?php if($dropdown == 'Full background image with center form'): ?>
+    <div class="full_background_image_with_center_form">
+        <?php if ( have_rows( 'banner_slider' ) ) : ?>
+    <?php while ( have_rows( 'banner_slider' ) ) : the_row();
+    $background_image = get_sub_field('banner_background'); ?>
+    <?php if ( have_rows( 'banner_content' ) ) : while ( have_rows( 'banner_content' ) ) : the_row();
+			$desktop = get_sub_field('banner_right_desktop_image');
+			$tablet = get_sub_field('banner_right_tablet_image');
+			$mobile = get_sub_field('banner_right_mobile_image');
+	?>
+    <section class="banner whoWeAreSection" style="background-image:url('<?php echo $background_image['url']; ?>');">
+		<div class="container">
+			<form class="fp-form" action="{{ home_url }}thank-you" method="POST">
+                <div class="contact-us-form form-step-1 form-step">
+                    <h1>Find out how we can increase your revenue</h1>
+                    <!-- Testimonial Row -->
+                    <div class="row contact-page-review-row">
+                        <div class="col-12 col-md-4">
+                            <div class="testimonial">
+                                <div class="stars">
+                                    <img src="/wp-content/themes/firstpage/img/icon-star.png"
+                                         srcset="/wp-content/themes/firstpage/img/icon-star@2x.png 2x"
+                                         alt="Five Stars">
+                                    <img src="/wp-content/themes/firstpage/img/icon-star.png"
+                                         srcset="/wp-content/themes/firstpage/img/icon-star@2x.png 2x"
+                                         alt="Five Stars">
+                                    <img src="/wp-content/themes/firstpage/img/icon-star.png"
+                                         srcset="/wp-content/themes/firstpage/img/icon-star@2x.png 2x"
+                                         alt="Five Stars">
+                                    <img src="/wp-content/themes/firstpage/img/icon-star.png"
+                                         srcset="/wp-content/themes/firstpage/img/icon-star@2x.png 2x"
+                                         alt="Five Stars">
+                                    <img src="/wp-content/themes/firstpage/img/icon-star.png"
+                                         srcset="/wp-content/themes/firstpage/img/icon-star@2x.png 2x"
+                                         alt="Five Stars">
+                                </div>
+                                <div class="text">
+                                    “They understand our vision”
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="testimonial">
+                                <div class="stars">
+                                    <img src="/wp-content/themes/firstpage/img/icon-star.png"
+                                         srcset="/wp-content/themes/firstpage/img/icon-star@2x.png 2x"
+                                         alt="Five Stars">
+                                    <img src="/wp-content/themes/firstpage/img/icon-star.png"
+                                         srcset="/wp-content/themes/firstpage/img/icon-star@2x.png 2x"
+                                         alt="Five Stars">
+                                    <img src="/wp-content/themes/firstpage/img/icon-star.png"
+                                         srcset="/wp-content/themes/firstpage/img/icon-star@2x.png 2x"
+                                         alt="Five Stars">
+                                    <img src="/wp-content/themes/firstpage/img/icon-star.png"
+                                         srcset="/wp-content/themes/firstpage/img/icon-star@2x.png 2x"
+                                         alt="Five Stars">
+                                    <img src="/wp-content/themes/firstpage/img/icon-star.png"
+                                         srcset="/wp-content/themes/firstpage/img/icon-star@2x.png 2x"
+                                         alt="Five Stars">
+                                </div>
+                                <div class="text">
+                                    “All I can say is WOW”
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="testimonial">
+                                <div class="stars">
+                                    <img src="/wp-content/themes/firstpage/img/icon-star.png"
+                                         srcset="/wp-content/themes/firstpage/img/icon-star@2x.png 2x"
+                                         alt="Five Stars">
+                                    <img src="/wp-content/themes/firstpage/img/icon-star.png"
+                                         srcset="/wp-content/themes/firstpage/img/icon-star@2x.png 2x"
+                                         alt="Five Stars">
+                                    <img src="/wp-content/themes/firstpage/img/icon-star.png"
+                                         srcset="/wp-content/themes/firstpage/img/icon-star@2x.png 2x"
+                                         alt="Five Stars">
+                                    <img src="/wp-content/themes/firstpage/img/icon-star.png"
+                                         srcset="/wp-content/themes/firstpage/img/icon-star@2x.png 2x"
+                                         alt="Five Stars">
+                                    <img src="/wp-content/themes/firstpage/img/icon-star.png"
+                                         srcset="/wp-content/themes/firstpage/img/icon-star@2x.png 2x"
+                                         alt="Five Stars">
+                                </div>
+                                <div class="text">
+                                    “The FP team are incredible”
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <input type="text" class="form-control" name="lead_name" placeholder="First Name*" required="" />
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <input type="text" class="form-control" name="lead_phone" placeholder="Phone*" required="" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <input type="email" class="form-control" name="lead_email" placeholder="Email*" data-parsley-error-message="Please enter a valid email address" data-parsley-trigger="change" required="" />
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <input type="text" class="form-control" name="lead_website" placeholder="Website" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <textarea class="form-control" name="lead_message" rows="6" placeholder="Message"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 text-center">
+                                <input type="hidden" name="lead_formname" value="Contact" />
+                                <input type="hidden" name="lead_language" value="en" />
+                                <input type="hidden" name="lead_formtype" value="hs_quote_form" />
+                                <button type="submit" style="width:80%;" class="btn fp-btn fp-btn-orange form-submit" onclick="ga('send','event', {'eventCategory': 'Form','eventAction': 'Click', 'eventLabel': 'Contact Us'});">Yes, <span class="d-none d-md-inline">I want to</span> grow my business</button>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <!-- Bottom award img - Desktop -->
+                            <img class="d-none d-md-block center-block mt-4" src="/wp-content/themes/firstpage/img/img-awards-seo.svg" alt="">
+                            <!-- Bottom award img - Desktop -->
+                            <img class="d-block d-md-none center-block m-auto pt-4" src="/wp-content/themes/firstpage/img/img-awards-seo-mob.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-thankyou">
+                    <h2 class="bold wide">Yes! Welcome to more leads, sales &amp; success online.</h2>
+                    <h3 class="small">Your Digital Growth Specialist will be in touch within 48 hours. Alternatively, for an instant chat, please call <a href="tel:{{ site_phone|replace({' ':''}) }}" class="text-nowrap">{{ site_phone }}</a></h3>
+                </div>
+            </form>
+		</div>
+	</section>
+    <?php endwhile; endif; ?>
+    <?php endwhile; ?>
+    <?php endif; ?>
+    </div>
+<?php endif; ?>
+
 <div id="pop-up-message-form" style="display: none;">
   <div class="embed-popup-message-form">
     <div class="proposal-popup">
