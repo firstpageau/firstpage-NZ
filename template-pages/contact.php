@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Thankyou
+ * Template Name: Contact us
  *
  * @package ROI_Blank_Theme
  */
