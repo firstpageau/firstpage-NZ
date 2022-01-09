@@ -92,7 +92,7 @@
 							</div>
 						</li>
 						<li class="nav-item nav-item-main">
-							<a class="nav-link" href="#">CONTACT</a>
+							<a class="nav-link" href="/contact-us/">CONTACT</a>
 						</li>
 						<li class="nav-item mobile-go-back" id="goBackMain">
 							<a class="nav-link" role="button">Go Back</a>
