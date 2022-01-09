@@ -303,7 +303,7 @@
                                 <input type="hidden" name="lead_formname" value="Contact" />
                                 <input type="hidden" name="lead_language" value="en" />
                                 <input type="hidden" name="lead_formtype" value="hs_quote_form" />
-                                <button type="submit" style="width:80%;" class="btn fp-btn fp-btn-orange form-submit" onclick="ga('send','event', {'eventCategory': 'Form','eventAction': 'Click', 'eventLabel': 'Contact Us'});">Yes, <span class="d-none d-md-inline">I want to</span> grow my business</button>
+                                <button type="submit" class="btn fp-btn fp-btn-orange form-submit" onclick="ga('send','event', {'eventCategory': 'Form','eventAction': 'Click', 'eventLabel': 'Contact Us'});">Yes, <span class="d-none d-md-inline">I want to</span> grow my business</button>
                             </div>
                         </div>
 
