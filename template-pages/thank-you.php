@@ -59,25 +59,27 @@ Richmond Melbourne VIC 3121"><?php the_field('address', 'option'); ?></a></p>
     <script src="/wp-content/themes/firstpage/js/defaults/map.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyDrvVkXhmGglK_A80mh_1grmeBAcMJCG0o&callback=initMap"></script>
 
-    <section class="section-worldwide-locations section-white">
-        <div class="container">
-            <h3>Worldwide Locations</h3>
-            <div class="row">
-            <?php if( have_rows('worldwide_locations', 'option') ): ?>
-				<?php while( have_rows('worldwide_locations', 'option') ): the_row(); ?>
-                <div class="col-12 col-md-4">
-                    <div class="location-box">
-                        <h5><?php echo get_sub_field('country_name', 'option'); ?></h5>
-                        <p>
-                            <?php echo get_sub_field('address', 'option'); ?>
-                        </p>
+     <?php if(get_sub_field('worldwide_locations')): ?>
+        <section class="section-worldwide-locations section-white">
+            <div class="container">
+                <h3>Worldwide Locations</h3>
+                <div class="row">
+                <?php if( have_rows('worldwide_locations') ): ?>
+                    <?php while( have_rows('worldwide_locations') ): the_row(); ?>
+                    <div class="col-12 col-md-4">
+                        <div class="location-box">
+                            <h5><?php echo get_sub_field('country_name'); ?></h5>
+                            <p>
+                                <?php echo get_sub_field('address'); ?>
+                            </p>
+                        </div>
                     </div>
+                    <?php endwhile; ?>
+                <?php endif; ?>
                 </div>
-                <?php endwhile; ?>
-			<?php endif; ?>
             </div>
-        </div>
-    </section>
+        </section>
+    <?php endif; ?>
 
     <section id="content" class="site__content" role="main">
 
