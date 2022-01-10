@@ -1,0 +1,44 @@
+.page-template-careers {
+  section.banner {
+    min-height: 650px;
+    background: linear-gradient(180deg, #427fe0 60%, rgba(66, 127, 224, 0) 70%),
+      url("img/img_fp_au_who_we_are_mob@2x.jpg") no-repeat center bottom -34% / auto
+        400px #427fe0;
+
+    @media (min-width: $responsive-sm) {
+      min-height: 800px;
+      background: linear-gradient(
+          #427fe0 0%,
+          #427fe0 40%,
+          rgba(66, 127, 224, 0) 60%
+        ),
+        url("img/img_fp_au_who_we_are_mob@2x.jpg") no-repeat center
+          bottom/contain;
+    }
+
+    @media (min-width: $responsive-lg) {
+      min-height: auto;
+      background: linear-gradient(180deg, #394357 0%, rgba(57, 67, 87, 0) 50%),
+        linear-gradient(110deg, #427fdf 50%, rgba(0, 0, 0, 0) 50%),
+        url("img/img_fp_au_who_we_are_header_2@2x.jpg") no-repeat right
+          center/auto 714px $color-blue;
+
+      background-position: 59%;
+    }
+
+    h1 {
+      + p {
+        // margin-top: 30px;
+        margin-bottom: 15px;
+      }
+      @media (min-width: $responsive-md) {
+        font-size: 40px;
+        line-height: 45px;
+        + p {
+          margin-top: 30px;
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+}
