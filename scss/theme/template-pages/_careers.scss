@@ -1,4 +1,35 @@
 .page-template-careers {
+  .valueItem img {
+    height: 30px;
+    width: 30px;
+  }
+
+  @media (min-width: $responsive-md) {
+    .valueDes {
+      font-size: 22.36px;
+      line-height: 29.07px;
+    }
+    .valueHeading {
+      font-size: 27.95px;
+      line-height: 33.54px;
+    }
+  }
+
+  @media (min-width: $responsive-lg) {
+    .section-value {
+      padding-bottom: 0px;
+      padding-top: 80px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .section-value {
+      padding-top: 50px;
+    }
+    .valueHeading {
+      font-size: 20px !important;
+    }
+  }
   section.banner {
     min-height: 650px;
     background: linear-gradient(180deg, #427fe0 60%, rgba(66, 127, 224, 0) 70%),
@@ -41,4 +72,266 @@
       }
     }
   }
+  // -- Vacancies
+  section.section-vacancies {
+    padding: 30px 0 20px;
+
+    h2 {
+      text-align: center;
+    }
+
+    .vacancy-grid {
+      .row {
+        margin-left: -10px;
+        margin-right: -10px;
+      }
+      .col-md-6 {
+        margin-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      .vacancy-box {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        padding: 40px 35px 30px;
+        border-radius: 4px;
+        background-color: #ffffff;
+        box-shadow: 0 12px 18px 0 rgba(0, 0, 0, 0.05);
+        height: 100%;
+        position: relative;
+
+        h5 {
+          color: #fc3943;
+          font-size: 15px;
+          font-weight: 900;
+          letter-spacing: 2px;
+          line-height: 18px;
+          text-transform: uppercase;
+          margin-bottom: 15px;
+
+          a {
+            color: #fc3943;
+          }
+        }
+
+        .more-links {
+          margin-top: 10px;
+          padding-top: 20px;
+          border-top: 1px solid #eeeeee;
+
+          a {
+            display: inline-block;
+            vertical-align: top;
+            text-decoration: underline;
+            &::after {
+              content: "\f0da";
+              font-family: "FontAwesome";
+              margin-left: 5px;
+            }
+          }
+        }
+      }
+    }
+
+    .single_job_listing {
+      display: inline-block;
+
+      .application {
+        display: inline;
+
+        &::before {
+          display: inline-block;
+          vertical-align: top;
+          content: " | ";
+          color: #eeeeee;
+          margin: 0 10px;
+        }
+
+        .application_button,
+        .application_button_nojs {
+          text-align: left;
+          font-size: 15px;
+          line-height: 1.53em;
+          margin: 0;
+          padding: 0;
+        }
+        .application_details {
+          background-color: $color-white;
+          box-shadow: none;
+        }
+      }
+    }
+
+    // Responsives
+    @media (min-width: $responsive-md) {
+      padding: 50px 0 80px;
+
+      h2 {
+        margin-bottom: 50px;
+      }
+    }
+  }
+}
+
+section.section-vacancies .vacancy-grid .vacancy-box h5 a {
+  color: #427fe0 !important;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  text-transform: initial;
+  letter-spacing: 0;
+}
+
+section.section-vacancies .vacancy-grid .vacancy-box {
+  border-bottom: 5px solid #ff5254;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.35) !important;
+}
+
+section.section-vacancies .vacancy-grid .vacancy-box .more-links a {
+  text-decoration: none !important;
+  color: #ff5254;
+}
+
+section.section-vacancies .vacancy-grid .vacancy-box .more-links {
+  margin-top: 11px;
+  padding-top: 0;
+  border-top: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+section.section-what-we-value {
+  padding-top: 50px;
+  @media (min-width: $responsive-lg) {
+    h2 {
+      margin-bottom: 50px;
+    }
+  }
+  h3 {
+    margin-top: 20px;
+    font-size: 35px;
+    line-height: 40px;
+    + p {
+      margin-bottom: 50px;
+    }
+  }
+  h4 {
+    margin-top: 20px;
+  }
+  h5 {
+    position: relative;
+    text-align: center;
+    margin-bottom: 100px;
+    a {
+      color: #00225d;
+    }
+
+    span {
+      background: #fff;
+      padding: 0 5px;
+      display: block;
+      &:first-of-type {
+        display: inline-block;
+      }
+      img {
+        margin-top: 10px;
+      }
+      @media (min-width: $responsive-md) {
+        display: inline-block;
+        img {
+          margin-top: 0;
+        }
+        &:first-of-type {
+          padding-left: 20px;
+        }
+        &:last-of-type {
+          padding-right: 20px;
+        }
+      }
+    }
+    &:before {
+      content: "";
+      height: 2px;
+      width: 100%;
+      background: #cdcdcd;
+      position: absolute;
+      top: 9px;
+      left: 0;
+      z-index: -1;
+      @media (min-width: $responsive-md) {
+        top: 18px;
+      }
+    }
+  }
+}
+
+section.section-why-first-page {
+  h4 + p {
+    text-align: left;
+    margin-bottom: 50px;
+  }
+  @media (min-width: $responsive-lg) {
+    h2 {
+      margin-top: 50px;
+    }
+    h4 + p {
+      padding-right: 30px;
+      padding-left: 30px;
+    }
+  }
+}
+
+.job_application.application .material-icons {
+  display: none;
+}
+
+.job_application.application {
+  position: relative;
+  overflow: visible;
+}
+
+.job_application.application .application_details {
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid #eee;
+  padding: 0.75em 1em 0;
+  margin: 1em 0;
+  line-height: 1.5em;
+}
+
+.job_application.application .application_details::before {
+  content: "";
+  position: absolute;
+  margin: -10px 0 0 0;
+  top: 0;
+  left: 5em;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #eee;
+}
+
+.job_application.application .application_details::after {
+  content: "";
+  position: absolute;
+  margin: -9px 0 0 1px;
+  left: 5em;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-bottom: 9px solid #fff;
+}
+
+.page-template-careers
+  section.section-vacancies
+  .single_job_listing
+  .application::before {
+  content: "";
 }
