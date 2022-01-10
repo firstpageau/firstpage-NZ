@@ -7,7 +7,7 @@
 
 get_header(); ?>
 
-<section id="content" class="site__content" role="main">
+<section id="content" class="site__content p-0" role="main">
 	<?php while ( have_posts() ) : the_post(); ?>
 		<?php get_template_part( 'template-blocks/block', 'loop-content' ); ?>
 	<?php endwhile; ?>
