@@ -46,8 +46,10 @@
 	</section>
 
 	<section class="section-background text-center py-5">
-		<img src="{{ site.theme.link }}/assets/img/who_we_are_group_md_update.png" srcset="{{ site.theme.link }}/assets/img/who_we_are_global_md_update.png, {{ site.theme.link }}/assets/img/who_we_are_global_md_update.png 2x" class="img-fluid d-none d-md-block d-lg-none mx-auto" alt="First Page"/>
-		<img src="{{ site.theme.link }}/assets/img/who_we_are_group_lg_new_update.png" srcset="{{ site.theme.link }}/assets/img/who_we_are_group_lg_new_update.png, {{ site.theme.link }}/assets/img/who_we_are_group_lg_new_update.png 2x" class="img-fluid d-none d-lg-block mt-5 mx-auto" alt="First Page"/>
-		<img src="{{ site.theme.link }}/assets/img/who_we_are_group_sm_new_update.png" srcset="{{ site.theme.link }}/assets/img/who_we_are_group_sm_new_update.png, {{ site.theme.link }}/assets/img/who_we_are_group_sm_new_update.png 2x" class="img-fluid d-md-none mt-5" alt="First Page"/>
+		<div class="container container-single-image">
+			<img src="/wp-content/themes/firstpage/img/who_we_are_group_md_new_update.png" class="img-fluid d-none d-md-block d-lg-none mx-auto" alt="First Page"/>
+			<img src="/wp-content/themes/firstpage/img/who_we_are_group_lg_new_update.png" class="img-fluid d-none d-lg-block mt-5 mx-auto" alt="First Page"/>
+		</div>
+		<img src="/wp-content/themes/firstpage/img/who_we_are_group_sm_new_update.png" class="img-fluid d-md-none mt-5" alt="First Page"/>
 	</section>
 <?php get_footer();

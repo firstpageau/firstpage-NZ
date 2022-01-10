@@ -898,3 +898,16 @@ section.section-quote {
 #office-map {
   height: 480px;
 }
+
+section.section-background {
+  padding-top: 0;
+  img {
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .container-single-image {
+    max-width: 1343px !important;
+  }
+}
