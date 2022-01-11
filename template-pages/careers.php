@@ -126,7 +126,7 @@ get_header(); ?>
 
 <section class="section-paragraph whoWeAreSection section-map-team pt-5 mb-5">
 		<div class="row no-gutters align-items-center flex-column-reverse flex-md-row flex-md-row-reverse justify-content-center">
-			<div class="col-12 col-lg-12 image-container-right">
+			<div class="col-12 col-lg-12 image-container-right text-center">
 				<img
 				src="/wp-content/themes/firstpage/img/who_we_are_map_sm.png" class="img-fluid d-md-none" alt="First Page"/>
 				<img src="/wp-content/themes/firstpage/img/who_we_are_group_sm_new_update.png" class="img-fluid d-md-none mt-5" alt="First Page"/>
