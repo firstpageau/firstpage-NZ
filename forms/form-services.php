@@ -9,6 +9,7 @@
 	<form class="fp-form" action="<?php echo get_site_url(); ?>/thank-you" method="POST">
 		<div class="form-step-1 form-step">
 				<div class="input-group">
+					<?php if(is_front_page()):  ?>
 					<div class="select-container form-control">
 						<select class="form-control" name="lead_interest">
 							<option value="I need more traffic to my website">I need more traffic to my website</option>
@@ -19,6 +20,9 @@
 							<option value="All of the above">All of the above</option>
 						</select>
 					</div>
+					<?php else: ?>
+						<input type="text" class="form-control" name="lead_website" placeholder='Enter your website' required="" data-parsley-website-check />
+					<?php endif; ?>
 					<div class="input-group-btn">
 						<button type="button" class="btn fp-btn fp-btn-orange form-continue">Get A Free Quote</button>
 					</div>
