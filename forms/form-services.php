@@ -9,20 +9,20 @@
 	<form class="fp-form" action="<?php echo get_site_url(); ?>/thank-you" method="POST">
 		<div class="form-step-1 form-step">
 				<div class="input-group">
-						<div class="select-container form-control">
-							<select class="form-control" name="lead_interest">
-								<option value="I need more traffic to my website">I need more traffic to my website</option>
-								<option value="I need more customers">I need more customers</option>
-								<option value="I need more leads">I need more leads</option>
-								<option value="I need more sales">I need more sales</option>
-								<option value="I need help with brand awareness">I need help with brand awareness</option>
-								<option value="All of the above">All of the above</option>
-							</select>
-						</div>
-						<div class="input-group-btn">
-							<button type="button" class="btn fp-btn fp-btn-orange form-continue">Get A Free Quote</button>
-						</div>
+					<div class="select-container form-control">
+						<select class="form-control" name="lead_interest">
+							<option value="I need more traffic to my website">I need more traffic to my website</option>
+							<option value="I need more customers">I need more customers</option>
+							<option value="I need more leads">I need more leads</option>
+							<option value="I need more sales">I need more sales</option>
+							<option value="I need help with brand awareness">I need help with brand awareness</option>
+							<option value="All of the above">All of the above</option>
+						</select>
 					</div>
+					<div class="input-group-btn">
+						<button type="button" class="btn fp-btn fp-btn-orange form-continue">Get A Free Quote</button>
+					</div>
+				</div>
 		</div>
 		<div class="form-step-2 form-step">
 			<p class="text-center step-2-title">Please enter your details.</p>

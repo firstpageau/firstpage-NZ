@@ -1201,7 +1201,7 @@ section.banner {
 
     h1 {
       @media (max-width: $responsive-sm) {
-        padding: 2rem;
+        padding: 0 2rem 2rem 2rem;
       }
       + p {
         // margin-top: 30px;
