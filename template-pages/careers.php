@@ -129,7 +129,7 @@ get_header(); ?>
 			<div class="col-12 col-lg-12 image-container-right">
 				<img
 				src="/wp-content/themes/firstpage/img/who_we_are_map_sm.png" class="img-fluid d-md-none" alt="First Page"/>
-				<img src="/wp-content/themes/firstpage/img/img/who_we_are_group_sm_new_update.png" class="img-fluid d-md-none mt-5" alt="First Page"/>
+				<img src="/wp-content/themes/firstpage/img/who_we_are_group_sm_new_update.png" class="img-fluid d-md-none mt-5" alt="First Page"/>
 
 			</div>
 			<div class="col-12 col-lg-12  text-center text-md-left">
