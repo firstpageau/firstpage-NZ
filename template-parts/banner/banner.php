@@ -14,7 +14,7 @@
     <div class="container banner-hero">
         <div class="banner-hero-cont">
             <?php if(get_sub_field('primary_heading')): ?>
-                <h1 class="form-hide text-xs-center"><?php the_sub_field('primary_heading'); ?></h1>
+                <h1 class="form-hide"><?php the_sub_field('primary_heading'); ?></h1>
             <?php endif; ?>
             <div class="banner-description">
                 <?php if(get_sub_field('banner_description')): ?>

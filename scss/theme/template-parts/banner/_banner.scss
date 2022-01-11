@@ -88,14 +88,14 @@
   }
 
   section.banner .banner-description p {
-    margin-bottom: 20px;
+    max-width: 170px;
+    margin-bottom: 0;
     padding: 0 15px;
-    text-align: center;
+    min-height: 168px;
   }
 
   .hero-mobile {
-    text-align: center;
-    margin-bottom: -40px;
+    margin-bottom: -20px;
   }
 }
 
@@ -1007,11 +1007,13 @@ section.banner {
   }
 }
 
-// @media (max-width: 767px) {
-//   .form-hide .hero-mobile {
-//     margin-bottom: -40px;
-//   }
-// }
+@media (max-width: 767px) {
+  .hero-mobile {
+    position: absolute;
+    bottom: 0;
+    right: -68px;
+  }
+}
 
 @media (min-width: 768px) {
   .home-banner h1 {
