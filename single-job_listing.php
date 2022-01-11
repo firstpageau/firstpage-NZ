@@ -26,15 +26,26 @@
 					<div class="related-articles other-vacancies">
 						<h2>Other Vacancies</h2>
 						<ul>
-							{% if listings|length > 0 %}
-								{% for job in listings %}
-									<li>
-										<a href="{{ job.link }}">{{ job.title }}</a>
-									</li>
-								{% endfor %}
-							{% else %}
-								<li>-</li>
-							{% endif %}
+							<?php
+							$jobs = get_job_listings();
+
+							if ( $jobs->have_posts() ) {
+
+								while ( $jobs->have_posts() ) : $jobs->the_post();
+								?>
+								<li><a href="<?php the_job_permalink() ?>"><?php wpjm_the_job_title(); ?></a></li>
+								<?php
+								endwhile;
+
+							}
+							else {
+								?>
+								<li>No jobs available.</li>
+								<?php
+							}
+
+							wp_reset_postdata();
+							?>
 						</ul>
 						<a href="/careers/" class="view-all">View All
 							<i class="fa fa-caret-right" aria-hidden="true"></i>

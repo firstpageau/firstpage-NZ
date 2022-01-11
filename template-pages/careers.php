@@ -124,13 +124,32 @@ get_header(); ?>
     </div>
 </section>
 
-<section id="content" class="site__content" role="main">
+<section class="section-paragraph whoWeAreSection section-map-team pt-5 mb-5">
+		<div class="row no-gutters align-items-center flex-column-reverse flex-md-row flex-md-row-reverse justify-content-center">
+			<div class="col-12 col-lg-12 image-container-right">
+				<img
+				src="/wp-content/themes/firstpage/img/who_we_are_map_sm.png" class="img-fluid d-md-none" alt="First Page"/>
+				<img src="/wp-content/themes/firstpage/img/img/who_we_are_group_sm_new_update.png" class="img-fluid d-md-none mt-5" alt="First Page"/>
 
-    <?php while ( have_posts() ) : the_post(); ?>
-        <?php get_template_part( 'template-blocks/block', 'loop-content' ); ?>
-    <?php endwhile; ?>
+			</div>
+			<div class="col-12 col-lg-12  text-center text-md-left">
+				<h2 class="text-center px-2">Your global performance marketing partner that
+					<br class="d-none d-lg-block"/>answers to its clients, not its shareholders.</h2>
+				<br>
+				<p class="d-block d-md-none px-4">
+					<span class="font-weight-bold">7 companies</span>, operating in
+					<span class="font-weight-bold">8 countries, 1,800 clients, 900+ talent.</span>
+				</p>
+				<img src="/wp-content/themes/firstpage/img/who_we_are_global_md.svg" class="img-fluid d-none d-md-block d-lg-none mx-auto" alt="First Page"/>
+				<img src="/wp-content/themes/firstpage/img/who_we_are_global_lg.png" class="img-fluid d-none d-lg-block mx-auto" alt="First Page"/>
 
-</section>
+                <div class="container container-single-image">
+				    <img src="/wp-content/themes/firstpage/img/who_we_are_group_md_update.png" class="img-fluid d-none d-md-block d-lg-none mx-auto" alt="First Page"/>
+				    <img src="/wp-content/themes/firstpage/img/who_we_are_group_lg_new_update.png" class="img-fluid d-none d-lg-block mt-5 mx-auto" alt="First Page"/>
+                </div>
+			</div>
+		</div>
+	</section>
    
 
 <?php get_footer(); ?>
