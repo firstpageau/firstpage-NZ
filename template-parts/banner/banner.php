@@ -29,11 +29,11 @@
                 </div>
             </div>
             <?php get_template_part( 'forms/form-services' ); ?>
-        </div>
-        <div class="text-center text-md-left awards-badges relative">
+            <div class="text-center text-md-left awards-badges relative">
             <img src="/wp-content/themes/firstpage/img/img_banner_badges_lg.svg"
                 class="img-fluid d-none d-sm-inline-block" alt="" />
             <img src="/wp-content/themes/firstpage/img/img_banner_badges_sm.svg" class="img-fluid d-sm-none" alt="" />
+        </div>
         </div>
         <div class="hero-img d-none d-md-block d-lg-none">
             <img src="<?php echo $tablet['url']; ?>"
