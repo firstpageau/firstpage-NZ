@@ -62,7 +62,7 @@
 <?php //Right cut off location banner ?>
 <?php if($dropdown == 'Right cut off - Location'): ?>
 <div class="right-cut-off-banner">
-<section class="banner form-space container"> 
+<section class="banner form-space"> 
     <?php if ( have_rows( 'banner_slider' ) ) : ?>
     <?php while ( have_rows( 'banner_slider' ) ) : the_row(); ?>
     <?php if ( have_rows( 'banner_content' ) ) : while ( have_rows( 'banner_content' ) ) : the_row();
