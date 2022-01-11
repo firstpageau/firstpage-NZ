@@ -1015,11 +1015,11 @@ section.banner {
   }
 }
 
-// @media (min-width: 768px) {
-//   .home-banner h1 {
-//     margin-top: 70px !important;
-//   }
-// }
+@media (min-width: 768px) {
+  .home-banner h1 {
+    margin-top: 70px !important;
+  }
+}
 
 .form-step {
   display: none;
