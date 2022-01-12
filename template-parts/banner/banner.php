@@ -13,16 +13,16 @@
 	?>
     <div class="container banner-hero">
         <div class="banner-hero-cont">
-            <?php if(get_sub_field('primary_heading')): ?>
+            <?php if(!get_sub_field('banner_description')): ?>
+                <h1 class="form-hide main-text"><?php the_sub_field('primary_heading'); ?></h1>
+            <?php else: ?>
                 <h1 class="form-hide"><?php the_sub_field('primary_heading'); ?></h1>
-            <?php endif; ?>
+            <?php endif; ?>    
             <div class="banner-description">
                 <?php if(get_sub_field('banner_description')): ?>
                 <p class="form-hide">
                     <?php the_sub_field('banner_description'); ?>
                 </p>
-                <?php else: ?>
-                <?php the_sub_field('secondary_text'); ?>
                 <?php endif; ?>
                 <div class="form-hide hero-mobile"> 
                     <img src="<?php echo $mobile['url']; ?>"
