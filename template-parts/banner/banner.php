@@ -21,6 +21,8 @@
                 <p class="form-hide">
                     <?php the_sub_field('banner_description'); ?>
                 </p>
+                <?php else: ?>
+                <?php the_sub_field('secondary_text'); ?>
                 <?php endif; ?>
                 <div class="form-hide hero-mobile"> 
                     <img src="<?php echo $mobile['url']; ?>"
