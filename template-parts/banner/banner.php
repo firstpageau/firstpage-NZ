@@ -49,7 +49,7 @@
         </div>
         <?php if(get_sub_field('name_tag')): ?>
             <div class="name-tag">
-                <h3><b><?php the_sub_field('name_tag'); ?></b>
+                <h3 class="text-left"><b><?php the_sub_field('name_tag'); ?></b>
                 <br>
                 <?php the_sub_field('designation'); ?></h3>
             </div>
