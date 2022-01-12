@@ -93,10 +93,18 @@
 </div>
 </div>
 
-<script type="text/javascript">
-    var wpSiteUrl = <?php echo get_site_url(); ?>;
-    var wpHomeUrl = <?php echo $home_url; ?>;
-    var wpAssetUrl = <?php echo $site['theme']['link']; ?>;
-    var wpSiteName = <?php echo $site_name; ?>;
-    var gaIdLabel = <?php echo $gtag_id; ?>/<?php echo $gtag_label; ?>;
+<script>
+	tippy(".showpopup", {
+    html: ".embed-popup-form",
+    arrow: true,
+    trigger: "click",
+    interactive: true,
+    arrow: true,
+    placement: "bottom",
+    flip: false,
+    animation: "shift-toward",
+    inertia: true,
+    distance: 15,
+    arrowTransform: "scaleX(1.5)",
+  });
 </script>
