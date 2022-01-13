@@ -45,7 +45,7 @@
                             <div class="text-center-content">
 						        <?php the_sub_field('long_image_content'); ?>
                             </div>
-						<button type="button" class="btn fp-btn fp-btn-orange showpopup" data-tippy-interactive="true" data-tippy-theme="dark" data-tippy-placement="bottom" data-tippy-html="#pop-up-form" data-tippy-trigger="click">Get a free proposal</button>
+						<button type="button" class="btn fp-btn fp-btn-orange showpopup" data-tippy-interactive="true" data-tippy-theme="dark" data-tippy-placement="bottom" data-tippy-html="#pop-up-form" data-tippy-trigger="click"><?php the_sub_field('button_text'); ?></button>
 					</div>
 				</div>
 			</section>
