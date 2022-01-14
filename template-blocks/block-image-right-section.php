@@ -40,7 +40,7 @@
                             	<?php 
 							$image = get_sub_field('right_long_image');
 							if( !empty( $image ) ): ?>
-							<img src="<?php echo $image['url']; ?>"  srcset="<?php echo $image['url']; ?>, <?php echo $image['url']; ?>" class="img-fluid d-xxl-inline-block d-block d-lg-none" alt="<?php echo $image['alt']; ?>" />
+							<img src="<?php echo $image['url']; ?>"  srcset="<?php echo $image['url']; ?>, <?php echo $image['url']; ?>" class="img-fluid d-xxl-inline-block d-block d-lg-none m-auto" alt="<?php echo $image['alt']; ?>" />
 							<?php endif; ?>
                             <div class="text-center-content">
 						        <?php the_sub_field('long_image_content'); ?>
