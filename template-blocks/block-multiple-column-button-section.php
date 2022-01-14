@@ -36,7 +36,7 @@
 					<div class="section-title mb-0">
 						<h2><?php the_sub_field('heading_slider'); ?>
 						</h2>
-						<h3 class="slider-subheading font-weight-normal mb-3"><?php the_sub_field('subheading_slider'); ?></h3>
+						<p class="slider-subheading"><?php the_sub_field('subheading_slider'); ?></p>
 					</div>
 					<div class="row justify-content-md-center">
 						<?php if( have_rows('main_repeater') ): ?>
@@ -80,7 +80,7 @@
 		<div class="section-title">
 			<h2><?php the_sub_field('heading_slider'); ?>
 			</h2>
-			<h3 class="slider-subheading font-weight-normal mb-3"><?php the_sub_field('subheading_slider'); ?></h3>
+			<p class="slider-subheading"><?php the_sub_field('subheading_slider'); ?></p>
 		</div>
 
 		<?php 
