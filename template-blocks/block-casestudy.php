@@ -41,7 +41,7 @@
                             <p><?php the_sub_field( 'case_study_content' ); ?></p>
                         </div>
                         <div class="stats">
-                            <div class="stats-container padding-0">
+                            <div class="stats-container">
                                 <div class="row">
                                     <?php the_sub_field( 'case_study_strip_content' ); ?>
                                 </div>
