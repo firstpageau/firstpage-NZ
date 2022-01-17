@@ -63,7 +63,7 @@
 											}
 											if(get_sub_field('cta')): ?>
 											<div class="card-footer">
-												<a href="<?php the_sub_field('cta'); ?>"><?php echo esc_html( $link_title ); ?></a>
+												<a href="<?php the_sub_field('cta'); ?>">Learn More</a>
 											</div>
 											<?php endif; ?> 
 										</div>
