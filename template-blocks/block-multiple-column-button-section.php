@@ -58,7 +58,7 @@
 											</div>
 											<?php 
 											$link = get_sub_field('cta');
-											if($link['title']){
+											if($link){
 												$link_title = $link['title'];
 											}
 											if(get_sub_field('cta')): ?>
