@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="https://use.typekit.net/wqq0bzd.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"/>
     <!-- Site CSS -->
-    <link rel="stylesheet" href="{{ site.theme.link }}/style.css"/>
+    <link rel="stylesheet" href="/wp-content/themes/firstpage/style.css"/>
     <link rel="stylesheet" href="/wp-content/themes/firstpage/css/strategy-forms.css?v=1.0.3"/>
 
     <!-- Start of HubSpot Embed Code -->
@@ -140,7 +140,7 @@
         </div>
     </div>
     <!-- Progress Bar -->
-    <div class="progress strategy-form-progress" id="sf-progress-bar">
+    <div class="progress strategy-form-progress d-none" id="sf-progress-bar">
         <div
                 class="progress-bar strategy-form-progress-bar"
                 id="strategy-form-progress-bar"
@@ -152,7 +152,7 @@
         ></div>
     </div>
 
-    <form id="strategyForm" action="https://firstpage.com.au/action/hubspot/strategyFormSubmitHandler.php" method="POST" class="strategy-form">
+    <form id="strategyForm" action="https://wordpress-684516-2302341.cloudwaysapps.com/action/hubspot/strategyFormSubmitHandler.php" method="POST" class="strategy-form">
         <!-- One "tab" for each step in the form: -->
         <div class="tab tab-one">
             <div class="strategy-form-hero-text">
@@ -231,7 +231,7 @@
                 <div class="col-4 col-sm-3">
                     <div class="marketing-type-selector-container">
                         <label for="seo-checkbox" class="icon-label">
-                            <img class="select-icon" src="{{ site.theme.link }}/assets/img/search.svg" alt="">
+                            <img class="select-icon" src="/wp-content/themes/firstpage/img/search.svg" alt="">
                             <input type="checkbox" name="marketing_seo" value="Marketing SEO (Selected Marketing Type)" id="seo-checkbox" class="select-checkbox">
                             <div class="select-checkbox-bg"></div>
                         </label>
@@ -243,7 +243,7 @@
                 <div class="col-4 col-sm-3">
                     <div class="marketing-type-selector-container">
                         <label for="google-ads-checkbox" class="icon-label">
-                            <img class="select-icon" src="{{ site.theme.link }}/assets/img/adwords.svg" alt="">
+                            <img class="select-icon" src="/wp-content/themes/firstpage/img/adwords.svg" alt="">
                             <input type="checkbox" name="marketing_google_ads" value="Google Ads (Selected Marketing Type)" id="google-ads-checkbox" class="select-checkbox">
                             <div class="select-checkbox-bg"></div>
                         </label>
@@ -255,7 +255,7 @@
                 <div class="col-4 col-sm-3">
                     <div class="marketing-type-selector-container">
                         <label for="facebook-checkbox" class="icon-label">
-                            <img class="select-icon" src="{{ site.theme.link }}/assets/img/facebook.svg" alt="">
+                            <img class="select-icon" src="/wp-content/themes/firstpage/img/facebook.svg" alt="">
                             <input type="checkbox" name="marketing_facebook" value="Facebook (Selected Marketing Type)" id="facebook-checkbox" class="select-checkbox">
                             <div class="select-checkbox-bg"></div>
                         </label>
@@ -267,7 +267,7 @@
                 <div class="col-4 col-sm-3">
                     <div class="marketing-type-selector-container">
                         <label for="print-checkbox" class="icon-label">
-                            <img class="select-icon" src="{{ site.theme.link }}/assets/img/print.svg" alt="">
+                            <img class="select-icon" src="/wp-content/themes/firstpage/img/print.svg" alt="">
                             <input type="checkbox" name="marketing_print" value="Print (Selected Marketing Type)" id="print-checkbox" class="select-checkbox">
                             <div class="select-checkbox-bg"></div>
                         </label>
@@ -280,7 +280,7 @@
                 <div class="col-4 col-sm-3">
                     <div class="marketing-type-selector-container">
                         <label for="affiliate-checkbox" class="icon-label">
-                            <img class="select-icon" src="{{ site.theme.link }}/assets/img/affiliate.svg" alt="">
+                            <img class="select-icon" src="/wp-content/themes/firstpage/img/affiliate.svg" alt="">
                             <input type="checkbox" name="marketing_affiliate" value="Affiliate (Selected Marketing Type)" id="affiliate-checkbox" class="select-checkbox">
                             <div class="select-checkbox-bg"></div>
                         </label>
@@ -292,7 +292,7 @@
                 <div class="col-4 col-sm-3">
                     <div class="marketing-type-selector-container">
                         <label for="tv-checkbox" class="icon-label">
-                            <img class="select-icon" src="{{ site.theme.link }}/assets/img/tv.svg" alt="">
+                            <img class="select-icon" src="/wp-content/themes/firstpage/img/tv.svg" alt="">
                             <input type="checkbox" name="marketing_tv" value="TV (Selected Marketing Type)" id="tv-checkbox" class="select-checkbox">
                             <div class="select-checkbox-bg"></div>
                         </label>
@@ -304,7 +304,7 @@
                 <div class="col-4 col-sm-3">
                     <div class="marketing-type-selector-container">
                         <label for="radio-checkbox" class="icon-label">
-                            <img class="select-icon" src="{{ site.theme.link }}/assets/img/radio.svg" alt="">
+                            <img class="select-icon" src="/wp-content/themes/firstpage/img/radio.svg" alt="">
                             <input type="checkbox" name="marketing_radio" value="Radio (Selected Marketing Type)" id="radio-checkbox" class="select-checkbox">
                             <div class="select-checkbox-bg"></div>
                         </label>
@@ -316,7 +316,7 @@
                 <div class="col-4 col-sm-3">
                     <div class="marketing-type-selector-container">
                         <label for="none-checkbox" class="icon-label">
-                            <img class="select-icon" src="{{ site.theme.link }}/assets/img/none.svg" alt="">
+                            <img class="select-icon" src="/wp-content/themes/firstpage/img/none.svg" alt="">
                             <input type="checkbox" name="marketing_none" value="None (Selected Marketing Type)" id="none-checkbox" class="select-checkbox">
                             <div class="select-checkbox-bg"></div>
                         </label>
@@ -676,16 +676,16 @@
                     <div class="col-12">
                         <div class="testimonial">
                             <div class="stars">
-                                <img src="{{ site.theme.link }}/assets/img/icon-star.png"
-                                     srcset="{{ site.theme.link }}/assets/img/icon-star@2x.png 2x" alt="Five Stars">
-                                <img src="{{ site.theme.link }}/assets/img/icon-star.png"
-                                     srcset="{{ site.theme.link }}/assets/img/icon-star@2x.png 2x" alt="Five Stars">
-                                <img src="{{ site.theme.link }}/assets/img/icon-star.png"
-                                     srcset="{{ site.theme.link }}/assets/img/icon-star@2x.png 2x" alt="Five Stars">
-                                <img src="{{ site.theme.link }}/assets/img/icon-star.png"
-                                     srcset="{{ site.theme.link }}/assets/img/icon-star@2x.png 2x" alt="Five Stars">
-                                <img src="{{ site.theme.link }}/assets/img/icon-star.png"
-                                     srcset="{{ site.theme.link }}/assets/img/icon-star@2x.png 2x" alt="Five Stars">
+                                <img src="/wp-content/themes/firstpage/img/icon-star.png"
+                                     srcset="/wp-content/themes/firstpage/img/icon-star@2x.png 2x" alt="Five Stars">
+                                <img src="/wp-content/themes/firstpage/img/icon-star.png"
+                                     srcset="/wp-content/themes/firstpage/img/icon-star@2x.png 2x" alt="Five Stars">
+                                <img src="/wp-content/themes/firstpage/img/icon-star.png"
+                                     srcset="/wp-content/themes/firstpage/img/icon-star@2x.png 2x" alt="Five Stars">
+                                <img src="/wp-content/themes/firstpage/img/icon-star.png"
+                                     srcset="/wp-content/themes/firstpage/img/icon-star@2x.png 2x" alt="Five Stars">
+                                <img src="/wp-content/themes/firstpage/img/icon-star.png"
+                                     srcset="/wp-content/themes/firstpage/img/icon-star@2x.png 2x" alt="Five Stars">
                             </div>
                             <div class="text" style="font-size:20px" id="sf-review-text">
                                 They smashed our business goals and a special thanks to Isaac for driving the digital campaign.
@@ -722,6 +722,6 @@
 <!-- jQuery Form Validation -->
 <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.js"></script>
 <!-- core js -->
-<script type="text/javascript" src="/wp-content/themes/firstpage/js/strategy-form.js?v=1.0.5"></script>
+<script type="text/javascript" src="/wp-content/themes/firstpage/js/defaults/strategy-forms.js?v=1.0.5"></script>
 </body>
 </html>
