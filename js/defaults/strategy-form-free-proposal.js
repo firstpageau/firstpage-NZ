@@ -75,7 +75,7 @@ function nextPrev(n) {
 
   if (currentTab >= x.length) {
     x[currentTab - 1].style.display = "block";
-    $("#strategyForm").attr("action", "/thank-you-free-proposal");
+    $("#strategyForm").attr("action", "/thank-you");
     $("#strategyForm").submit();
 
     return false;
