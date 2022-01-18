@@ -50,7 +50,7 @@ function remove_cssjs_ver( $src ) {
 add_filter( 'style_loader_src', 'remove_cssjs_ver', 10, 2 );
 add_filter( 'script_loader_src', 'remove_cssjs_ver', 10, 2 );
 
-//Add Context to Timber
+
 add_filter('the_content', 'add_to_context',1);
 function add_to_context($data) {
     $config = array(
@@ -87,6 +87,8 @@ function my_scripts() {
 	wp_enqueue_script( 'map' );
 	wp_register_script( 'navigation', get_template_directory_uri() . '/js/defaults/navigation.js' );
 	wp_enqueue_script( 'navigation' );
+    wp_register_script( 'strategy-forms', get_template_directory_uri() . '/js/defaults/strategy-forms.js' );
+	wp_enqueue_script( 'strategy-forms' );
 }
 add_action( 'wp_enqueue_scripts', 'my_scripts' );
 
