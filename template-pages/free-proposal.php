@@ -2,7 +2,7 @@
 <html lang="en">
 <?php
 /**
- * Template Name: Free Growth Strategy
+ * Template Name: Free Proposal
  *
  * @package ROI_Blank_Theme
  */
@@ -49,8 +49,8 @@
     </script>
     <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=209704970774476&ev=PageView&noscript=1"/></noscript>
     <!-- End Facebook Pixel Code -->
-    <meta name="description" content="Claim your 100% FREE 30-minute GROWTH strategy session. We've got your bulletproof tactics, proven to increase website traffic and revenue.">
-    <title> FREE 30 minute REVENUE GROWTH strategy session</title>
+    <meta name="description" content="See how we can get you massive amounts of traffic, leads and sales 🔥 Get your free custom strategy from the #1 SEO company in Australia!">
+    <title>Get Your Free, Custom SEO Strategy | First Page</title>
 </head>
 <body class="strategy-form-body">
 <div class="container mt-3 mt-sm-5 strategy-form-container">
@@ -155,17 +155,17 @@
         <!-- One "tab" for each step in the form: -->
         <div class="tab tab-one">
             <div class="strategy-form-hero-text">
-                Claim your 100% FREE 30 minute GROWTH strategy session
+                See how we get you <span style="color:#ff5254;">massive</span> amounts of traffic. Get your free custom strategy.
             </div>
             <div class="strategy-form-main-text">
-                <p>We will walk you through bulletproof tactics that have been proven to increase website traffic and revenue, even in tough economic times. </p>
                 <p class="strategy-form-input-holder my-sm-5">
                     <input
                             class="strategy-form-input-field"
                             placeholder="Website"
                             name="website"
                             type="text"
-                            id="sf-website"/>
+                            id="sf-website"
+                    />
                     <span class="sfErrorMessage" id="webErrorMsg" style="display: none;">Please enter a valid website address</span>
 
                 </p>
@@ -174,19 +174,16 @@
         <!-- Tab Two -->
         <div class="tab tab-one">
             <div class="strategy-form-hero-text">
-                Claim your 100% FREE 30 minute GROWTH strategy session
+                See how we get you <span style="color:#ff5254;">massive</span> amounts of traffic. Get your free custom strategy.
             </div>
             <div class="strategy-form-main-text">
-                <p>We will walk you through bulletproof tactics that have been proven to increase website traffic and revenue, even in tough economic times. </p>
-
                 <p class="strategy-form-input-holder">
                     <input
                             class="strategy-form-input-field"
                             placeholder="First Name*"
                             name="firstname"
                             type="text"
-                            id="sf-firstname"
-                    />
+                            id="sf-firstname"/>
                     <span class="sfErrorMessage" id="nameErrorMsg" style="display: none;">Please enter a valid name</span>
                 </p>
                 <p class="strategy-form-input-holder">
@@ -195,8 +192,7 @@
                             placeholder="Email*"
                             name="email"
                             type="email"
-                            id="sf-email"
-                    />
+                            id="sf-email"/>
                     <span class="sfErrorMessage" id="emailErrorMsg" style="display: none;">Please enter a valid email address</span>
 
                 </p>
@@ -409,6 +405,8 @@
                     <div class="col-1 col-md-2"></div>
 
                 </div>
+
+
             </div>
 
         </div>
@@ -483,6 +481,8 @@
                     </div>
                     <div class="col-1 col-md-2"></div>
                 </div>
+
+
             </div>
 
         </div>
@@ -571,7 +571,7 @@
                 When are you looking to get started?
             </div>
             <div class="when-start-input-container">
-                <!- when to start row one -!>
+                <!-- when to start row one -->
                 <div class="row mt-4">
                     <div class="col-1 col-md-2"></div>
                     <div class="col-5 col-md-4 strategy-form-radio-container">
@@ -594,7 +594,7 @@
                     </div>
                     <div class="col-1 col-md-2"></div>
                 </div>
-                <!- when to start row two -!>
+                <!-- when to start row two -->
                 <div class="row mt-4">
                     <div class="col-1 col-md-2"></div>
                     <div class="col-5 col-md-4 strategy-form-radio-container">
@@ -616,7 +616,7 @@
                     <div class="col-1 col-md-2"></div>
                 </div>
 
-                <!- when to start row three -!>
+                <!-- when to start row three -->
                 <div class="row mt-4 mb-4">
                     <div class="col-1 col-md-2"></div>
                     <div class="col-5 col-md-4 strategy-form-radio-container">
@@ -643,19 +643,10 @@
 
         </div>
 
-        <!-- Tab Eight -->
-        <div class="tab promise-tab">
-            <div class="strategy-form-hero-text">
-                Congrats! You qualify for a 100% FREE 30 minute GROWTH strategy session
-            </div>
-            <div class="strategy-form-main-text">
-                <p>We will be in touch within 1 business day or less to schedule a call with you.</p>
-            </div>
-        </div>
 
         <div class="strategy-form-btn-holder">
 
-            <input type="hidden" name="lead_formname" value="Strategy Form" />
+            <input type="hidden" name="lead_formname" value="Free Proposal" />
             <input type="hidden" name="lead_language" value="en" />
             <input type="hidden" name="lead_formtype" value="hs_strategy_form" />
             <button
@@ -665,6 +656,8 @@
                     onclick="nextPrev(1)">
                 Next
             </button>
+
+
 
         </div>
         <!-- Testimonial -->
@@ -698,29 +691,13 @@
                 </div>
             </div>
         </section>
-
-
-
-        <!-- Step hide -->
-        <div class="d-none">
-            <span class="step"></span>
-            <span class="step"></span>
-            <span class="step"></span>
-            <span class="step"></span>
-            <span class="step"></span>
-            <span class="step"></span>
-        </div>
-
-
     </form>
 </div>
 <!-- bootstrap js -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <!-- jquery cdn -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<!-- jQuery Form Validation -->
-<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.js"></script>
 <!-- core js -->
-<script type="text/javascript" src="/wp-content/themes/firstpage/js/defaults/strategy-forms.js?v=1.0.5"></script>
+<script type="text/javascript" src="/wp-content/themes/firstpage/js/defaults/strategy-form-free-proposal.js?v=1.0.4"></script>
 </body>
 </html>
