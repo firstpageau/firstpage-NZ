@@ -57,7 +57,7 @@ section.section-client-reviews {
       &::before,
       &::after {
         content: "";
-        background: url("/img/icon-quote-red.png") no-repeat;
+        background: url("img/icon-quote-red.png") no-repeat;
         background-size: 21px 16px;
         position: absolute;
         width: 21px;
@@ -65,7 +65,7 @@ section.section-client-reviews {
 
         @media only screen and (-webkit-min-device-pixel-ratio: 2),
           only screen and (min-device-pixel-ratio: 2) {
-          background-image: url("/img/icon-quote-red@2x.png");
+          background-image: url("img/icon-quote-red@2x.png");
           background-size: 21px 16px;
         }
       }
