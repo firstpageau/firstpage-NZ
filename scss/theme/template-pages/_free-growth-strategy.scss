@@ -1,0 +1,121 @@
+// -- eBook Letter
+section.section-client-reviews {
+  // padding: 30px 0 40px;
+
+  .testimonial-cont {
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      z-index: 3;
+      top: 25%;
+      left: 50%;
+      width: 1px;
+      height: 50%;
+      background-color: #d8d8d8;
+      display: none;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      z-index: 3;
+      top: 50%;
+      left: 25%;
+      width: 50%;
+      height: 1px;
+      background-color: #d8d8d8;
+      display: none;
+    }
+  }
+
+  .testimonial {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 10px;
+    text-align: center;
+    // border-bottom: 1px solid #d8d8d8;
+
+    .stars {
+      margin-bottom: 25px;
+      img {
+        width: 20px;
+        height: auto;
+      }
+    }
+    .text {
+      display: inline;
+      font-size: 13px;
+      font-style: italic;
+      line-height: 23px;
+      padding: 0;
+      position: relative;
+      color: #666666;
+
+      &::before,
+      &::after {
+        content: "";
+        background: url("/img/icon-quote-red.png") no-repeat;
+        background-size: 21px 16px;
+        position: absolute;
+        width: 21px;
+        height: 16px;
+
+        @media only screen and (-webkit-min-device-pixel-ratio: 2),
+          only screen and (min-device-pixel-ratio: 2) {
+          background-image: url("/img/icon-quote-red@2x.png");
+          background-size: 21px 16px;
+        }
+      }
+      &::before {
+        top: -8px;
+        left: -26px;
+      }
+      &::after {
+        bottom: -8px;
+        right: -26px;
+        transform: rotate(180deg);
+      }
+    }
+
+    .person {
+      letter-spacing: 1px;
+      line-height: 22px;
+      margin-top: 25px;
+
+      .name {
+        font-size: 13px;
+        line-height: 22px;
+        font-weight: 700;
+        letter-spacing: 1.63px;
+        text-transform: uppercase;
+        color: #666666;
+      }
+      .company {
+        font-size: 12px;
+        font-style: italic;
+        line-height: 22px;
+        opacity: 0.7;
+      }
+    }
+  }
+
+  .button-cont {
+    max-width: 650px;
+    width: 100%;
+    margin: 0 auto;
+
+    .fp-btn {
+      width: 100%;
+    }
+  }
+
+  // Responsives
+  @media (min-width: $responsive-md) {
+    .testimonial {
+      border-bottom: none;
+    }
+  }
+}
