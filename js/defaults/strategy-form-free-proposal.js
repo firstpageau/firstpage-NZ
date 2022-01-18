@@ -200,12 +200,6 @@ function validateForm() {
   x = document.getElementsByClassName("tab");
   y = x[currentTab].getElementsByTagName("input");
 
-  // if(!validateName(nameInput) || !validateEmail(emailInput) || !validateWebsite(websiteInput) || !validatePhone(phoneInput)){
-  //     valid = false;
-  // } else{
-  //     valid = true
-  // }
-
   if (currentTab == 0) {
     if (!validateWebsite(websiteInput)) {
       valid = false;

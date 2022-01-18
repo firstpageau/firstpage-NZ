@@ -89,6 +89,8 @@ function my_scripts() {
 	wp_enqueue_script( 'navigation' );
     wp_register_script( 'strategy-forms', get_template_directory_uri() . '/js/defaults/strategy-forms.js' );
 	wp_enqueue_script( 'strategy-forms' );
+    wp_register_script( 'strategy-form-free-proposal', get_template_directory_uri() . '/js/defaults/strategy-form-free-proposal.js' );
+	wp_enqueue_script( 'strategy-form-free-proposal' );
 }
 add_action( 'wp_enqueue_scripts', 'my_scripts' );
 
