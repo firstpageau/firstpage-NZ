@@ -648,7 +648,7 @@
 
             <input type="hidden" name="lead_formname" value="Free Proposal" />
             <input type="hidden" name="lead_language" value="en" />
-            <input type="hidden" name="lead_formtype" value="hs_strategy_form" />
+            <input type="hidden" name="lead_formtype" value="hs_proposal_form" />
             <button
                     type="button"
                     id="nextBtn"

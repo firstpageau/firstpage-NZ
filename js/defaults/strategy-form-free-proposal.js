@@ -28,7 +28,7 @@ function nextPrev(n) {
   // console.log('send form data to hs');
   //send form data each tab
   var frm = $("#strategyForm");
-  var data = new FormData($("#strategyForm")[1]);
+  var data = new FormData($("#strategyForm")[0]);
   // e.preventDefault();
   $.ajax({
     type: frm.attr("method"),
