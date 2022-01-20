@@ -239,35 +239,35 @@
   };
 
     $(document).ready(function () {
-      $("<?php echo $carousel_id; ?> .card-title-carousel").equalHeights();
+      $(".<?php echo $carousel_id; ?> .card-title-carousel").equalHeights();
     });
   
 
     $(document).ready(function () {
-      $("<?php echo $carousel_id; ?> .card-text-carousel").equalHeights();
+      $(".<?php echo $carousel_id; ?> .card-text-carousel").equalHeights();
     });
 
     $(document).ready(function () {
-      $("<?php echo $carousel_id; ?> .card-bullets").equalHeights();
-    });
-  
-
-    $(document).ready(function () {
-      $("<?php echo $carousel_id_md; ?> .card-title-carousel").equalHeights();
+      $(".<?php echo $carousel_id; ?> .card-bullets").equalHeights();
     });
   
 
     $(document).ready(function () {
-      $("<?php echo $carousel_id_md; ?> .card-text-carousel").equalHeights();
+      $(".<?php echo $carousel_id_md; ?> .card-title-carousel").equalHeights();
     });
   
 
     $(document).ready(function () {
-      $("<?php echo $carousel_id_md; ?> .card-bullets").equalHeights();
+      $(".<?php echo $carousel_id_md; ?> .card-text-carousel").equalHeights();
+    });
+  
+
+    $(document).ready(function () {
+      $(".<?php echo $carousel_id_md; ?> .card-bullets").equalHeights();
     });
 
 	$(document).ready(function () {
-      $("<?php echo $carousel_stacked_id; ?> .card-title").equalHeights();
+      $(".<?php echo $carousel_stacked_id; ?> .card-title").equalHeights();
     });
   
 });
